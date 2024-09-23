@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a member, I should able to view already added treatments for review</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>eb7f3197-a4ce-4ca4-9499-93343b1ee67a</testCaseGuid>
+</TestCaseEntity>

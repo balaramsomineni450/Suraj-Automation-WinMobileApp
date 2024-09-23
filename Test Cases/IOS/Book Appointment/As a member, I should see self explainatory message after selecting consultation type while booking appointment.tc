@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a member, I should see self explainatory message after selecting consultation type while booking appointment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ade34e48-49ab-4a0f-9fb0-21116247d9b8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0c36b2f8-d1b7-4aa2-9d32-0f423a1d0d01</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f0b25bc2-6174-4d3a-9260-89342ed739a1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Testpremiermsk@gmail.com'</defaultValue>
+      <description></description>
+      <id>0c36b2f8-d1b7-4aa2-9d32-0f423a1d0d01</id>
+      <masked>false</masked>
+      <name>EmailAddress</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test@123'</defaultValue>
+      <description></description>
+      <id>f0b25bc2-6174-4d3a-9260-89342ed739a1</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

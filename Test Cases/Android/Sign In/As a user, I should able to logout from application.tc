@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a user, I should able to logout from application</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3e4189ad-74e6-4a2a-bc1e-1165a5a640bd</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9c88a5a3-5dc5-4a49-ae2a-c59baeae9948</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5b82907c-dd94-4eac-9ff0-5d2ba92adc06</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Testpremiermsk@gmail.com'</defaultValue>
+      <description></description>
+      <id>9c88a5a3-5dc5-4a49-ae2a-c59baeae9948</id>
+      <masked>false</masked>
+      <name>EmailAddress</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test@123'</defaultValue>
+      <description></description>
+      <id>5b82907c-dd94-4eac-9ff0-5d2ba92adc06</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

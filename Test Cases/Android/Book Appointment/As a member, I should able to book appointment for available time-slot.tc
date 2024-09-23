@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a member, I should able to book appointment for available time-slot</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>55a86e9c-8d29-4d32-9c38-582985f1e30d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>13c24a33-ff1f-4184-8d61-041515df51c7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4b325cd2-eec7-4685-b653-eb4517a83ba3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Testpremiermsk@gmail.com'</defaultValue>
+      <description></description>
+      <id>13c24a33-ff1f-4184-8d61-041515df51c7</id>
+      <masked>false</masked>
+      <name>EmailAddress</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test@123'</defaultValue>
+      <description></description>
+      <id>4b325cd2-eec7-4685-b653-eb4517a83ba3</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a user, I should able to logout from application</name>
+   <tag>ios</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d5be64fe-fac7-4b1b-9d71-2d812740903b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>78ddcd12-6d03-43bb-8a81-8cae81746fc1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5556c207-3f82-44a7-8cdc-b13af18720a8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Testpremiermsk@gmail.com'</defaultValue>
+      <description></description>
+      <id>78ddcd12-6d03-43bb-8a81-8cae81746fc1</id>
+      <masked>false</masked>
+      <name>EmailAddress</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test@123'</defaultValue>
+      <description></description>
+      <id>5556c207-3f82-44a7-8cdc-b13af18720a8</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

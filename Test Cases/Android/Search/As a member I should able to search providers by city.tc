@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a member I should able to search providers by city</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5646e036-7cb1-49bb-88cb-4551837e0f11</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1397f5cf-e123-4deb-b2fc-fbcc29446045</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'San francisco'</defaultValue>
+      <description></description>
+      <id>1397f5cf-e123-4deb-b2fc-fbcc29446045</id>
+      <masked>false</masked>
+      <name>CityName</name>
+   </variable>
+</TestCaseEntity>

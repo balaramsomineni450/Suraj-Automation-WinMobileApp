@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a user, I should able to enter Win access code and proceed next screen</name>
+   <tag>signup</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9eff3e49-fe35-4bb1-876e-ab0bf916ad38</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c072c777-498c-4e0c-ad19-09855058a0bd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'545646'</defaultValue>
+      <description></description>
+      <id>c072c777-498c-4e0c-ad19-09855058a0bd</id>
+      <masked>false</masked>
+      <name>WINAccessCode</name>
+   </variable>
+</TestCaseEntity>

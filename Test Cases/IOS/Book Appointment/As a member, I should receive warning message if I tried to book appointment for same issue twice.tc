@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a member, I should receive warning message if I tried to book appointment for same issue twice</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>13fa9368-6241-42d6-a6b0-2b369de41675</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6c2087e3-2ab2-4c1a-a4ab-ecee9ccf0885</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>119f46e1-949b-41d4-b6ba-f1d0bb3794bb</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Testpremiermsk@gmail.com'</defaultValue>
+      <description></description>
+      <id>6c2087e3-2ab2-4c1a-a4ab-ecee9ccf0885</id>
+      <masked>false</masked>
+      <name>EmailAddress</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test@123'</defaultValue>
+      <description></description>
+      <id>119f46e1-949b-41d4-b6ba-f1d0bb3794bb</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a user, I should receive validations for mandatory fields at setup accpunt screen</name>
+   <tag>ios</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6c55d034-bf06-41f4-bfca-788603d648ac</testCaseGuid>
+</TestCaseEntity>

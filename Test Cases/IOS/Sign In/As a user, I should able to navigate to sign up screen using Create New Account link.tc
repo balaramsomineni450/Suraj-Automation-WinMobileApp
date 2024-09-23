@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a user, I should able to navigate to sign up screen using Create New Account link</name>
+   <tag>signin, ios</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d3ffa6a7-b245-49ec-a28e-04f05b8a732b</testCaseGuid>
+</TestCaseEntity>

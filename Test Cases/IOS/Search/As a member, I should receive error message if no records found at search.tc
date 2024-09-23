@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a member, I should receive error message if no records found at search</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6221daea-9292-44c4-92a5-b7af9ed9748b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ead91b51-d82e-4048-b56f-312788d2d99a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6a52a363-1cdc-4374-85e2-6a4a0ea57b6e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'test'</defaultValue>
+      <description></description>
+      <id>ead91b51-d82e-4048-b56f-312788d2d99a</id>
+      <masked>false</masked>
+      <name>CityName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6a52a363-1cdc-4374-85e2-6a4a0ea57b6e</id>
+      <masked>false</masked>
+      <name>State</name>
+   </variable>
+</TestCaseEntity>

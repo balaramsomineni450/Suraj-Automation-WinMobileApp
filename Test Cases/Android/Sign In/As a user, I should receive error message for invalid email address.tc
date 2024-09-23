@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a user, I should receive error message for invalid email address</name>
+   <tag>signin</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6b636ec2-c960-4f08-8c2d-1630ce0f55d1</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a user, I should receive error message for account locked after 3 unsuccessfull attempts</name>
+   <tag>signin</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>35220e51-e99a-4553-9a31-8c2c3c3e6c23</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>760e25ba-e8b3-4ef6-b6a7-159089e494eb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d4fb42a4-1266-4806-9df5-c28b9226695d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Test2@gmail.com'</defaultValue>
+      <description></description>
+      <id>760e25ba-e8b3-4ef6-b6a7-159089e494eb</id>
+      <masked>false</masked>
+      <name>EmailAddress</name>
+   </variable>
+   <variable>
+      <defaultValue>'123'</defaultValue>
+      <description></description>
+      <id>d4fb42a4-1266-4806-9df5-c28b9226695d</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a member, I should not see cancelled appointments under upcoming appointments</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1393bbfe-5b3a-4fe0-84b0-1638e416414a</testCaseGuid>
+</TestCaseEntity>

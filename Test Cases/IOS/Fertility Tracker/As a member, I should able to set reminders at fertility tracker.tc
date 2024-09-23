@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a member, I should able to set reminders at fertility tracker</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e6c5631f-9a0a-4b8e-b9b8-254cb829708f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3aa3d7b6-ce18-46b1-ad3a-ecb888b0d73f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8a08d0c8-f55d-44de-917d-fc29fb164ed4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e13454ff-4edb-4318-9dc4-3ece96df4ce0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>857d9996-9495-4808-a665-ec3780a2bc8e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Testpremiermsk@gmail.com'</defaultValue>
+      <description></description>
+      <id>3aa3d7b6-ce18-46b1-ad3a-ecb888b0d73f</id>
+      <masked>false</masked>
+      <name>EmailAddress</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test@123'</defaultValue>
+      <description></description>
+      <id>8a08d0c8-f55d-44de-917d-fc29fb164ed4</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Reminder one'</defaultValue>
+      <description></description>
+      <id>e13454ff-4edb-4318-9dc4-3ece96df4ce0</id>
+      <masked>false</masked>
+      <name>ReminderName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Doctor’s Appointment'</defaultValue>
+      <description></description>
+      <id>857d9996-9495-4808-a665-ec3780a2bc8e</id>
+      <masked>false</masked>
+      <name>Type</name>
+   </variable>
+</TestCaseEntity>

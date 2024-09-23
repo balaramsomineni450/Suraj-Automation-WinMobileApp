@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a member I should able to search providers by zip code</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2092aaed-a490-489c-8bef-b4488b929e88</testCaseGuid>
+</TestCaseEntity>

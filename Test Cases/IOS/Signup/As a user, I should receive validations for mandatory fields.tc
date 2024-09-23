@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a user, I should receive validations for mandatory fields</name>
+   <tag>ios</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>be6284c5-cdbd-44e7-8443-5b6e20e080a3</testCaseGuid>
+</TestCaseEntity>

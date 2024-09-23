@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a user, I should receive error if my age is less than 16 years</name>
+   <tag>signup</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>92ae9b10-de7b-4d47-834e-0d5e1c72a1d3</testCaseGuid>
+</TestCaseEntity>

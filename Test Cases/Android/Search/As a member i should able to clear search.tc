@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a member i should able to clear search</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7e46abb5-32ef-489e-91e4-8c656b7cc31f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>79d33c4f-faae-472b-b117-dc2694d09bd5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>15ce58d6-d50a-4c52-95b7-64e94da22a71</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6c822200-9450-4aa6-a037-fd1d9b004d6c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'testpremiermsk@gmail.com'</defaultValue>
+      <description></description>
+      <id>79d33c4f-faae-472b-b117-dc2694d09bd5</id>
+      <masked>false</masked>
+      <name>EmailAddress</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test@123'</defaultValue>
+      <description></description>
+      <id>15ce58d6-d50a-4c52-95b7-64e94da22a71</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>'San francisco'</defaultValue>
+      <description></description>
+      <id>6c822200-9450-4aa6-a037-fd1d9b004d6c</id>
+      <masked>false</masked>
+      <name>CityName</name>
+   </variable>
+</TestCaseEntity>

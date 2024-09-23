@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a user, I should receive validations for empty fields</name>
+   <tag>signin</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f652fb09-1400-4ed0-a6b9-9fcddd45f7d9</testCaseGuid>
+</TestCaseEntity>

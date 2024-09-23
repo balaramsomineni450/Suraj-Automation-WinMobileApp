@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a user, I should able to enter sponser company and proceed next screen</name>
+   <tag>signup</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fcf7e01c-8aa0-4921-a0a3-2881f5a6dc81</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f9d4218e-8731-444f-bf31-a3a550b2cf5c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Test Company'</defaultValue>
+      <description></description>
+      <id>f9d4218e-8731-444f-bf31-a3a550b2cf5c</id>
+      <masked>false</masked>
+      <name>CompanyName</name>
+   </variable>
+</TestCaseEntity>

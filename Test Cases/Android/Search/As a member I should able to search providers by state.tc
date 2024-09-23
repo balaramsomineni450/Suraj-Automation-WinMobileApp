@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a member I should able to search providers by state</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>21440052-5898-40b1-8519-abb875e20bea</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4a0286f8-ae6a-4e3e-8c73-03bf73c5c17e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'California'</defaultValue>
+      <description></description>
+      <id>4a0286f8-ae6a-4e3e-8c73-03bf73c5c17e</id>
+      <masked>false</masked>
+      <name>State</name>
+   </variable>
+</TestCaseEntity>

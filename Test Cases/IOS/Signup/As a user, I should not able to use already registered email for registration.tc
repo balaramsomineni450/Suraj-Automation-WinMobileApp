@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a user, I should not able to use already registered email for registration</name>
+   <tag>ios</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9168274e-43a8-45ac-b40c-8bc7ad7bdb63</testCaseGuid>
+</TestCaseEntity>

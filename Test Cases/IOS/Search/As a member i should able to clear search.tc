@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a member i should able to clear search</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6fe5f671-d7b8-490d-af81-52a69aff23c2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dcf2a8a5-19f1-4daf-a9cd-e4b5d1724761</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'San francisco'</defaultValue>
+      <description></description>
+      <id>dcf2a8a5-19f1-4daf-a9cd-e4b5d1724761</id>
+      <masked>false</masked>
+      <name>CityName</name>
+   </variable>
+</TestCaseEntity>

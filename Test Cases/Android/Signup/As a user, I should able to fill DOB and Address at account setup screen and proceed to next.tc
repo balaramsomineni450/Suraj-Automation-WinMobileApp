@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a user, I should able to fill DOB and Address at account setup screen and proceed to next</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4552a7b4-916c-448b-b1fe-5ccdb92dbc8b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a64b6822-6d26-402d-8a69-886c5e906971</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6330efa1-942f-408b-8890-6aeff5df5cf9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'7788994455'</defaultValue>
+      <description></description>
+      <id>a64b6822-6d26-402d-8a69-886c5e906971</id>
+      <masked>false</masked>
+      <name>PhoneNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'98554'</defaultValue>
+      <description></description>
+      <id>6330efa1-942f-408b-8890-6aeff5df5cf9</id>
+      <masked>false</masked>
+      <name>ZipCode</name>
+   </variable>
+</TestCaseEntity>
