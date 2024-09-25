@@ -6,4 +6,30 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>07cfbf0e-cc15-4649-a704-022ed3744086</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>20b69520-e0df-4316-a1dc-b40516bb1f35</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e24d2058-9cd2-415a-b14d-a0905b795ed3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'98445'</defaultValue>
+      <description></description>
+      <id>20b69520-e0df-4316-a1dc-b40516bb1f35</id>
+      <masked>false</masked>
+      <name>ZipCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'7788994455'</defaultValue>
+      <description></description>
+      <id>e24d2058-9cd2-415a-b14d-a0905b795ed3</id>
+      <masked>false</masked>
+      <name>PhoneNumber</name>
+   </variable>
 </TestCaseEntity>

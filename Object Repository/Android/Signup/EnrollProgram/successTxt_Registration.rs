@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>timeSlot</name>
+   <name>successTxt_Registration</name>
    <tag></tag>
-   <elementGuidId>40e9675b-01c5-4574-879a-397a9e3c54a8</elementGuidId>
+   <elementGuidId>c1785ef1-6262-448c-9a41-35c569c441f7</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <locator>//android.widget.TextView[@text=&quot;Choose your appointment time&quot;]/following-sibling::android.view.View[1]/android.view.View[1]/android.widget.TextView</locator>
+   <locator>//android.widget.TextView[@text=&quot;Thank you for registering. We have some additional verification steps to do to create your account.We will contact you once this is complete with next steps&quot;]</locator>
    <locatorCollection>
       <entry>
          <key>ACCESSIBILITY</key>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>timeSlot</name>
+   <name>schedule_video_consultation</name>
    <tag></tag>
-   <elementGuidId>40e9675b-01c5-4574-879a-397a9e3c54a8</elementGuidId>
+   <elementGuidId>132f43db-831b-44f8-9eef-9a3f9bde14db</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <locator>//android.widget.TextView[@text=&quot;Choose your appointment time&quot;]/following-sibling::android.view.View[1]/android.view.View[1]/android.widget.TextView</locator>
+   <locator>//android.widget.TextView[@text=&quot;Schedule a video consultation&quot;]</locator>
    <locatorCollection>
       <entry>
          <key>ACCESSIBILITY</key>

@@ -78,6 +78,8 @@ class DoBeforeTestCase {
 				
 				if(testCase.tag.contains("signin") || testCase.tag.contains("signup")) {
 					
+					Mobile.tap(findTestObject('Android/Signin/android.widget.TextView - Skip'),10, FailureHandling.OPTIONAL)
+					
 					if(Mobile.verifyElementVisible(findTestObject('Android/Signin/input_EmailAddress'),20, FailureHandling.OPTIONAL)){
 						
 					}
@@ -88,7 +90,9 @@ class DoBeforeTestCase {
 				}
 				else {
 					
-					if(Mobile.verifyElementVisible(findTestObject('Android/Signin/input_EmailAddress'),10,FailureHandling.OPTIONAL)){
+					Mobile.tap(findTestObject('Android/Signin/android.widget.TextView - Skip'),10, FailureHandling.OPTIONAL)
+					
+					if(Mobile.verifyElementVisible(findTestObject('Android/Signin/input_EmailAddress'),20,FailureHandling.OPTIONAL)){
 						
 						login()
 					}
@@ -126,13 +130,14 @@ class DoBeforeTestCase {
 	
 	def login()
 	{
-		Mobile.tap(findTestObject('android/Login/android.widget.TextView - Skip'), 2, FailureHandling.OPTIONAL)
 		
 		Mobile.setText(findTestObject('Android/Signin/input_EmailAddress'), Email.substring(1, Email.length() - 1), 2)
 		
-		Mobile.setText(findTestObject('android/Login/android.widget.EditText (1)'), Pass.substring(1, Pass.length() - 1), 2)
+		Mobile.setText(findTestObject('Android/Signin/input_Password'), Pass.substring(1, Pass.length() - 1), 2)
 		
-		Mobile.tap(findTestObject('android/Login/android.widget.TextView - Log In'), 5)
+		Mobile.tap(findTestObject('Android/Signin/android.widget.TextView - Log In'), 5)
+		
+		Mobile.tap(findTestObject('Android/Home/button_Later'), 10, FailureHandling.OPTIONAL)
 	}
 	
 	def logout()

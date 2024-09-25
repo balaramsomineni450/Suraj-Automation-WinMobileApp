@@ -17,14 +17,41 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.callTestCase(findTestCase('Test Cases/Android/Signup/As a new user, I should able to fill up details at signup screen and proceed next'), 
-    null)
+Mobile.tap(findTestObject('Android/Signin/createNewAccount'), 0)
+
+Mobile.setText(findTestObject('Android/Signup/Signup screen/firstName'), FirstName, 0)
+
+Mobile.setText(findTestObject('Android/Signup/Signup screen/lastName'), LastName, 0)
+
+Mobile.setText(findTestObject('Android/Signup/Signup screen/preferredName'), PreferredName, 0)
+
+Mobile.hideKeyboard()
+
+Mobile.setText(findTestObject('Android/Signup/Signup screen/emailAddress'), EmailAddress, 0)
+
+Mobile.hideKeyboard()
+
+Mobile.delay(2)
+
+Mobile.setText(findTestObject('Android/Signup/Signup screen/password'), Password, 0)
+
+Mobile.hideKeyboard()
+
+Mobile.delay(2)
+
+Mobile.setText(findTestObject('Android/Signup/Signup screen/confirmPassword'), Password, 0)
+
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Android/Signup/Signup screen/termsAndCondition'), 0, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Android/Signup/Signup screen/button_Next'), 0)
 
 Mobile.tap(findTestObject('Android/Signup/Account Setup/dob'), 0)
 
 int a = 1
 
-while (a < 16) {
+while (a < 17) {
     Mobile.tap(findTestObject('Android/Signup/Account Setup/previousYear'), 0)
 
     a++
@@ -77,5 +104,27 @@ Mobile.tap(findTestObject('Android/Signup/Account Setup/selectRace'), 0)
 
 Mobile.tap(findTestObject('Android/Signup/Account Setup/button_Next'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Android/Signup/Account Setup/errorTxt_MinimumAge'), 10)
+Mobile.tap(findTestObject('Android/Signup/Win Benefit/select_BenefitProvider'), 0)
+
+Mobile.tap(findTestObject('Android/Signup/Win Benefit/button_Next'), 0)
+
+Mobile.setText(findTestObject('Android/Signup/WIN Access Code/accessCode'), WINAccessCode, 0)
+
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Android/Signup/WIN Access Code/button_Next'), 0)
+
+Mobile.setText(findTestObject('Android/Signup/Sponser Company/company'), CompanyName, 0)
+
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Android/Signup/Sponser Company/button_Next'), 0)
+
+Mobile.tap(findTestObject('Android/Signup/Sponser Company/button_GetStarted'), 5)
+
+Mobile.setText(findTestObject('Android/Signup/EnrollProgram/input_MemberId'), MemberID, 0)
+
+Mobile.tap(findTestObject('Android/Signup/EnrollProgram/button_Next'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Android/Signup/EnrollProgram/successTxt_Registration'), 10)
 

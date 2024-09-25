@@ -54,30 +54,34 @@ Mobile.tap(mobileTestObject, 0)
 
 Mobile.tap(findTestObject('Android/Book Appointment/android.widget.TextView - Next'), 0)
 
-int a= day.toInteger()
+int a = day.toInteger()
 
-while(Mobile.verifyElementVisible(findTestObject('Android/Book Appointment/android.widget.TextView - Please click on an available date'), 0, FailureHandling.OPTIONAL)) 
-	{
-		Mobile.tap(findTestObject('Android/Book Appointment/android.widget.Button - OK'), 0)
-		
-		a++
-		
-		newxpath = (('//android.widget.TextView[@resource-id="com.win.winfertility:id/vw_text" and @text="' + a.toString()) + '"]')
-		println(newxpath)
-		
-		mobileTestObject.setMobileLocator(newxpath)
-		
-		Mobile.tap(mobileTestObject, 0)
-		
-		Mobile.tap(findTestObject('Android/Book Appointment/android.widget.TextView - Next'), 0)
-		
-		Mobile.delay(3)
-	}
-	
+while (Mobile.verifyElementVisible(findTestObject('Android/Book Appointment/android.widget.TextView - Please click on an available date'), 
+    0, FailureHandling.OPTIONAL)) {
+    Mobile.tap(findTestObject('Android/Book Appointment/android.widget.Button - OK'), 0)
+
+    a++
+
+    newxpath = (('//android.widget.TextView[@resource-id="com.win.winfertility:id/vw_text" and @text="' + a.toString()) + 
+    '"]')
+
+    println(newxpath)
+
+    mobileTestObject.setMobileLocator(newxpath)
+
+    Mobile.tap(mobileTestObject, 0)
+
+    Mobile.tap(findTestObject('Android/Book Appointment/android.widget.TextView - Next'), 0)
+
+    Mobile.delay(3)
+}
+
 Mobile.tap(findTestObject('Android/Book Appointment/timeSlot'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Android/Book Appointment/android.widget.TextView - Book Appointment'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Android/Book Appointment/android.widget.Button - YES'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Object Repository/Android/Book Appointment/android.widget.TextView - Success'), 0)
+Mobile.verifyElementVisible(findTestObject('Object Repository/Android/Book Appointment/android.widget.TextView - Success'), 
+    0)
+

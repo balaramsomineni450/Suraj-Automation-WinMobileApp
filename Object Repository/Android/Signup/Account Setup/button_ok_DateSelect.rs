@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>timeSlot</name>
+   <name>button_ok_DateSelect</name>
    <tag></tag>
-   <elementGuidId>40e9675b-01c5-4574-879a-397a9e3c54a8</elementGuidId>
+   <elementGuidId>844781a7-58c8-487e-8007-a244b31f4e19</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <locator>//android.widget.TextView[@text=&quot;Choose your appointment time&quot;]/following-sibling::android.view.View[1]/android.view.View[1]/android.widget.TextView</locator>
+   <locator>//android.widget.Button[@text=&quot;OK&quot;]</locator>
    <locatorCollection>
       <entry>
          <key>ACCESSIBILITY</key>

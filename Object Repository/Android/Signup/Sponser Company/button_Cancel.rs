@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>timeSlot</name>
+   <name>button_Cancel</name>
    <tag></tag>
-   <elementGuidId>40e9675b-01c5-4574-879a-397a9e3c54a8</elementGuidId>
+   <elementGuidId>f44ba619-9193-4431-a560-5e07ad8e370c</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <locator>//android.widget.TextView[@text=&quot;Choose your appointment time&quot;]/following-sibling::android.view.View[1]/android.view.View[1]/android.widget.TextView</locator>
+   <locator>//android.widget.Button[@text=&quot;CANCEL&quot;]</locator>
    <locatorCollection>
       <entry>
          <key>ACCESSIBILITY</key>

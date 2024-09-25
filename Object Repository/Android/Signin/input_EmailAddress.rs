@@ -3,12 +3,16 @@
    <description></description>
    <name>input_EmailAddress</name>
    <tag></tag>
-   <elementGuidId>2212b34f-2312-4eb2-8fd7-51fde2bd87f4</elementGuidId>
+   <elementGuidId>f77f2594-cf2f-4795-b2db-78e0b6c2ce4d</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <locator>//android.widget.TextView[@text=&quot;EmailId&quot;]</locator>
+   <locator>//d2.j1/android.view.View/android.view.View/android.widget.EditText[1]</locator>
    <locatorCollection>
+      <entry>
+         <key>ACCESSIBILITY</key>
+         <value></value>
+      </entry>
       <entry>
          <key>ANDROID_UI_AUTOMATOR</key>
          <value>new UiSelector()</value>
@@ -18,7 +22,22 @@
          <value></value>
       </entry>
       <entry>
+         <key>ID</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>IOS_PREDICATE_STRING</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ATTRIBUTES</key>
+      </entry>
+      <entry>
+         <key>CUSTOM</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ANDROID_VIEWTAG</key>
          <value></value>
       </entry>
       <entry>
@@ -30,31 +49,12 @@
          <value></value>
       </entry>
       <entry>
-         <key>CUSTOM</key>
+         <key>CLASS_NAME</key>
          <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//d2.j1/android.view.View/android.view.View/android.widget.EditText[1]</value>
-      </entry>
-      <entry>
-         <key>ACCESSIBILITY</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>ID</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>ATTRIBUTES</key>
-      </entry>
-      <entry>
-         <key>CLASS_NAME</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>ANDROID_VIEWTAG</key>
-         <value></value>
       </entry>
    </locatorCollection>
    <locatorStrategy>XPATH</locatorStrategy>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>timeSlot</name>
+   <name>messageTxt_DuplicateAppointment</name>
    <tag></tag>
-   <elementGuidId>40e9675b-01c5-4574-879a-397a9e3c54a8</elementGuidId>
+   <elementGuidId>27caf56e-d0c1-413d-8ecb-283dac8d5b0b</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <locator>//android.widget.TextView[@text=&quot;Choose your appointment time&quot;]/following-sibling::android.view.View[1]/android.view.View[1]/android.widget.TextView</locator>
+   <locator>//android.widget.TextView[contains(@text, &quot;Currently you have a Behavioral Health-Phone appointment scheduled.You can only schedule one appointment at a time.&quot;)]</locator>
    <locatorCollection>
       <entry>
          <key>ACCESSIBILITY</key>

@@ -12,6 +12,429 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>2b6cb1b8-3718-4e84-b8bf-62349049190e</testSuiteGuid>
    <testCaseLink>
+      <guid>ec700fcd-081b-47b8-8549-84617f2e639d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Android/Signup/As a user, I should receive validations for mandatory fields at Signup screen</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dde7ba75-b175-43f7-8ef8-09b5c368861f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Android/Signup/As a user, I should receive error message for invalid email format</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ed90fcc1-802f-4e8b-95ee-7a328c033289</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7b810671-d7bd-472d-837f-7650a3d56518</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>83278030-f4dc-4684-be5f-fe5b5242878f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2c49ccae-7502-4649-8d99-18e664b77488</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cd41204b-9de4-4560-907e-a404072516bb</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1df059e6-320c-4194-a005-8be5e7544021</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Android/Signup/As a user, I should receive error message for invalid password format</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>16721f66-436d-4785-8b0b-d7831ffcc215</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ee5408ca-95b9-49fc-873b-e1b14ca57f85</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b55c994c-a696-44d3-b783-07390be5b678</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3543a1a7-bd82-48f3-85e2-a68eb18c2743</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7d0ac175-53af-4a7c-bb08-aaf12649eb91</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>35271510-1ad7-490a-a1d6-d3dae90b6434</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Android/Signup/As a user, I should receive error message for password mismatch</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c1fdc83d-21a6-41cc-9dcb-b1adcf69ae58</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>533b4112-22d2-4aec-ace7-0b0336c2abfa</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ec8622e8-0cba-488b-a229-0fd4f65c5645</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b1427bd1-f36e-487f-a0fb-64d435b42b16</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3fb27864-0089-46f7-b208-9ae7adb8c780</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>36098a8d-2b74-4e18-a816-1ebb6317ebb5</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>671f7b0e-40b1-4854-8cf2-767d2814a722</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Android/Signup/As a user, I should able to view privacy policy and TnC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dcebb45b-7376-4313-8430-855552283a6b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Android/Signup/As a new user, I should able to fill up details at signup screen and proceed next</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>74b9c9f8-fde3-4215-bab2-d8a7b323ba84</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d4e1eac2-738e-4220-a611-362beae9bd72</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e5c4d6ad-f7a7-4fb9-9a13-5446d6798263</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c601d1e0-e1ab-49a1-bfa5-7f4bc1c48870</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>287e6f82-cb0a-4785-ba76-ad2a54fc9535</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9600a385-c50f-4644-b231-79ff5b7ab24a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Android/Signup/As a user, I should not able to sign up using same email twice</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c881c648-709f-4d3a-bb0c-4bcaef96f174</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5f65ce06-658f-4842-a165-8803b11f33e5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a2790689-ccb3-4630-8be4-6ce2e8e1b50f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4f086564-c48f-4166-82fc-b640c626b77f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>64672c86-420c-4480-9a48-122c93018da3</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8b1ebb9e-10d9-48df-a84c-9f16e363ff55</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Android/Signup/As a user, I should receive validations for mandatory fields at account setup screen</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>20b69520-e0df-4316-a1dc-b40516bb1f35</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e24d2058-9cd2-415a-b14d-a0905b795ed3</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2dec550a-969c-42e4-a2cd-3b35a7737dc4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Android/Signup/As a user, I should receive error if my age is less than 16 years</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>36e722da-cbcb-4c51-86c0-4fcaec0976dd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>52a56099-825d-436f-a454-acce92e82827</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>934d8c81-f5e6-4694-8284-a538f8d28a0b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Android/Signup/As a user, I should able to fill DOB and Address at account setup screen and proceed to next</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a64b6822-6d26-402d-8a69-886c5e906971</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6330efa1-942f-408b-8890-6aeff5df5cf9</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5afae562-9dee-4ad2-a509-c6e94947b2ff</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Android/Signup/As a user, I should able to enter Win access code and proceed next screen</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c072c777-498c-4e0c-ad19-09855058a0bd</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7cc60e4f-7f79-437e-a7ac-19727f71ceef</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Android/Signup/As a user, I should able to select benefit providder and proceed to next screen</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dc8f7e0c-fe75-48e5-8ace-bb148f1ee05c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Android/Signup/As a user, I should able to enter sponser company and proceed next screen</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f9d4218e-8731-444f-bf31-a3a550b2cf5c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c8f89a9f-da88-4c2e-b57d-8078de1567d1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Android/Signup/As a user, I should program eligibility verification message when I proceed next after entering sponsor company</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>91fdc417-44c7-4294-a7c1-fd692eb5a911</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cf324462-6aa9-4af9-841e-d05b12cf7a4d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>819e7298-83ed-404e-aa44-8ebd01a12679</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fcc7a2c3-669a-49d7-b0dd-08c7dc5a9892</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5027271d-1b11-41ed-877f-7a438279783b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b774099c-93f8-4d61-96aa-2ab3c5cef2e3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>66dea418-0db6-4c84-a908-89babbce6c2e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cdae7544-0222-4d47-b3d4-1e74fb700449</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>837be50f-c78a-4c0d-8de0-144496d6ec44</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4c6a6935-820a-4075-a8ab-92c3f89621b0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Android/Signup/As a user, I should receive registration success message when I proceed next after entering Member ID</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>85e278f0-8b06-4d12-8b34-70c1927039ad</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>db1096fb-352e-48cd-83f0-501636972a24</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>30377e30-00c7-4d48-8dd0-a7a40c97d303</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3d6e6cd0-87d1-4929-bbcd-b0f994ac217b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a81cd296-06c9-4d0e-9904-87fe64feb958</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b8170109-6310-4218-bd31-d99ab91a63a0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1ffc7083-3576-43e0-81a2-9e16f9f83370</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f125fa8a-82a1-4b36-9943-f095a7d7f959</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f3c07770-b5c7-42b0-91cc-71ca236b3610</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a67f1506-43f7-4475-8233-bbfbb40b3fc8</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>e5938fdf-e45f-4f6e-8582-5bfc1e9f4b16</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -315,6 +738,13 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>ff2df350-72f3-451f-874a-fd1f31af060a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Android/Book Appointment/As a member, I should able to book Video consultation appointment</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>ed306293-1002-4172-baf0-1c972f5d4608</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -410,27 +840,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>1e5f9470-3115-46e0-97d2-0706cca2a9d5</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Android/Treatment/As a member, I should able to upload treatment documents</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>a733844b-825f-4629-af96-71002a8af15a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Android/Treatment/As a member, I should able to view already added treatments for review</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>8e586ecb-db80-4566-a6e7-490c22204001</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Android/Treatment/As a member, I should able to view letter for approved status</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>a1529116-8eb0-46cc-b4ed-e1831b5a384c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -467,6 +876,18 @@
          <value></value>
          <variableId>1397f5cf-e123-4deb-b2fc-fbcc29446045</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>090c64e6-b8ad-438f-a24c-786bd3864e89</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>56ce76ae-0e45-499a-bf01-0150dedb1438</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>75974356-0f51-4540-bd24-c0b29d63af00</guid>
@@ -480,6 +901,18 @@
          <value></value>
          <variableId>4a0286f8-ae6a-4e3e-8c73-03bf73c5c17e</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f13f7ff9-999d-4287-8218-a709e3bc5872</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7c791e5b-dc37-472e-9c3a-bb4a90e29439</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>11656d32-ce90-4416-9bf2-f4ab471f09f2</guid>
@@ -487,6 +920,18 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android/Search/As a member I should able to search providers by zip code</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a30e7ffb-f3cd-440c-b795-574879d044f3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6aa0687e-9247-4b75-a539-5539b1add465</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>da85cafa-62ab-4024-ac01-bc361fe1f03c</guid>
@@ -506,5 +951,26 @@
          <value></value>
          <variableId>65e3b05a-da9d-487e-8cdb-979ec9cd1140</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1e5f9470-3115-46e0-97d2-0706cca2a9d5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Android/Treatment/As a member, I should able to upload treatment documents</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a733844b-825f-4629-af96-71002a8af15a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Android/Treatment/As a member, I should able to view already added treatments for review</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8e586ecb-db80-4566-a6e7-490c22204001</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Android/Treatment/As a member, I should able to view letter for approved status</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

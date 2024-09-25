@@ -30,7 +30,7 @@ while (a<17)
 	a++
 }
 
-Mobile.tap(findTestObject('Android/Signup/Account Setup/button_ok'), 0)
+Mobile.tap(findTestObject('Android/Signup/Account Setup/button_ok_DateSelect1'), 0)
 
 Mobile.setText(findTestObject('Android/Signup/Account Setup/phoneNumber'), PhoneNumber, 0)
 

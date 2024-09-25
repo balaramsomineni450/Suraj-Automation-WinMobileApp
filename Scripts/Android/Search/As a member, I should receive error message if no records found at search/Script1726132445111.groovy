@@ -27,6 +27,8 @@ Mobile.setText(findTestObject('Android/Search/input_city'), CityName, 0)
 
 Mobile.setText(findTestObject('Android/Search/input_State'), State, 0)
 
+Mobile.hideKeyboard()
+
 Mobile.tap(findTestObject('Android/Search/selectCheckbox-BIPOC'), 0)
 
 Mobile.tap(findTestObject('Android/Search/button_StartSearch'), 0)

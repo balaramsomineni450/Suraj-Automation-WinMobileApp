@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>android.widget.TextView - Connect with an Advocate (1)</name>
+   <name>messageTxt_DuplicateAppointments</name>
    <tag></tag>
-   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <elementGuidId>eb7aa83a-3b8d-4957-b47c-f8871ba2a934</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -13,7 +13,7 @@
       <name>class</name>
       <type>Main</type>
       <value>android.widget.TextView</value>
-      <webElementGuid>1fbac6c3-0522-4cd8-82ea-100d648135f2</webElementGuid>
+      <webElementGuid>8f245563-d724-48ed-be8d-e0e02bdf831b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,15 +21,24 @@
       <name>index</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>dd8e6614-43a2-41c8-bbe4-bbb5ccc68e43</webElementGuid>
+      <webElementGuid>06a46d15-8079-4979-b9d5-a6f4074977d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Connect with an Advocate</value>
-      <webElementGuid>70930963-f9e8-4726-acd1-6f745e958451</webElementGuid>
+      <value>Currently you have a Behavioral Health-Phone appointment scheduled.You can only schedule one appointment at a time.
+Would you like to cancel your existing appointment and book the current selection?.</value>
+      <webElementGuid>8372ead6-2062-4064-8bc2-12d981d32f07</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>resource-id</name>
+      <type>Main</type>
+      <value>com.win.winfertility:id/vw_dialog_text_message</value>
+      <webElementGuid>aa5ff832-f12f-465c-a58c-6b614e2e362c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +46,7 @@
       <name>package</name>
       <type>Main</type>
       <value>com.win.winfertility</value>
-      <webElementGuid>50bde540-b9df-46f9-a26c-026ffc2b0695</webElementGuid>
+      <webElementGuid>58039311-e71e-4119-916e-679eda7111a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +54,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>eab2924d-ada8-48a3-9b08-2961c2a27390</webElementGuid>
+      <webElementGuid>55e8983a-4196-493c-9a93-4957faaf1722</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,15 +62,15 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>3ee69bfd-9389-44da-95d2-74f8e3ff1a36</webElementGuid>
+      <webElementGuid>7270057d-7501-4abb-a21f-e889bd466e14</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>clickable</name>
       <type>Main</type>
-      <value>false</value>
-      <webElementGuid>619fe847-bc31-4e1a-b008-931ccd86e138</webElementGuid>
+      <value>true</value>
+      <webElementGuid>b0130a9a-cf05-4c19-a4ab-574ef4c31352</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,15 +78,15 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>7dc5d024-440b-4285-af81-d6c70329f01d</webElementGuid>
+      <webElementGuid>5e76bf5b-da29-4571-aaa1-244159fe7601</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>focusable</name>
       <type>Main</type>
-      <value>false</value>
-      <webElementGuid>65902f8b-93eb-4140-a26c-0fbafc868385</webElementGuid>
+      <value>true</value>
+      <webElementGuid>719e52c2-dca5-4531-9b84-c92a1e88969b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +94,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>9594055c-ef26-4316-992d-a9a4e44077ad</webElementGuid>
+      <webElementGuid>8825c013-6ec5-4786-b7cb-1b301b8fd6d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,15 +102,15 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>077af3cd-35f5-4b12-90f1-c96a93172a02</webElementGuid>
+      <webElementGuid>8d7b365e-49c4-4c96-a7ef-acfcb5bd73fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>long-clickable</name>
       <type>Main</type>
-      <value>false</value>
-      <webElementGuid>75ec6a46-548e-41dd-9063-be4b50335bac</webElementGuid>
+      <value>true</value>
+      <webElementGuid>5cfa38a4-6508-4e0f-b756-dbdd53d15b93</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -109,7 +118,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>7f4248ba-8a91-44c9-9456-b6f56ea36b43</webElementGuid>
+      <webElementGuid>e08a7651-4f17-4210-8715-6264cc5fb070</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,47 +126,47 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>e5974795-1b39-4eef-8646-64a5551d330e</webElementGuid>
+      <webElementGuid>72c0b181-0149-41a6-8714-e6e744a7c852</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>351</value>
-      <webElementGuid>828c52be-f11e-4255-9ebf-c1ae8a5aeac6</webElementGuid>
+      <value>116</value>
+      <webElementGuid>a29050b4-2fd6-45e3-bc48-eb6673c1a3cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>1220</value>
-      <webElementGuid>ac1e3ac3-78d2-440b-b1ce-bf6bd8256cec</webElementGuid>
+      <value>806</value>
+      <webElementGuid>fa62aedd-02d2-400e-9c39-e9a02e269a2f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>638</value>
-      <webElementGuid>7ca56a16-c2d3-4cce-8e3a-4d651dbd9715</webElementGuid>
+      <value>848</value>
+      <webElementGuid>0b5abf94-472b-4673-8b43-a4988c4203c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>59</value>
-      <webElementGuid>cb1592dd-5fe1-4b00-8072-b05474f0953e</webElementGuid>
+      <value>632</value>
+      <webElementGuid>c9281c80-767c-46fd-9d80-1467d4496403</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[351,1220][989,1279]</value>
-      <webElementGuid>4c1f03eb-0b95-479f-817c-7dc1d1073cd3</webElementGuid>
+      <value>[116,806][964,1438]</value>
+      <webElementGuid>d946538e-88d4-4a6e-a82f-1ebdd8a8b883</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -165,37 +174,57 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>eba1ff5e-2eb7-4f4b-a602-eba7fded014a</webElementGuid>
+      <webElementGuid>cfdcf06a-9757-4503-81e5-0cca673703cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.compose.ui.platform.ComposeView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.TextView[1]</value>
-      <webElementGuid>aca9fe4b-04a3-40ce-bab2-0bea13d9fc1e</webElementGuid>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.TextView[1]</value>
+      <webElementGuid>3588cef1-606e-418f-be43-a7806405ceb8</webElementGuid>
    </webElementProperties>
-   <locator>//*[@class = 'android.widget.TextView' and (@text = 'Connect with an Advocate' or . = 'Connect with an Advocate')]</locator>
+   <locator>//android.widget.TextView[@text=&quot;Currently you have a Behavioral Health-Phone appointment scheduled.You can only schedule one appointment at a time.&#xd;
+Would you like to cancel your existing appointment and book the current selection?.&quot;]</locator>
    <locatorCollection>
       <entry>
          <key>ACCESSIBILITY</key>
-      </entry>
-      <entry>
-         <key>NAME</key>
+         <value></value>
       </entry>
       <entry>
          <key>ANDROID_UI_AUTOMATOR</key>
-         <value>new UiSelector().className(&quot;android.widget.TextView&quot;).text(&quot;Connect with an Advocate&quot;).packageName(&quot;com.win.winfertility&quot;).enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)</value>
+         <value>new UiSelector().className(&quot;android.widget.TextView&quot;).text(&quot;Currently you have a Behavioral Health-Phone appointment scheduled.You can only schedule one appointment at a time.
+Would you like to cancel your existing appointment and book the current selection?.&quot;).resourceId(&quot;com.win.winfertility:id/vw_dialog_text_message&quot;).packageName(&quot;com.win.winfertility&quot;).enabled(true).clickable(true).longClickable(true).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(1)</value>
       </entry>
       <entry>
-         <key>ATTRIBUTES</key>
-         <value>//*[@class = 'android.widget.TextView' and (@text = 'Connect with an Advocate' or . = 'Connect with an Advocate')]</value>
-      </entry>
-      <entry>
-         <key>IOS_CLASS_CHAIN</key>
+         <key>NAME</key>
+         <value></value>
       </entry>
       <entry>
          <key>ID</key>
+         <value>com.win.winfertility:id/vw_dialog_text_message</value>
+      </entry>
+      <entry>
+         <key>IOS_PREDICATE_STRING</key>
+         <value>enabled == 1</value>
+      </entry>
+      <entry>
+         <key>ATTRIBUTES</key>
+         <value>//*[@class = 'android.widget.TextView' and (@text = 'Currently you have a Behavioral Health-Phone appointment scheduled.You can only schedule one appointment at a time.
+Would you like to cancel your existing appointment and book the current selection?.' or . = 'Currently you have a Behavioral Health-Phone appointment scheduled.You can only schedule one appointment at a time.
+Would you like to cancel your existing appointment and book the current selection?.') and @resource-id = 'com.win.winfertility:id/vw_dialog_text_message']</value>
+      </entry>
+      <entry>
+         <key>CUSTOM</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ANDROID_VIEWTAG</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>IOS_CLASS_CHAIN</key>
+         <value>**[`enabled == 1`]</value>
       </entry>
       <entry>
          <key>CLASS_NAME</key>
@@ -203,19 +232,11 @@
       </entry>
       <entry>
          <key>IMAGE</key>
-      </entry>
-      <entry>
-         <key>IOS_PREDICATE_STRING</key>
-      </entry>
-      <entry>
-         <key>CUSTOM</key>
-      </entry>
-      <entry>
-         <key>ANDROID_VIEWTAG</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.compose.ui.platform.ComposeView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.TextView[1]</value>
+         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.TextView[1]</value>
       </entry>
    </locatorCollection>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>

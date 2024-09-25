@@ -35,7 +35,7 @@ int endX = startX
 int startY = device_Height * 0.20
 
 'Storing the endY value'
-int endY = device_Height * 0.40
+int endY = device_Height * 0.50
 
 Mobile.swipe(startX, endY, endX, startY)
 
@@ -55,9 +55,40 @@ while (a < 17) {
     a++
 }
 
-Mobile.tap(findTestObject('Android/Signup/Account Setup/button_ok'), 0)
+Mobile.tap(findTestObject('Android/Signup/Account Setup/button_ok_DateSelect1'), 0)
 
 Mobile.tap(findTestObject('Android/Signup/Account Setup/button_Next'), 0)
 
 Mobile.verifyElementVisible(findTestObject('Android/Signup/Account Setup/errorTxt_PhoneNumber'), 0)
+
+Mobile.tap(findTestObject('Android/Signup/Account Setup/button_ok'), 0)
+
+Mobile.setText(findTestObject('Android/Signup/Account Setup/phoneNumber'), PhoneNumber, 0)
+
+Mobile.tap(findTestObject('Android/Signup/Account Setup/button_Next'), 0)
+
+Mobile.verifyElementVisible(findTestObject('ios/Signup/SetupAccount/errortxt_ZipCode'), 5)
+
+Mobile.tap(findTestObject('Android/Signup/Account Setup/button_ok'), 0)
+
+Mobile.setText(findTestObject('Android/Signup/Account Setup/zipCode'), ZipCode, 0)
+
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Android/Signup/Account Setup/button_Next'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Android/Signup/Account Setup/errorTxt_Language'), 5)
+
+Mobile.tap(findTestObject('Android/Signup/Account Setup/button_ok'), 0)
+
+Mobile.tap(findTestObject('Android/Signup/Account Setup/language'), 0)
+
+Mobile.tap(findTestObject('Android/Signup/Account Setup/selectEngLanguage'), 0)
+
+Mobile.tap(findTestObject('Android/Signup/Account Setup/button_Next'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Android/Signup/Account Setup/errorTxt_Race'), 5)
+
+Mobile.tap(findTestObject('Android/Signup/Account Setup/button_ok'), 0)
+
 

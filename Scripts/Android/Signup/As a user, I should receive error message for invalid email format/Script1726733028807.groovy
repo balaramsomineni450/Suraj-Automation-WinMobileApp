@@ -25,6 +25,8 @@ Mobile.setText(findTestObject('Android/Signup/Signup screen/lastName'), LastName
 
 Mobile.setText(findTestObject('Android/Signup/Signup screen/preferredName'), PreferredName, 0)
 
+Mobile.hideKeyboard()
+
 Mobile.setText(findTestObject('Android/Signup/Signup screen/emailAddress'), EmailAddress, 0)
 
 Mobile.hideKeyboard()

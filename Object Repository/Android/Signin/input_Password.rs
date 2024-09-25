@@ -3,12 +3,16 @@
    <description></description>
    <name>input_Password</name>
    <tag></tag>
-   <elementGuidId>d76b376b-520f-44da-9f89-2ab9d6b4a8c0</elementGuidId>
+   <elementGuidId>12c212f4-80cd-4531-b0f6-7cbc24cf3cc5</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <locator>//d2.j1/android.view.View/android.view.View/android.widget.EditText[2]</locator>
    <locatorCollection>
+      <entry>
+         <key>ACCESSIBILITY</key>
+         <value></value>
+      </entry>
       <entry>
          <key>ANDROID_UI_AUTOMATOR</key>
          <value>new UiSelector()</value>
@@ -18,11 +22,22 @@
          <value></value>
       </entry>
       <entry>
+         <key>ID</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>IOS_PREDICATE_STRING</key>
          <value></value>
       </entry>
       <entry>
-         <key>ACCESSIBILITY</key>
+         <key>ATTRIBUTES</key>
+      </entry>
+      <entry>
+         <key>CUSTOM</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ANDROID_VIEWTAG</key>
          <value></value>
       </entry>
       <entry>
@@ -34,27 +49,12 @@
          <value></value>
       </entry>
       <entry>
-         <key>ID</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>CUSTOM</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>ATTRIBUTES</key>
-      </entry>
-      <entry>
          <key>CLASS_NAME</key>
          <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>ANDROID_VIEWTAG</key>
-         <value></value>
+         <value>//d2.j1/android.view.View/android.view.View/android.widget.EditText[2]</value>
       </entry>
    </locatorCollection>
    <locatorStrategy>XPATH</locatorStrategy>

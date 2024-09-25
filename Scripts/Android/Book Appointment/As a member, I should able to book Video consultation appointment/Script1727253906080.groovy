@@ -34,7 +34,7 @@ Mobile.tap(findTestObject('Object Repository/Android/Book Appointment/android.wi
 
 Mobile.tap(findTestObject('Object Repository/Android/Book Appointment/android.widget.Button - OK'), 0)
 
-Mobile.tap(findTestObject('Android/Book Appointment/android.widget.TextView - Schedule a phone consultation'), 0)
+Mobile.tap(findTestObject('Android/Book Appointment/schedule_video_consultation'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Android/Book Appointment/android.widget.TextView - Continue'), 0)
 

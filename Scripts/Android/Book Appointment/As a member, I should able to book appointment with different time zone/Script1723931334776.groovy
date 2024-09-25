@@ -24,7 +24,8 @@ Mobile.tap(findTestObject('Object Repository/Android/Book Appointment/android.wi
 
 Mobile.tap(findTestObject('Object Repository/Android/Book Appointment/android.widget.TextView - BIPOC'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Android/Book Appointment/android.widget.TextView - Connect with an Advocate'), 0)
+Mobile.tap(findTestObject('Object Repository/Android/Book Appointment/android.widget.TextView - Connect with an Advocate'), 
+    0)
 
 Mobile.tap(findTestObject('Object Repository/Android/Book Appointment/android.widget.TextView - View Behavioral Health Advocate schedule'), 
     0)
@@ -45,7 +46,8 @@ Mobile.tap(findTestObject('Object Repository/Android/Book Appointment/android.wi
 
 Mobile.tap(findTestObject('Object Repository/Android/Book Appointment/android.widget.TextView - BIPOC'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Android/Book Appointment/android.widget.TextView - Connect with an Advocate'), 0)
+Mobile.tap(findTestObject('Object Repository/Android/Book Appointment/android.widget.TextView - Connect with an Advocate'), 
+    0)
 
 Mobile.tap(findTestObject('Object Repository/Android/Book Appointment/android.widget.TextView - View Behavioral Health Advocate schedule'), 
     0)
@@ -101,11 +103,11 @@ while (Mobile.verifyElementVisible(findTestObject('Android/Book Appointment/andr
 
 Mobile.tap(findTestObject('Android/Book Appointment/timeSlot'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Android/Book Appointment/android.widget.TextView - Book Appointment (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/Android/Book Appointment/android.widget.TextView - Book Appointment (1)'), 
+    0)
 
 Mobile.tap(findTestObject('Object Repository/Android/Book Appointment/android.widget.Button - YES'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Object Repository/Android/Book Appointment/android.widget.TextView - Success'),15)
-
-Mobile.closeApplication()
+Mobile.verifyElementVisible(findTestObject('Object Repository/Android/Book Appointment/android.widget.TextView - Success'), 
+    15)
 

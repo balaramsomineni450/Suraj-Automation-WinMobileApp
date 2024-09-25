@@ -3,30 +3,22 @@
    <description></description>
    <name>button_ok</name>
    <tag></tag>
-   <elementGuidId>2a2ed590-d0b7-415d-8cd1-1953fabd6cce</elementGuidId>
+   <elementGuidId>6453862e-cbbb-401a-bc95-5a5e772ae1a5</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <locator>//android.widget.Button[@resource-id=&quot;com.win.winfertility:id/btnOk&quot;]</locator>
+   <locator>//android.widget.Button[@resource-id=&quot;com.win.winfertility:id/btn_positive&quot;]</locator>
    <locatorCollection>
-      <entry>
-         <key>ATTRIBUTES</key>
-      </entry>
-      <entry>
-         <key>NAME</key>
-         <value></value>
-      </entry>
       <entry>
          <key>ACCESSIBILITY</key>
          <value></value>
       </entry>
       <entry>
-         <key>IOS_CLASS_CHAIN</key>
+         <key>IOS_PREDICATE_STRING</key>
          <value></value>
       </entry>
       <entry>
-         <key>ID</key>
-         <value></value>
+         <key>ATTRIBUTES</key>
       </entry>
       <entry>
          <key>ANDROID_VIEWTAG</key>
@@ -37,11 +29,11 @@
          <value></value>
       </entry>
       <entry>
-         <key>IOS_PREDICATE_STRING</key>
-         <value></value>
+         <key>ANDROID_UI_AUTOMATOR</key>
+         <value>new UiSelector()</value>
       </entry>
       <entry>
-         <key>XPATH</key>
+         <key>NAME</key>
          <value></value>
       </entry>
       <entry>
@@ -49,12 +41,20 @@
          <value></value>
       </entry>
       <entry>
+         <key>ID</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>IMAGE</key>
          <value></value>
       </entry>
       <entry>
-         <key>ANDROID_UI_AUTOMATOR</key>
-         <value>new UiSelector()</value>
+         <key>IOS_CLASS_CHAIN</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
       </entry>
    </locatorCollection>
    <locatorStrategy>XPATH</locatorStrategy>
