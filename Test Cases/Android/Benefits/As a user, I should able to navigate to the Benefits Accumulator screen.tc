@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a user, I should able to navigate to the Benefits Accumulator screen</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>24b0d793-461e-4747-a7c4-e13bd8e08e8b</testCaseGuid>
+</TestCaseEntity>

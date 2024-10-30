@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a user I shold able to view any PDF document listed at My Dcouments</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7522ce03-3221-484c-b751-a2f84b04fb81</testCaseGuid>
+</TestCaseEntity>

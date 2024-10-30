@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a user, I should able navigate to WIN Resources screen to explore articles</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ab8875d0-3b68-4a2e-9d4f-7adcba4b39f3</testCaseGuid>
+</TestCaseEntity>

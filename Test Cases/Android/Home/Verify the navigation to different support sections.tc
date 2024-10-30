@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify the navigation to different support sections</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>247a827c-2f34-4497-8e06-1a41fd9129eb</testCaseGuid>
+</TestCaseEntity>

@@ -103,8 +103,7 @@ while (Mobile.verifyElementVisible(findTestObject('Android/Book Appointment/andr
 
 Mobile.tap(findTestObject('Android/Book Appointment/timeSlot'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Android/Book Appointment/android.widget.TextView - Book Appointment (1)'), 
-    0)
+Mobile.tap(findTestObject('Android/Book Appointment/android.widget.TextView - Book Appointment'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Android/Book Appointment/android.widget.Button - YES'), 0)
 

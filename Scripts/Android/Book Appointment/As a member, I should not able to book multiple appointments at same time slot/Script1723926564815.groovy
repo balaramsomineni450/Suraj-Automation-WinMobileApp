@@ -55,7 +55,7 @@ mobileTestObject.setMobileLocator(newxpath)
 
 Mobile.tap(mobileTestObject, 0)
 
-Mobile.tap(findTestObject('Object Repository/Android/Book Appointment/android.widget.TextView - Next (1)'), 0)
+Mobile.tap(findTestObject('Android/Book Appointment/android.widget.TextView - Next'), 0)
 
 if (Mobile.verifyElementVisible(findTestObject('Android/Book Appointment/android.widget.TextView - Please click on an available date'), 
     0, FailureHandling.OPTIONAL)) {

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify that valid cost is being estimated for IVF treatment package</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5d062160-c7fb-410d-8a92-b10cbbf68cee</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6652c2d8-027f-4666-90d2-8f2832f19c10</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'10006'</defaultValue>
+      <description></description>
+      <id>6652c2d8-027f-4666-90d2-8f2832f19c10</id>
+      <masked>false</masked>
+      <name>Zipcode</name>
+   </variable>
+</TestCaseEntity>

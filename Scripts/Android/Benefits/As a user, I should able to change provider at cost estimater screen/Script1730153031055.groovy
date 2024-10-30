@@ -17,11 +17,30 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Object Repository/Android/Home/android.widget.TextView - Me'), 0)
+Mobile.tap(findTestObject('Android/Menu/Benefits'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Android/Me/android.widget.TextView - Logout'), 0)
+Mobile.tap(findTestObject('Android/Benefits/menu_TreatmentCostEstimator'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Android/Home/android.widget.Button - YES'), 0)
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Object Repository/Android/Home/android.widget.TextView - Forgot UserIdpassword'), 10)
+AlreadySelectedProvider = Mobile.getText(findTestObject('Android/Benefits/txt_SelectedProvider'), 0)
+
+Mobile.tap(findTestObject('Android/Benefits/Select_Provider'), 0)
+
+Mobile.setText(findTestObject('Android/Search/zipCode'), Zipcode, 0)
+
+Mobile.tap(findTestObject('Android/Search/distance'), 0, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Android/Search/selectOption-3miles'), 0)
+
+Mobile.tap(findTestObject('Android/Search/button_StartSearch'), 0)
+
+Mobile.tap(findTestObject('Android/Benefits/Select_NewProviderFromSearchResult'), 0)
+
+Mobile.tap(findTestObject('Android/Benefits/back'), 0)
+
+Mobile.tap(findTestObject('Android/Benefits/back'), 0)
+
+Mobile.verifyNotMatch(AlreadySelectedProvider, Mobile.getText(findTestObject('Android/Benefits/txt_SelectedProvider'), 0), 
+    false)
 

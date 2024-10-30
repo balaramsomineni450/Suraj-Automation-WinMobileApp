@@ -22,7 +22,8 @@ Mobile.tap(findTestObject('Object Repository/Android/Book Appointment/android.wi
 
 Mobile.tap(findTestObject('Object Repository/Android/Book Appointment/android.widget.TextView - BIPOC'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Android/Book Appointment/android.widget.TextView - Connect with an Advocate'), 0)
+Mobile.tap(findTestObject('Object Repository/Android/Book Appointment/android.widget.TextView - Connect with an Advocate'), 
+    0)
 
 Mobile.tap(findTestObject('Object Repository/Android/Book Appointment/android.widget.TextView - View Behavioral Health Advocate schedule'), 
     0)
@@ -31,7 +32,8 @@ Mobile.tap(findTestObject('Object Repository/Android/Book Appointment/android.wi
 
 Mobile.tap(findTestObject('Object Repository/Android/Book Appointment/android.widget.TextView - Continue'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Android/Book Appointment/android.widget.TextView - Please select slot type'), 0)
+Mobile.verifyElementVisible(findTestObject('Android/Book Appointment/android.widget.TextView - Please select slot type'), 
+    0)
 
 Mobile.tap(findTestObject('Android/Book Appointment/android.widget.Button - OK'), 0)
 
@@ -40,7 +42,7 @@ Mobile.tap(findTestObject('Object Repository/Android/Book Appointment/android.wi
 
 Mobile.tap(findTestObject('Object Repository/Android/Book Appointment/android.widget.TextView - Continue'), 0)
 
-Mobile.tap(findTestObject('Android/Book Appointment/android.widget.TextView - Next (1)'), 0)
+Mobile.tap(findTestObject('Android/Book Appointment/android.widget.TextView - Next'), 0)
 
 Mobile.verifyElementVisible(findTestObject('Object Repository/Android/Book Appointment/android.widget.TextView - Please click on an available date'), 
     0)

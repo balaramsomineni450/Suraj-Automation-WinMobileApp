@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a user, I should able to change provider at cost estimater screen</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2094f902-c1ac-4784-806e-2522bd82155f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0d82f974-c936-4db0-bdcf-111d913e055d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'10003'</defaultValue>
+      <description></description>
+      <id>0d82f974-c936-4db0-bdcf-111d913e055d</id>
+      <masked>false</masked>
+      <name>Zipcode</name>
+   </variable>
+</TestCaseEntity>

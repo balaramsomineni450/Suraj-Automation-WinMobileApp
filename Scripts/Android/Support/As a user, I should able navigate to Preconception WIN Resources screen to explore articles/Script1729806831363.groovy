@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Object Repository/Android/Home/android.widget.TextView - Me'), 0)
+Mobile.tap(findTestObject('Android/Menu/Support'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Android/Me/android.widget.TextView - Logout'), 0)
+Mobile.tap(findTestObject('Android/Support/Preconception/preconception'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Android/Home/android.widget.Button - YES'), 0)
+Mobile.tap(findTestObject('Android/Support/Preconception/Explore Resources'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Object Repository/Android/Home/android.widget.TextView - Forgot UserIdpassword'), 10)
+Mobile.verifyElementExist(findTestObject('Android/Support/Preconception/Content Description'), 0)
 

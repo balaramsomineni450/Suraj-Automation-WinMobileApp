@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a user, I shuold able to enter details at PHI screen and submit the form</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b707df3e-bb38-4931-8c42-3ae8125c7383</testCaseGuid>
+</TestCaseEntity>

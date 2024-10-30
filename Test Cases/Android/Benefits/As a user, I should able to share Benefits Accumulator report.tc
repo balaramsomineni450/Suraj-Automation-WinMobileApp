@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a user, I should able to share Benefits Accumulator report</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3c88f6e4-f5f4-40bb-bfd9-54328fbd51c1</testCaseGuid>
+</TestCaseEntity>

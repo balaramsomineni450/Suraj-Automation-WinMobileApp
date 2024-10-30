@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a user, I should able to navigate back to the rx authorization screen from Rx review screen</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a025c650-76cb-4a8b-86ed-3459cbdc8552</testCaseGuid>
+</TestCaseEntity>
