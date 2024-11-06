@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Verify that valid cost is being estimated for Egg Freezing treatment package</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>35143bbc-2484-41d6-bb39-b7dc904c4a7f</testCaseGuid>
-</TestCaseEntity>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Verify that valid cost is being estimated for FET treatment package</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>e6990ff7-1f93-429e-a8bc-1c15c380aacb</testCaseGuid>
-</TestCaseEntity>

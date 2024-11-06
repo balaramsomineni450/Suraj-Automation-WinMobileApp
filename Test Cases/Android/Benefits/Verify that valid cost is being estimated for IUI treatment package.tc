@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Verify that valid cost is being estimated for IUI treatment package</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>d10f7af1-cb6e-4ecb-bc58-60d5d1a43873</testCaseGuid>
-</TestCaseEntity>

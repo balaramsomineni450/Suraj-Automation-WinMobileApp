@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>As a user, I should able navigate to Preconception WIN Resources screen to explore articles</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>fa154247-c5a4-4cff-b736-9d85e8e6a278</testCaseGuid>
-</TestCaseEntity>

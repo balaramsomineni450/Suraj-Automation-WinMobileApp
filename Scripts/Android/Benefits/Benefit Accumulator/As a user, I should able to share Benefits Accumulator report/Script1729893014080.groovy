@@ -17,29 +17,35 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Android/Menu/Me'), 0)
+Mobile.tap(findTestObject('Android/Menu/Benefits'), 0)
 
-Mobile.tap(findTestObject('Android/Me/AccountSettings'), 0)
+Mobile.tap(findTestObject('Android/Benefits/menu_BenefitsAccumulator'), 0)
 
-Mobile.tap(findTestObject('Android/Me/ResetPassword'), 0)
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Android/Reset Password/button_Submit'), 0)
+device_Height = Mobile.getDeviceHeight()
 
-Mobile.verifyElementVisible(findTestObject('Android/Reset Password/errorTxt_EnterPassword'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+'Get Width Height and Store in device_Width variable'
+device_Width = Mobile.getDeviceWidth()
 
-Mobile.tap(findTestObject('Android/Reset Password/button_Ok'), 0)
+'Storing the startX value by dividing device width by 2. Because x coordinates are constant for Vertical Swiping'
+int startX = device_Width / 2
 
-Mobile.setText(findTestObject('Android/Reset Password/input_OldPassword'), OldPassword, 0)
+'Here startX and endX values are equal for vertical Swiping for that assigning startX value to endX'
+int endX = startX
 
-Mobile.tap(findTestObject('Android/Reset Password/button_Submit'), 0)
+'Storing the startY value'
+int startY = device_Height * 0.30
 
-Mobile.verifyElementVisible(findTestObject('Android/Reset Password/errotTxt_EnterNewPassword'), 0)
+'Storing the endY value'
+int endY = device_Height * 0.70
 
-Mobile.tap(findTestObject('Android/Reset Password/button_Ok'), 0)
+'Swipe Vertical from top to bottom'
+Mobile.swipe(startX, endY, endX, startY)
 
-Mobile.setText(findTestObject('Android/Reset Password/input_NewPassword'), NewPassword, 0)
+Mobile.swipe(startX, endY, endX, startY)
 
-Mobile.tap(findTestObject('Android/Reset Password/button_Submit'), 0)
+Mobile.tap(findTestObject('Android/Benefits/Benefit Accumulator/shareReport'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Android/Reset Password/errorTxt_EnterConfirmPassword'), 0)
+Mobile.verifyElementVisible(findTestObject('Android/Benefits/Benefit Accumulator/successTxt_ExportReport'), 0)
 

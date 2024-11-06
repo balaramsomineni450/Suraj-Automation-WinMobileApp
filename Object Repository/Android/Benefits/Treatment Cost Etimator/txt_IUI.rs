@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>input_OldPassword</name>
+   <name>txt_IUI</name>
    <tag></tag>
-   <elementGuidId>1e7df733-b413-492c-9db8-c05b9016916f</elementGuidId>
+   <elementGuidId>e8b1910f-7633-497d-8a68-54f093a4c768</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <locator>//android.widget.TextView[@text=&quot;Old Password&quot;]/parent::android.widget.EditText</locator>
+   <locator>//android.widget.TextView[@text=&quot;Intrauterine Insemination (IUI)&quot;]</locator>
    <locatorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//android.widget.TextView[@text=&quot;Change Password&quot;]/following-sibling::android.widget.EditText[1]</value>
+         <value></value>
       </entry>
       <entry>
          <key>CLASS_NAME</key>

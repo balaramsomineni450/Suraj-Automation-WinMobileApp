@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>input_OldPassword</name>
+   <name>txt_EFT</name>
    <tag></tag>
-   <elementGuidId>1e7df733-b413-492c-9db8-c05b9016916f</elementGuidId>
+   <elementGuidId>b8f6808a-8de5-4361-9d94-afd512579171</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <locator>//android.widget.TextView[@text=&quot;Old Password&quot;]/parent::android.widget.EditText</locator>
+   <locator>//android.widget.TextView[@text=&quot;Egg Freezing (EF)&quot;]</locator>
    <locatorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//android.widget.TextView[@text=&quot;Change Password&quot;]/following-sibling::android.widget.EditText[1]</value>
+         <value></value>
       </entry>
       <entry>
          <key>CLASS_NAME</key>
@@ -41,11 +41,11 @@
          <key>ATTRIBUTES</key>
       </entry>
       <entry>
-         <key>IOS_CLASS_CHAIN</key>
+         <key>IMAGE</key>
          <value></value>
       </entry>
       <entry>
-         <key>IMAGE</key>
+         <key>IOS_CLASS_CHAIN</key>
          <value></value>
       </entry>
       <entry>

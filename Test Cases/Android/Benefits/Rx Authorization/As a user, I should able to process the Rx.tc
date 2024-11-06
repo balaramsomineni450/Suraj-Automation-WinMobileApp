@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a user, I should able to process the Rx</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c33fc47b-8224-4242-a24e-e87c20efe364</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fb8b920d-672b-4ba9-b681-a7b79c3972f9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'10'</defaultValue>
+      <description></description>
+      <id>fb8b920d-672b-4ba9-b681-a7b79c3972f9</id>
+      <masked>false</masked>
+      <name>MedQuantity</name>
+   </variable>
+</TestCaseEntity>

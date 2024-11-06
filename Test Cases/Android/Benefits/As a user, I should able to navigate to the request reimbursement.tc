@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>As a user, I should able to navigate to the request reimbursement</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>3a8d4cf5-11b5-4115-8880-0d74e86b4952</testCaseGuid>
-</TestCaseEntity>

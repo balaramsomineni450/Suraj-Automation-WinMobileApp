@@ -17,29 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Android/Menu/Me'), 0)
+Mobile.tap(findTestObject('Android/Menu/Benefits'), 0)
 
-Mobile.tap(findTestObject('Android/Me/AccountSettings'), 0)
+Mobile.tap(findTestObject('Android/Benefits/menu_MyDocuments'), 0)
 
-Mobile.tap(findTestObject('Android/Me/ResetPassword'), 0)
+Mobile.tap(findTestObject('Android/Benefits/My Documents/text_MedicalTreatment'), 0)
 
-Mobile.tap(findTestObject('Android/Reset Password/button_Submit'), 0)
+Mobile.tap(findTestObject('Android/Benefits/My Documents/text_WinPremierApprovalLetter'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Android/Reset Password/errorTxt_EnterPassword'), 0, FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.tap(findTestObject('Android/Reset Password/button_Ok'), 0)
-
-Mobile.setText(findTestObject('Android/Reset Password/input_OldPassword'), OldPassword, 0)
-
-Mobile.tap(findTestObject('Android/Reset Password/button_Submit'), 0)
-
-Mobile.verifyElementVisible(findTestObject('Android/Reset Password/errotTxt_EnterNewPassword'), 0)
-
-Mobile.tap(findTestObject('Android/Reset Password/button_Ok'), 0)
-
-Mobile.setText(findTestObject('Android/Reset Password/input_NewPassword'), NewPassword, 0)
-
-Mobile.tap(findTestObject('Android/Reset Password/button_Submit'), 0)
-
-Mobile.verifyElementVisible(findTestObject('Android/Reset Password/errorTxt_EnterConfirmPassword'), 0)
+Mobile.verifyElementExist(findTestObject('Android/Benefits/My Documents/TempPDFName'), 0)
 

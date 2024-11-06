@@ -1,25 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>input_OldPassword</name>
+   <name>selectProvider</name>
    <tag></tag>
-   <elementGuidId>1e7df733-b413-492c-9db8-c05b9016916f</elementGuidId>
+   <elementGuidId>721e89a7-1131-48fe-9342-8a27ca064111</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <locator>//android.widget.TextView[@text=&quot;Old Password&quot;]/parent::android.widget.EditText</locator>
+   <locator>new UiSelector().text(&quot;Click here to change selected provider&quot;)</locator>
    <locatorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//android.widget.TextView[@text=&quot;Change Password&quot;]/following-sibling::android.widget.EditText[1]</value>
       </entry>
       <entry>
          <key>CLASS_NAME</key>
-         <value></value>
       </entry>
       <entry>
          <key>ID</key>
-         <value></value>
       </entry>
       <entry>
          <key>ANDROID_UI_AUTOMATOR</key>
@@ -27,34 +24,27 @@
       </entry>
       <entry>
          <key>ANDROID_VIEWTAG</key>
-         <value></value>
       </entry>
       <entry>
          <key>NAME</key>
-         <value></value>
       </entry>
       <entry>
          <key>CUSTOM</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>IOS_CLASS_CHAIN</key>
       </entry>
       <entry>
          <key>ATTRIBUTES</key>
       </entry>
       <entry>
-         <key>IOS_CLASS_CHAIN</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>IOS_PREDICATE_STRING</key>
-         <value></value>
       </entry>
       <entry>
          <key>ACCESSIBILITY</key>
-         <value></value>
       </entry>
    </locatorCollection>
    <locatorStrategy>XPATH</locatorStrategy>

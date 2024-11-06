@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>As a user, I should able to view any article from Preconception WIN Resources screen</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>507ef12f-356f-419e-af50-4bdc022fa537</testCaseGuid>
-</TestCaseEntity>

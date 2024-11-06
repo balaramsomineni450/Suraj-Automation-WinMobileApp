@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a user, I should receive error validation for empty fields while processing RX</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ea6cdfff-cd61-49dd-9873-35d8b1eb640d</testCaseGuid>
+</TestCaseEntity>

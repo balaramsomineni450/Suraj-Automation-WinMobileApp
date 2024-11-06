@@ -17,29 +17,30 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Android/Menu/Me'), 0)
+Mobile.tap(findTestObject('Android/Menu/Benefits'), 0)
 
-Mobile.tap(findTestObject('Android/Me/AccountSettings'), 0)
+Mobile.tap(findTestObject('Android/Benefits/menu_TreatmentCostEstimator'), 0)
 
-Mobile.tap(findTestObject('Android/Me/ResetPassword'), 0)
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Android/Reset Password/button_Submit'), 0)
+AlreadySelectedProvider = Mobile.getText(findTestObject('Android/Benefits/Treatment Cost Etimator/txt_SelectedProvider'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Android/Reset Password/errorTxt_EnterPassword'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.tap(findTestObject('Android/Benefits/Treatment Cost Etimator/Select_Provider'), 0)
 
-Mobile.tap(findTestObject('Android/Reset Password/button_Ok'), 0)
+Mobile.setText(findTestObject('Android/Search/zipCode'), Zipcode, 0)
 
-Mobile.setText(findTestObject('Android/Reset Password/input_OldPassword'), OldPassword, 0)
+Mobile.tap(findTestObject('Android/Search/distance'), 0, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Android/Reset Password/button_Submit'), 0)
+Mobile.tap(findTestObject('Android/Search/selectOption-3miles'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Android/Reset Password/errotTxt_EnterNewPassword'), 0)
+Mobile.tap(findTestObject('Android/Search/button_StartSearch'), 0)
 
-Mobile.tap(findTestObject('Android/Reset Password/button_Ok'), 0)
+Mobile.tap(findTestObject('Android/Benefits/Treatment Cost Etimator/Select_NewProviderFromSearchResult'), 0)
 
-Mobile.setText(findTestObject('Android/Reset Password/input_NewPassword'), NewPassword, 0)
+Mobile.tap(findTestObject('Android/Benefits/Treatment Cost Etimator/back'), 0)
 
-Mobile.tap(findTestObject('Android/Reset Password/button_Submit'), 0)
+Mobile.tap(findTestObject('Android/Benefits/Treatment Cost Etimator/back'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Android/Reset Password/errorTxt_EnterConfirmPassword'), 0)
+Mobile.verifyNotMatch(AlreadySelectedProvider, Mobile.getText(findTestObject('Android/Benefits/Treatment Cost Etimator/txt_SelectedProvider'), 0), 
+    false)
 

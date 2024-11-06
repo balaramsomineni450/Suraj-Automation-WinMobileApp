@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a user, I should able to navigate back to Benefits screen from Cost Estimator screen</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f7111fb4-1cf8-4eeb-aec0-141f79213425</testCaseGuid>
+</TestCaseEntity>
