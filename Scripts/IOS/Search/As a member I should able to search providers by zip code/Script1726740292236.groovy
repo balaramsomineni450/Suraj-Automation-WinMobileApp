@@ -17,17 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('ios/Home/FindCare'), 0)
+Mobile.tap(findTestObject('IOS/Home/FindCare'), 0)
 
-Mobile.tap(findTestObject('ios/Search/Finde Care Near You'), 0)
+Mobile.tap(findTestObject('IOS/Search/Finde Care Near You'), 0)
 
-Mobile.setText(findTestObject('ios/Search/zipCode'), '98105', 0)
+Mobile.setText(findTestObject('IOS/Search/zipCode'), '98105', 0)
 
-Mobile.tap(findTestObject('ios/Search/distance'), 0)
+Mobile.tap(findTestObject('IOS/Search/distance'), 0)
 
-Mobile.tap(findTestObject('ios/Search/selectOption-3miles'), 0)
+Mobile.tap(findTestObject('IOS/Search/selectOption-3miles'), 0)
 
-Mobile.tap(findTestObject('ios/Search/selectCheckbox-BIPOC'), 0)
+Mobile.tap(findTestObject('IOS/Search/selectCheckbox-BIPOC'), 0)
 
-Mobile.tap(findTestObject('ios/Search/button_StartSearch'), 0)
+Mobile.tap(findTestObject('IOS/Search/button_StartSearch'), 0)
 

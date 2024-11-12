@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('ios/Home/link_treatment'), 0)
+Mobile.tap(findTestObject('IOS/Home/link_treatment'), 0)
 
-Mobile.tap(findTestObject('ios/Treatment/button - Upload Documentation for Review'), 10)
+Mobile.tap(findTestObject('IOS/Treatment/button - Upload Documentation for Review'), 10)
 

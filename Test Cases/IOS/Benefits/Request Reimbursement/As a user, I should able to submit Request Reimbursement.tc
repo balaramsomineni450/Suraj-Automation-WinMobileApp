@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a user, I should able to submit Request Reimbursement</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6e5e97e7-9864-4794-9933-c31d4ef7135a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bd5da85d-c293-4777-9661-8b5d1a0e3f6c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Fertility Cycle Reimbursement Receipts'</defaultValue>
+      <description></description>
+      <id>bd5da85d-c293-4777-9661-8b5d1a0e3f6c</id>
+      <masked>false</masked>
+      <name>DocumentName</name>
+   </variable>
+</TestCaseEntity>

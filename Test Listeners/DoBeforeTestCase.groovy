@@ -60,7 +60,9 @@ class DoBeforeTestCase {
 				
 				if(testCase.tag.contains("signin") || testCase.tag.contains("signup")) {
 					
-					if(Mobile.verifyElementVisible(findTestObject('ios/Signin/username'),20, FailureHandling.OPTIONAL)){
+					Mobile.tap(findTestObject('IOS/skip'),10, FailureHandling.OPTIONAL)
+					
+					if(Mobile.verifyElementVisible(findTestObject('IOS/Signin/username'),20, FailureHandling.OPTIONAL)){
 						
 					}
 					else{
@@ -110,13 +112,13 @@ class DoBeforeTestCase {
 	
 	def ios_login()
 	{
-		Mobile.tap(findTestObject('ios/Signin/skip'), 5, FailureHandling.OPTIONAL)
+		Mobile.tap(findTestObject('IOS/Signin/skip'), 5, FailureHandling.OPTIONAL)
 		
-		Mobile.setText(findTestObject('ios/Signin/username'), Email.substring(1, Email.length() - 1), 2)
+		Mobile.setText(findTestObject('IOS/Signin/username'), Email.substring(1, Email.length() - 1), 2)
 		
-		Mobile.setText(findTestObject('ios/Signin/password'), Pass.substring(1, Pass.length() - 1), 2)
+		Mobile.setText(findTestObject('IOS/Signin/password'), Pass.substring(1, Pass.length() - 1), 2)
 		
-		Mobile.tap(findTestObject('ios/Signin/button_Login'), 5)
+		Mobile.tap(findTestObject('IOS/Signin/button_Login'), 5)
 	}
 	
 	def ios_logout()

@@ -22,19 +22,19 @@ import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 import java.io.File as File
 import groovy.time.TimeCategory as TimeCategory
 
-Mobile.tap(findTestObject('ios/Home/menu_Support'), 0)
+Mobile.tap(findTestObject('IOS/Home/menu_Support'), 0)
 
-Mobile.tap(findTestObject('ios/Book Appointment/biopic'), 0)
+Mobile.tap(findTestObject('IOS/Book Appointment/biopic'), 0)
 
-Mobile.tap(findTestObject('ios/Book Appointment/connect_with_advocate'), 0)
+Mobile.tap(findTestObject('IOS/Book Appointment/connect_with_advocate'), 0)
 
-Mobile.tap(findTestObject('ios/Book Appointment/view_behavioral_health_advocate_schedule'), 0)
+Mobile.tap(findTestObject('IOS/Book Appointment/view_behavioral_health_advocate_schedule'), 0)
 
-Mobile.tap(findTestObject('ios/Book Appointment/button_okay'), 0)
+Mobile.tap(findTestObject('IOS/Book Appointment/button_okay'), 0)
 
-Mobile.tap(findTestObject('ios/Book Appointment/schedule_phone_consultation'), 0)
+Mobile.tap(findTestObject('IOS/Book Appointment/schedule_phone_consultation'), 0)
 
-MobileTestObject mobileTestObject = findTestObject('ios/Book Appointment/selectDate')
+MobileTestObject mobileTestObject = findTestObject('IOS/Book Appointment/selectDate')
 
 mobileTestObject.setMobileLocatorStrategy(MobileLocatorStrategy.XPATH)
 
@@ -52,9 +52,9 @@ mobileTestObject.setMobileLocator(newxpath)
 
 Mobile.tap(mobileTestObject, 0)
 
-Mobile.tap(findTestObject('ios/Book Appointment/button_next'), 0)
+Mobile.tap(findTestObject('IOS/Book Appointment/button_next'), 0)
 
-if (Mobile.verifyElementVisible(findTestObject('ios/Book Appointment/errortxt_Please_Clickon_Available_Date'), 
+if (Mobile.verifyElementVisible(findTestObject('IOS/Book Appointment/errortxt_Please_Clickon_Available_Date'), 
     0, FailureHandling.OPTIONAL)) {
     PrintWriter writer = new PrintWriter(file)
 
@@ -74,7 +74,7 @@ if (Mobile.verifyElementVisible(findTestObject('ios/Book Appointment/errortxt_Pl
 
     println(newXpath)
 
-    MobileTestObject reservedTimeSlot = findTestObject('Object Repository/ios/Book Appointment/bookedTimeslot')
+    MobileTestObject reservedTimeSlot = findTestObject('Object Repository/IOS/Book Appointment/bookedTimeslot')
 
     reservedTimeSlot.setMobileLocatorStrategy(MobileLocatorStrategy.XPATH)
 

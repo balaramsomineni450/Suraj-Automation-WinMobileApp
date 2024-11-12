@@ -3,48 +3,58 @@
    <description></description>
    <name>Select_NewProviderFromSearchResult</name>
    <tag></tag>
-   <elementGuidId>ac9235e5-7bac-43a2-8076-219e0b4b529b</elementGuidId>
+   <elementGuidId>0e79e251-96f8-460d-9700-799f3e0229c4</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <locator>//d2.k1/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View[2]</locator>
+   <locator>(//XCUIElementTypeButton[@name=&quot;HeartLogo&quot;])[2]</locator>
    <locatorCollection>
       <entry>
-         <key>XPATH</key>
+         <key>CUSTOM</key>
+         <value></value>
       </entry>
       <entry>
          <key>CLASS_NAME</key>
+         <value></value>
       </entry>
       <entry>
          <key>ID</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ATTRIBUTES</key>
+      </entry>
+      <entry>
+         <key>NAME</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>IOS_PREDICATE_STRING</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ACCESSIBILITY</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ANDROID_VIEWTAG</key>
+         <value></value>
       </entry>
       <entry>
          <key>ANDROID_UI_AUTOMATOR</key>
          <value>new UiSelector()</value>
       </entry>
       <entry>
-         <key>ANDROID_VIEWTAG</key>
-      </entry>
-      <entry>
-         <key>NAME</key>
-      </entry>
-      <entry>
-         <key>CUSTOM</key>
-      </entry>
-      <entry>
-         <key>ATTRIBUTES</key>
-      </entry>
-      <entry>
          <key>IOS_CLASS_CHAIN</key>
+         <value></value>
       </entry>
       <entry>
-         <key>IMAGE</key>
-      </entry>
-      <entry>
-         <key>IOS_PREDICATE_STRING</key>
-      </entry>
-      <entry>
-         <key>ACCESSIBILITY</key>
+         <key>XPATH</key>
+         <value>//d2.k1/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View[2]</value>
       </entry>
    </locatorCollection>
    <locatorStrategy>XPATH</locatorStrategy>

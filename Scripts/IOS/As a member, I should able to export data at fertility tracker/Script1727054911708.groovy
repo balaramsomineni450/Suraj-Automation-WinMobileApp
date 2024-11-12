@@ -20,11 +20,11 @@ import com.kms.katalon.core.testobject.MobileTestObject.MobileLocatorStrategy as
 import groovy.time.TimeCategory as TimeCategory
 import com.kms.katalon.core.testobject.MobileTestObject as MobileTestObject
 
-Mobile.tap(findTestObject('ios/Home/fertilityTracker'), 0)
+Mobile.tap(findTestObject('IOS/Home/fertilityTracker'), 0)
 
-Mobile.tap(findTestObject('ios/Fertility Tracker/button_ExportNotes'), 0)
+Mobile.tap(findTestObject('IOS/Fertility Tracker/button_ExportNotes'), 0)
 
-Mobile.tap(findTestObject('ios/Fertility Tracker/startExportDate'), 0)
+Mobile.tap(findTestObject('IOS/Fertility Tracker/startExportDate'), 0)
 
 MobileTestObject mobileTestObject = findTestObject('Object Repository/android/Fertility Tracker/selectDate')
 
@@ -38,9 +38,9 @@ mobileTestObject.setMobileLocator(newxpath)
 
 Mobile.tap(mobileTestObject, 0)
 
-Mobile.tap(findTestObject('ios/Fertility Tracker/button_Save'), 0)
+Mobile.tap(findTestObject('IOS/Fertility Tracker/button_Save'), 0)
 
-Mobile.tap(findTestObject('ios/Fertility Tracker/endExportDate'), 0)
+Mobile.tap(findTestObject('IOS/Fertility Tracker/endExportDate'), 0)
 
 mobileTestObject = findTestObject('Object Repository/android/Fertility Tracker/selectEndDate')
 
@@ -54,7 +54,7 @@ mobileTestObject.setMobileLocator(newxpath)
 
 Mobile.tap(mobileTestObject, 0)
 
-Mobile.tap(findTestObject('ios/Fertility Tracker/button_Save'), 0)
+Mobile.tap(findTestObject('IOS/Fertility Tracker/button_Save'), 0)
 
-Mobile.tap(findTestObject('ios/Fertility Tracker/button_Export'), 0)
+Mobile.tap(findTestObject('IOS/Fertility Tracker/button_Export'), 0)
 

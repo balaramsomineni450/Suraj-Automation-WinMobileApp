@@ -67,7 +67,7 @@ Mobile.setText(findTestObject('Android/Signup/Account Setup/phoneNumber'), Phone
 
 Mobile.tap(findTestObject('Android/Signup/Account Setup/button_Next'), 0)
 
-Mobile.verifyElementVisible(findTestObject('ios/Signup/SetupAccount/errortxt_ZipCode'), 5)
+Mobile.verifyElementVisible(findTestObject('IOS/Signup/SetupAccount/errortxt_ZipCode'), 5)
 
 Mobile.tap(findTestObject('Android/Signup/Account Setup/button_ok'), 0)
 

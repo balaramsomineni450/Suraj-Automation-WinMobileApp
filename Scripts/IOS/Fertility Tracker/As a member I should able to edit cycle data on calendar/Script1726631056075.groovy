@@ -17,29 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('ios/Home/fertilityTracker'), 0)
+Mobile.tap(findTestObject('IOS/Home/fertilityTracker'), 0)
 
-Mobile.tap(findTestObject('ios/Fertility Tracker/button_EditCycleData'), 0)
+Mobile.tap(findTestObject('IOS/Fertility Tracker/button_EditCycleData'), 0)
 
-Mobile.tap(findTestObject('ios/Fertility Tracker/when_did_last_perio_start'), 0)
+Mobile.tap(findTestObject('IOS/Fertility Tracker/when_did_last_perio_start'), 0)
 
-Mobile.tap(findTestObject('ios/Fertility Tracker/selectCurrentDate'), 10)
+Mobile.tap(findTestObject('IOS/Fertility Tracker/selectCurrentDate'), 10)
 
-Mobile.tap(findTestObject('ios/Fertility Tracker/button_Done'), 0)
+Mobile.tap(findTestObject('IOS/Fertility Tracker/button_Done'), 0)
 
-Mobile.tap(findTestObject('ios/Fertility Tracker/button_Save'), 0)
+Mobile.tap(findTestObject('IOS/Fertility Tracker/button_Save'), 0)
 
-Mobile.tap(findTestObject('ios/Fertility Tracker/how_long_period_last'), 0)
+Mobile.tap(findTestObject('IOS/Fertility Tracker/how_long_period_last'), 0)
 
-Mobile.sendKeys(findTestObject('ios/Fertility Tracker/selectDays'), '3')
+Mobile.sendKeys(findTestObject('IOS/Fertility Tracker/selectDays'), '3')
 
-Mobile.tap(findTestObject('ios/Fertility Tracker/how_long_is_your_cycle'), 0)
+Mobile.tap(findTestObject('IOS/Fertility Tracker/how_long_is_your_cycle'), 0)
 
-Mobile.sendKeys(findTestObject('ios/Fertility Tracker/selectLength'), '25')
+Mobile.sendKeys(findTestObject('IOS/Fertility Tracker/selectLength'), '25')
 
-Mobile.tap(findTestObject('ios/Fertility Tracker/button_Done'), 0)
+Mobile.tap(findTestObject('IOS/Fertility Tracker/button_Done'), 0)
 
-Mobile.tap(findTestObject('ios/Fertility Tracker/button_Save'), 0)
+Mobile.tap(findTestObject('IOS/Fertility Tracker/button_Save'), 0)
 
-Mobile.verifyElementVisible(findTestObject('ios/Fertility Tracker/successTxt_CycleData'), 10)
+Mobile.verifyElementVisible(findTestObject('IOS/Fertility Tracker/successTxt_CycleData'), 10)
 

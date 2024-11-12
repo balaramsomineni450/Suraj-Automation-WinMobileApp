@@ -20,13 +20,13 @@ import com.kms.katalon.core.testobject.MobileTestObject as MobileTestObject
 import com.kms.katalon.core.testobject.MobileTestObject.MobileLocatorStrategy as MobileLocatorStrategy
 import groovy.time.TimeCategory as TimeCategory
 
-Mobile.tap(findTestObject('ios/Home/fertilityTracker'), 0)
+Mobile.tap(findTestObject('IOS/Home/fertilityTracker'), 0)
 
-Mobile.tap(findTestObject('ios/Fertility Tracker/selectCurrentDate'), 0)
+Mobile.tap(findTestObject('IOS/Fertility Tracker/selectCurrentDate'), 0)
 
-Mobile.tap(findTestObject('ios/Fertility Tracker/button_SetReminder'), 0)
+Mobile.tap(findTestObject('IOS/Fertility Tracker/button_SetReminder'), 0)
 
-Mobile.tap(findTestObject('ios/Fertility Tracker/Set Reminder/button_AddReminder'), 0)
+Mobile.tap(findTestObject('IOS/Fertility Tracker/Set Reminder/button_AddReminder'), 0)
 
 device_Height = Mobile.getDeviceHeight()
 
@@ -48,7 +48,7 @@ int endY = device_Height * 0.70
 'Swipe Vertical from top to bottom'
 Mobile.swipe(startX, endY, endX, startY)
 
-Mobile.tap(findTestObject('ios/Fertility Tracker/Set Reminder/button_Save'), 0)
+Mobile.tap(findTestObject('IOS/Fertility Tracker/Set Reminder/button_Save'), 0)
 
-Mobile.verifyElementNotVisible(findTestObject('ios/Fertility Tracker/Set Reminder/successTxt_Reminder'), 5)
+Mobile.verifyElementNotVisible(findTestObject('IOS/Fertility Tracker/Set Reminder/successTxt_Reminder'), 5)
 

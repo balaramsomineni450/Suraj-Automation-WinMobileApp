@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a member, I should able to navigate to Legacy application to order Testing Kit</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>71b3da00-bb67-4c62-98f2-d619a294146a</testCaseGuid>
+</TestCaseEntity>

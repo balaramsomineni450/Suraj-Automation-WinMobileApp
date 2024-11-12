@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('ios/Home/upcoming_Appointment'), 0)
+Mobile.tap(findTestObject('IOS/Home/upcoming_Appointment'), 0)
 
-Mobile.tap(findTestObject('ios/Book Appointment/button_CancelAppointment'), 0)
+Mobile.tap(findTestObject('IOS/Book Appointment/button_CancelAppointment'), 0)
 
-Mobile.verifyElementVisible(findTestObject('ios/Book Appointment/successTxt_CancelAppointment'), 5)
+Mobile.verifyElementVisible(findTestObject('IOS/Book Appointment/successTxt_CancelAppointment'), 5)
 
-Mobile.tap(findTestObject('ios/Book Appointment/button_okay'), 0)
+Mobile.tap(findTestObject('IOS/Book Appointment/button_okay'), 0)
 

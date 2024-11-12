@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('ios/Signin/skip'), 0, FailureHandling.OPTIONAL)
+Mobile.tap(findTestObject('IOS/Signin/skip'), 0, FailureHandling.OPTIONAL)
 
-Mobile.tap(findTestObject('ios/Signin/forgotPassword'), 0)
+Mobile.tap(findTestObject('IOS/Signin/forgotPassword'), 0)
 
-Mobile.verifyElementVisible(findTestObject('ios/Signin/txt_RecoverPassword'), 10)
+Mobile.verifyElementVisible(findTestObject('IOS/Signin/txt_RecoverPassword'), 10)
 

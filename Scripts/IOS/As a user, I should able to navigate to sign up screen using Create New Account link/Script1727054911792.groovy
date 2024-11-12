@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('ios/Signin/skip'), 10, FailureHandling.OPTIONAL)
+Mobile.tap(findTestObject('IOS/Signin/skip'), 10, FailureHandling.OPTIONAL)
 
-Mobile.tap(findTestObject('ios/Signin/createNewAccount'), 0)
+Mobile.tap(findTestObject('IOS/Signin/createNewAccount'), 0)
 
-Mobile.verifyElementNotVisible(findTestObject('ios/Signin/button_Login'), 0)
+Mobile.verifyElementNotVisible(findTestObject('IOS/Signin/button_Login'), 0)
 
