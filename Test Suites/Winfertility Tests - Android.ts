@@ -958,6 +958,18 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android/Treatment/As a member, I should able to upload treatment documents</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7c6f0791-18a9-4c9d-81d6-1d3a1df486f1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1a45ee4e-efce-4cb4-bad5-6b52e1ae2f83</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>a733844b-825f-4629-af96-71002a8af15a</guid>
@@ -965,6 +977,18 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android/Treatment/As a member, I should able to view already added treatments for review</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f731a955-017d-486e-b125-2792d6e5054a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e60e7ade-2156-490f-b281-d12c4ded28d2</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>8e586ecb-db80-4566-a6e7-490c22204001</guid>
@@ -972,5 +996,17 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android/Treatment/As a member, I should able to view letter for approved status</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c8d54e09-966d-41ec-bfdd-d0fbbd1e72d2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b427187c-737a-4c0d-b789-067e03a4a6ec</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -78,7 +78,7 @@ class DoBeforeTestCase {
 				
 				if(testCase.tag.contains("signin") || testCase.tag.contains("signup")) {
 					
-					Mobile.tap(findTestObject('Android/Signin/android.widget.TextView - Skip'),10, FailureHandling.OPTIONAL)
+					Mobile.tap(findTestObject('Android/Signin/android.widget.TextView - Skip'),20, FailureHandling.OPTIONAL)
 					
 					if(Mobile.verifyElementVisible(findTestObject('Android/Signin/input_EmailAddress'),20, FailureHandling.OPTIONAL)){
 						

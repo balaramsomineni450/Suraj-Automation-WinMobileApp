@@ -6,4 +6,30 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>49bca594-9b33-42a0-a524-c203fdd446bb</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>67c4815f-2d4e-4c36-968d-4b73a6187927</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b78241d0-bccb-4ab3-9ead-ae3b57cf2a79</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Testpremiermsk@gmail.com'</defaultValue>
+      <description></description>
+      <id>67c4815f-2d4e-4c36-968d-4b73a6187927</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test@123'</defaultValue>
+      <description></description>
+      <id>b78241d0-bccb-4ab3-9ead-ae3b57cf2a79</id>
+      <masked>false</masked>
+      <name>EmailAddress</name>
+   </variable>
 </TestCaseEntity>
