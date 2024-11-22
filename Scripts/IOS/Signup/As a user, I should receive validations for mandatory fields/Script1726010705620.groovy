@@ -17,43 +17,43 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('ios/Signin/createNewAccount'), 0)
+Mobile.tap(findTestObject('IOS/Signin/createNewAccount'), 0)
 
-Mobile.tap(findTestObject('ios/Signup/button_Next'), 0)
+Mobile.tap(findTestObject('IOS/Signup/button_Next'), 0)
 
-Mobile.verifyElementVisible(findTestObject('ios/Signup/errortxt_EnterFirstName'), 0)
+Mobile.verifyElementVisible(findTestObject('IOS/Signup/errortxt_EnterFirstName'), 0)
 
-Mobile.tap(findTestObject('ios/Signup/button_Ok'), 0)
+Mobile.tap(findTestObject('IOS/Signup/button_Ok'), 0)
 
-Mobile.setText(findTestObject('ios/Signup/firstName'), 'Test', 0)
+Mobile.setText(findTestObject('IOS/Signup/firstName'), 'Test', 0)
 
-Mobile.tap(findTestObject('ios/Signup/button_Next'), 0)
+Mobile.tap(findTestObject('IOS/Signup/button_Next'), 0)
 
-Mobile.verifyElementVisible(findTestObject('ios/Signup/errortxt_EnterLastName'), 0)
+Mobile.verifyElementVisible(findTestObject('IOS/Signup/errortxt_EnterLastName'), 0)
 
-Mobile.tap(findTestObject('ios/Signup/button_Ok'), 0)
+Mobile.tap(findTestObject('IOS/Signup/button_Ok'), 0)
 
-Mobile.setText(findTestObject('ios/Signup/lastName'), 'Test', 0)
+Mobile.setText(findTestObject('IOS/Signup/lastName'), 'Test', 0)
 
-Mobile.tap(findTestObject('ios/Signup/button_Next'), 0)
+Mobile.tap(findTestObject('IOS/Signup/button_Next'), 0)
 
-Mobile.verifyElementVisible(findTestObject('ios/Signup/errortxt_EnterEmail'), 0)
+Mobile.verifyElementVisible(findTestObject('IOS/Signup/errortxt_EnterEmail'), 0)
 
-Mobile.tap(findTestObject('ios/Signup/button_Ok'), 0)
+Mobile.tap(findTestObject('IOS/Signup/button_Ok'), 0)
 
-Mobile.setText(findTestObject('ios/Signup/emailAddress'), 'test23@gmailcom', 0)
+Mobile.setText(findTestObject('IOS/Signup/emailAddress'), 'test23@gmailcom', 0)
 
-Mobile.setText(findTestObject('ios/Signup/password'), 'Test@1234', 0)
+Mobile.setText(findTestObject('IOS/Signup/password'), 'Test@1234', 0)
 
-Mobile.tap(findTestObject('ios/Signup/button_Next'), 0)
+Mobile.tap(findTestObject('IOS/Signup/button_Next'), 0)
 
-Mobile.verifyElementVisible(findTestObject('ios/Signup/errortxt_EnterConfirmPassword'), 0)
+Mobile.verifyElementVisible(findTestObject('IOS/Signup/errortxt_EnterConfirmPassword'), 0)
 
-Mobile.tap(findTestObject('ios/Signup/button_Ok'), 0)
+Mobile.tap(findTestObject('IOS/Signup/button_Ok'), 0)
 
-Mobile.setText(findTestObject('ios/Signup/confirmPassword'), 'Test@1234', 0)
+Mobile.setText(findTestObject('IOS/Signup/confirmPassword'), 'Test@1234', 0)
 
-Mobile.tap(findTestObject('ios/Signup/button_Next'), 0)
+Mobile.tap(findTestObject('IOS/Signup/button_Next'), 0)
 
-Mobile.verifyElementVisible(findTestObject('ios/Signup/errortxt_SelectTnC'), 0)
+Mobile.verifyElementVisible(findTestObject('IOS/Signup/errortxt_SelectTnC'), 0)
 

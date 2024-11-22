@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a user, I should able to navigate to Rx Authorization screen</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d414b31b-60b3-4572-90c0-91bd88f6eda9</testCaseGuid>
+</TestCaseEntity>

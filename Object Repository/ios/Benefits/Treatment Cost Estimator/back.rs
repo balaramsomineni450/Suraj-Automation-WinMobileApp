@@ -1,50 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>RequestReimbursement</name>
+   <name>back</name>
    <tag></tag>
-   <elementGuidId>68114333-83cd-4433-bc0d-93e749639ea1</elementGuidId>
+   <elementGuidId>56f8ba60-c802-4737-bb0d-3ee05a35c5ff</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <locator>//android.widget.TextView[@text=&quot;Request Reimburesement&quot;]</locator>
+   <locator>//XCUIElementTypeImage[@name=&quot;backButton&quot;]</locator>
    <locatorCollection>
       <entry>
-         <key>XPATH</key>
+         <key>CUSTOM</key>
+         <value></value>
       </entry>
       <entry>
          <key>CLASS_NAME</key>
+         <value></value>
       </entry>
       <entry>
          <key>ID</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ATTRIBUTES</key>
+      </entry>
+      <entry>
+         <key>NAME</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>IOS_PREDICATE_STRING</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ACCESSIBILITY</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ANDROID_VIEWTAG</key>
+         <value></value>
       </entry>
       <entry>
          <key>ANDROID_UI_AUTOMATOR</key>
          <value>new UiSelector()</value>
       </entry>
       <entry>
-         <key>ANDROID_VIEWTAG</key>
-      </entry>
-      <entry>
-         <key>NAME</key>
-      </entry>
-      <entry>
-         <key>CUSTOM</key>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
-      </entry>
-      <entry>
          <key>IOS_CLASS_CHAIN</key>
+         <value></value>
       </entry>
       <entry>
-         <key>ATTRIBUTES</key>
-      </entry>
-      <entry>
-         <key>IOS_PREDICATE_STRING</key>
-      </entry>
-      <entry>
-         <key>ACCESSIBILITY</key>
+         <key>XPATH</key>
+         <value></value>
       </entry>
    </locatorCollection>
    <locatorStrategy>XPATH</locatorStrategy>

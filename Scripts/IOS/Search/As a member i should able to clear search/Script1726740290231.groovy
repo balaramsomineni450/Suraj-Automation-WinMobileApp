@@ -17,23 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('ios/Home/FindCare'), 0)
+Mobile.tap(findTestObject('IOS/Home/FindCare'), 0)
 
-Mobile.tap(findTestObject('ios/Search/Finde Care Near You'), 0)
+Mobile.tap(findTestObject('IOS/Search/Finde Care Near You'), 0)
 
-Mobile.tap(findTestObject('ios/Search/Searchby_City'), 0)
+Mobile.tap(findTestObject('IOS/Search/Searchby_City'), 0)
 
-Mobile.setText(findTestObject('ios/Search/input_City'), CityName, 0)
+Mobile.setText(findTestObject('IOS/Search/input_City1'), CityName, 0)
 
 Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('ios/Search/selectCheckbox-BIPOC'), 0)
+Mobile.tap(findTestObject('IOS/Search/selectCheckbox-BIPOC'), 0)
 
-Mobile.tap(findTestObject('ios/Search/button_StartSearch'), 0)
+Mobile.tap(findTestObject('IOS/Search/button_StartSearch'), 0)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('ios/Search/link_Clear'), 5)
+Mobile.tap(findTestObject('IOS/Search/link_Clear'), 5)
 
-Mobile.verifyElementVisible(findTestObject('ios/Search/button_StartSearch'), 5)
+Mobile.verifyElementVisible(findTestObject('IOS/Search/button_StartSearch'), 5)
 

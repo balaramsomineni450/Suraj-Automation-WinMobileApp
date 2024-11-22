@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a user, I should able to navigate to the PHI form screen</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fda2ea5f-a31e-44d6-951e-54886ca11162</testCaseGuid>
+</TestCaseEntity>

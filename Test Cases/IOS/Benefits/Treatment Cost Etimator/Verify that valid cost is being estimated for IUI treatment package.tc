@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify that valid cost is being estimated for IUI treatment package</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fa51e128-10cb-4ce5-b811-a80344d8ea75</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d8ef52fc-eb97-400f-8481-3dd9bdfe9918</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'10006'</defaultValue>
+      <description></description>
+      <id>d8ef52fc-eb97-400f-8481-3dd9bdfe9918</id>
+      <masked>false</masked>
+      <name>Zipcode</name>
+   </variable>
+</TestCaseEntity>

@@ -17,5 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.verifyElementVisible(findTestObject('ios/Book Appointment/txt_NoUpcomingAppointment'), 0)
+Mobile.verifyElementVisible(findTestObject('IOS/Book Appointment/txt_NoUpcomingAppointment'), 0)
 

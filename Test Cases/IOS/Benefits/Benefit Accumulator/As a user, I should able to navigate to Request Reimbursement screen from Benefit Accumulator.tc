@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a user, I should able to navigate to Request Reimbursement screen from Benefit Accumulator</name>
+   <tag>ios</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b8e786d2-5e4c-4ceb-af59-9f49e765c279</testCaseGuid>
+</TestCaseEntity>

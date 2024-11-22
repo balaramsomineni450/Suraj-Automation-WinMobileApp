@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('ios/Signin/skip'), 5, FailureHandling.OPTIONAL)
+Mobile.tap(findTestObject('IOS/Signin/skip'), 5, FailureHandling.OPTIONAL)
 
-Mobile.setText(findTestObject('ios/Signin/username'), EmailAddress, 0)
+Mobile.setText(findTestObject('IOS/Signin/username'), EmailAddress, 0)
 
-Mobile.setText(findTestObject('ios/Signin/password'), Password, 0)
+Mobile.setText(findTestObject('IOS/Signin/password'), Password, 0)
 
-Mobile.tap(findTestObject('ios/Signin/button_Login'), 5)
+Mobile.tap(findTestObject('IOS/Signin/button_Login'), 5)
 

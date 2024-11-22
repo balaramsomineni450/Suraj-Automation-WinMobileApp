@@ -17,13 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('ios/Home/menu_Support'), 20)
+Mobile.tap(findTestObject('IOS/Home/menu_Support'), 20)
 
-Mobile.tap(findTestObject('ios/Book Appointment/biopic'), 0)
+Mobile.tap(findTestObject('IOS/Book Appointment/biopic'), 0)
 
-Mobile.tap(findTestObject('ios/Book Appointment/connect_with_advocate'), 0)
+Mobile.tap(findTestObject('IOS/Book Appointment/connect_with_advocate'), 0)
 
-Mobile.tap(findTestObject('ios/Book Appointment/view_behavioral_health_advocate_schedule'), 0)
+Mobile.tap(findTestObject('IOS/Book Appointment/view_behavioral_health_advocate_schedule'), 0)
 
-Mobile.verifyElementVisible(findTestObject('ios/Book Appointment/txt_SchedulingBehavioralHealth'), 0)
+Mobile.verifyElementVisible(findTestObject('IOS/Book Appointment/txt_SchedulingBehavioralHealth'), 0)
 

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify that valid cost is being estimated for FET treatment package</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d1d35716-92da-4b72-8f2b-4945d929da1a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>53534d57-ea5c-4165-a459-6484ac4e96a8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'10006'</defaultValue>
+      <description></description>
+      <id>53534d57-ea5c-4165-a459-6484ac4e96a8</id>
+      <masked>false</masked>
+      <name>Zipcode</name>
+   </variable>
+</TestCaseEntity>

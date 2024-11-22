@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify that valid cost is being estimated for Egg Freezing treatment package</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0941a695-a253-4438-b87d-e3202cc144be</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2229d80c-8bfa-4b88-96ef-412d701fe2b5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'10006'</defaultValue>
+      <description></description>
+      <id>2229d80c-8bfa-4b88-96ef-412d701fe2b5</id>
+      <masked>false</masked>
+      <name>Zipcode</name>
+   </variable>
+</TestCaseEntity>

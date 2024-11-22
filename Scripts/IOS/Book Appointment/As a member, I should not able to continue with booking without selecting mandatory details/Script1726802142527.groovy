@@ -22,25 +22,25 @@ import com.kms.katalon.core.testobject.MobileTestObject as MobileTestObject
 import com.kms.katalon.core.testobject.MobileTestObject.MobileLocatorStrategy as MobileLocatorStrategy
 import groovy.time.TimeCategory as TimeCategory
 
-Mobile.tap(findTestObject('ios/Home/menu_Support'), 0)
+Mobile.tap(findTestObject('IOS/Home/menu_Support'), 0)
 
-Mobile.tap(findTestObject('ios/Book Appointment/biopic'), 0)
+Mobile.tap(findTestObject('IOS/Book Appointment/biopic'), 0)
 
-Mobile.tap(findTestObject('ios/Book Appointment/connect_with_advocate'), 0)
+Mobile.tap(findTestObject('IOS/Book Appointment/connect_with_advocate'), 0)
 
-Mobile.tap(findTestObject('ios/Book Appointment/view_behavioral_health_advocate_schedule'), 0)
+Mobile.tap(findTestObject('IOS/Book Appointment/view_behavioral_health_advocate_schedule'), 0)
 
-Mobile.tap(findTestObject('ios/Book Appointment/button_okay'), 0)
+Mobile.tap(findTestObject('IOS/Book Appointment/button_okay'), 0)
 
-Mobile.tap(findTestObject('ios/Book Appointment/schedule_phone_consultation'), 0)
+Mobile.tap(findTestObject('IOS/Book Appointment/schedule_phone_consultation'), 0)
 
-Mobile.tap(findTestObject('ios/Book Appointment/button_next'), 0)
+Mobile.tap(findTestObject('IOS/Book Appointment/button_next'), 0)
 
-Mobile.verifyElementVisible(findTestObject('ios/Book Appointment/errortxt_Please_Clickon_Available_Date'), 0)
+Mobile.verifyElementVisible(findTestObject('IOS/Book Appointment/errortxt_Please_Clickon_Available_Date'), 0)
 
-Mobile.tap(findTestObject('ios/Book Appointment/button_okay'), 0)
+Mobile.tap(findTestObject('IOS/Book Appointment/button_okay'), 0)
 
-MobileTestObject mobileTestObject = findTestObject('ios/Book Appointment/selectDate')
+MobileTestObject mobileTestObject = findTestObject('IOS/Book Appointment/selectDate')
 
 mobileTestObject.setMobileLocatorStrategy(MobileLocatorStrategy.XPATH)
 
@@ -58,12 +58,12 @@ mobileTestObject.setMobileLocator(newxpath)
 
 Mobile.tap(mobileTestObject, 60)
 
-Mobile.tap(findTestObject('ios/Book Appointment/button_next'), 0)
+Mobile.tap(findTestObject('IOS/Book Appointment/button_next'), 0)
 
 int a = day.toInteger()
 
-while (Mobile.verifyElementVisible(findTestObject('ios/Book Appointment/errortxt_Please_Clickon_Available_Date'), 0, FailureHandling.OPTIONAL)) {
-    Mobile.tap(findTestObject('ios/Book Appointment/button_okay'), 0)
+while (Mobile.verifyElementVisible(findTestObject('IOS/Book Appointment/errortxt_Please_Clickon_Available_Date'), 0, FailureHandling.OPTIONAL)) {
+    Mobile.tap(findTestObject('IOS/Book Appointment/button_okay'), 0)
 
     a++
 
@@ -75,10 +75,10 @@ while (Mobile.verifyElementVisible(findTestObject('ios/Book Appointment/errortxt
 
     Mobile.tap(mobileTestObject, 60)
 
-    Mobile.tap(findTestObject('ios/Book Appointment/button_next'), 0)
+    Mobile.tap(findTestObject('IOS/Book Appointment/button_next'), 0)
 }
 
-Mobile.tap(findTestObject('ios/Book Appointment/button_BookAppointment'), 0)
+Mobile.tap(findTestObject('IOS/Book Appointment/button_BookAppointment'), 0)
 
-Mobile.verifyElementVisible(findTestObject('ios/Book Appointment/errorTxt_TimeSlot'), 5)
+Mobile.verifyElementVisible(findTestObject('IOS/Book Appointment/errorTxt_TimeSlot'), 5)
 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a user, I should able to navigate back to Benefits screen from Benefit Accumulator screen</name>
+   <tag>ios</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3e0fcfe7-1e92-4dce-ac29-c81c24c2cf9f</testCaseGuid>
+</TestCaseEntity>

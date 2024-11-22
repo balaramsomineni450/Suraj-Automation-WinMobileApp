@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a user, I should able to print the document from My Documents</name>
+   <tag>ios</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b1bba5bd-5f6b-418f-bd25-b0e17c68f6ca</testCaseGuid>
+</TestCaseEntity>

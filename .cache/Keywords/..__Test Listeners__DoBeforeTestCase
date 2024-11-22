@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "keywordFileContentHash": "F321A66E51B43F36F4EEF401782D808E",
+=======
+  "keywordFileContentHash": "A0173DE73F8983FF34B508055EF62D28",
+>>>>>>> branch 'master' of https://github.com/balaramsomineni450/Suraj-Automation-WinMobileApp.git
   "keywordClasses": [
     {
       "name": "DoBeforeTestCase",

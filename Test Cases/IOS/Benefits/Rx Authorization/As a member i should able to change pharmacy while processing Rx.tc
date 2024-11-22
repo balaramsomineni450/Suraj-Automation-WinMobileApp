@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a member i should able to change pharmacy while processing Rx</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>af9bd6c9-9fb5-405f-aaff-e315aa366e3d</testCaseGuid>
+</TestCaseEntity>

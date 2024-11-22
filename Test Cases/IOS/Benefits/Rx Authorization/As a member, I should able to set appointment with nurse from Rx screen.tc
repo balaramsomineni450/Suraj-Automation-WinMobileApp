@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a member, I should able to set appointment with nurse from Rx screen</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6ad46ed7-0638-4c88-ab22-8729e6ef5c1c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f0839e3f-5e0b-4b89-8c48-b2386745916c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description></description>
+      <id>f0839e3f-5e0b-4b89-8c48-b2386745916c</id>
+      <masked>false</masked>
+      <name>MedQuantity</name>
+   </variable>
+</TestCaseEntity>

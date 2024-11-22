@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a member, I should able to navigate to Ava fertility application to order Ovulation tracking bracelet</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e887b830-969b-4879-88ef-32ec16fae6db</testCaseGuid>
+</TestCaseEntity>

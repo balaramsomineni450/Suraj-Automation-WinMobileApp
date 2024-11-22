@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('ios/Home/link_treatment'), 0)
+Mobile.tap(findTestObject('IOS/Home/link_treatment'), 0)
 
 device_Height = Mobile.getDeviceHeight()
 
@@ -40,5 +40,5 @@ Mobile.delay(20)
 'Swipe Vertical from top to bottom'
 Mobile.swipe(startX, endY, endX, startY)
 
-Mobile.tap(findTestObject('ios/Treatment/viewLetter'), 20)
+Mobile.tap(findTestObject('IOS/Treatment/viewLetter'), 20)
 

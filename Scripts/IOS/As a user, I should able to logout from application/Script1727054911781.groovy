@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('ios/Home/menu_Me'), 0)
+Mobile.tap(findTestObject('IOS/Home/menu_Me'), 0)
 
-Mobile.tap(findTestObject('ios/Home/logout'), 0)
+Mobile.tap(findTestObject('IOS/Home/logout'), 0)
 
