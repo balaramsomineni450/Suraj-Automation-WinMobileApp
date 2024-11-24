@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>ios</description>
    <name>As a member, I should able to set reminders at fertility tracker</name>
-   <tag></tag>
+   <tag>ios</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>e6c5631f-9a0a-4b8e-b9b8-254cb829708f</testCaseGuid>

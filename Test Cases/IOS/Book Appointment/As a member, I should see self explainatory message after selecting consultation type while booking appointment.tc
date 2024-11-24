@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>ios</description>
    <name>As a member, I should see self explainatory message after selecting consultation type while booking appointment</name>
-   <tag></tag>
+   <tag>ios</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>ade34e48-49ab-4a0f-9fb0-21116247d9b8</testCaseGuid>

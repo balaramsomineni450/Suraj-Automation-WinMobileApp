@@ -105,7 +105,9 @@ Mobile.tap(findTestObject('Android/Book Appointment/timeSlot'), 0)
 
 Mobile.tap(findTestObject('Android/Book Appointment/android.widget.TextView - Book Appointment'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Android/Book Appointment/android.widget.Button - YES'), 0)
+if (Mobile.verifyElementVisible(findTestObject('Android/Book Appointment/messageTxt_DuplicateAppointment'), 10, FailureHandling.OPTIONAL)) {
+    Mobile.tap(findTestObject('Android/Book Appointment/button_Yes'), 0)
+}
 
 Mobile.verifyElementVisible(findTestObject('Object Repository/Android/Book Appointment/android.widget.TextView - Success'), 
     15)

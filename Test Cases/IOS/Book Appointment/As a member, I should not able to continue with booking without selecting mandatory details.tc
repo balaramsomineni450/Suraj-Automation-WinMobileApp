@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>ios</description>
    <name>As a member, I should not able to continue with booking without selecting mandatory details</name>
-   <tag></tag>
+   <tag>ios</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>2b86e5a0-4538-4b1c-a30e-2cbc84214e17</testCaseGuid>

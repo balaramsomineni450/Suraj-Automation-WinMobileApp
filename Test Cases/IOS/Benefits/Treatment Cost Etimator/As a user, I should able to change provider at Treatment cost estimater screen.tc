@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>ios</description>
    <name>As a user, I should able to change provider at Treatment cost estimater screen</name>
-   <tag></tag>
+   <tag>ios</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>fb3bd669-94e9-4c89-8c13-061ab7e24136</testCaseGuid>
@@ -10,8 +10,34 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
+      <variableId>3eb3f9fb-beef-4f5b-923a-1a0ebe92b3b5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>715e0da8-3bca-46c1-8634-7df7effdca67</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>7fb26d93-c5a8-4546-a613-b848b9425c5f</variableId>
    </variableLinks>
+   <variable>
+      <defaultValue>'Testpremiermsk@gmail.com'</defaultValue>
+      <description></description>
+      <id>3eb3f9fb-beef-4f5b-923a-1a0ebe92b3b5</id>
+      <masked>false</masked>
+      <name>EmailAddress</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test@123'</defaultValue>
+      <description></description>
+      <id>715e0da8-3bca-46c1-8634-7df7effdca67</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
    <variable>
       <defaultValue>'10003'</defaultValue>
       <description></description>

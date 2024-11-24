@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>ios</description>
    <name>Verify that valid cost is being estimated for FET treatment package</name>
-   <tag></tag>
+   <tag>ios</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>d1d35716-92da-4b72-8f2b-4945d929da1a</testCaseGuid>
@@ -10,8 +10,34 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
+      <variableId>08812be8-1641-4e8e-b7f6-0b048ef75f5c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>155ed29f-c1e3-46e8-a8bb-760caa08d4e7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>53534d57-ea5c-4165-a459-6484ac4e96a8</variableId>
    </variableLinks>
+   <variable>
+      <defaultValue>'Testpremiermsk@gmail.com'</defaultValue>
+      <description></description>
+      <id>08812be8-1641-4e8e-b7f6-0b048ef75f5c</id>
+      <masked>false</masked>
+      <name>EmailAddress</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test@123'</defaultValue>
+      <description></description>
+      <id>155ed29f-c1e3-46e8-a8bb-760caa08d4e7</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
    <variable>
       <defaultValue>'10006'</defaultValue>
       <description></description>

@@ -1,9 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>ios</description>
    <name>As a user, I shuold able to enter details at PHI screen and submit the form</name>
-   <tag></tag>
+   <tag>ios</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>44c33fd1-01f1-4b67-94d1-3287863a9246</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a149a160-9c9e-4493-ab69-bd162128a302</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4816e93b-cb01-4075-8904-35a174099634</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Testpremiermsk@gmail.com'</defaultValue>
+      <description></description>
+      <id>a149a160-9c9e-4493-ab69-bd162128a302</id>
+      <masked>false</masked>
+      <name>EmailAddress</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test@123'</defaultValue>
+      <description></description>
+      <id>4816e93b-cb01-4075-8904-35a174099634</id>
+      <masked>false</masked>
+      <name>variable_0</name>
+   </variable>
 </TestCaseEntity>

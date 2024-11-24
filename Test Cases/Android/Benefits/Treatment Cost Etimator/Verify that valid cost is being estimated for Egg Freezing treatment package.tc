@@ -10,8 +10,34 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
+      <variableId>1ca5794a-3328-41fd-894a-fb5cb22723d8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d19913c6-0b9c-429b-9775-22bfe249f118</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>7c080bcc-6dc0-46eb-9635-4a33e3b598cf</variableId>
    </variableLinks>
+   <variable>
+      <defaultValue>'Testpremiermsk@gmail.com'</defaultValue>
+      <description></description>
+      <id>1ca5794a-3328-41fd-894a-fb5cb22723d8</id>
+      <masked>false</masked>
+      <name>EmailAddress</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test@123'</defaultValue>
+      <description></description>
+      <id>d19913c6-0b9c-429b-9775-22bfe249f118</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
    <variable>
       <defaultValue>'10006'</defaultValue>
       <description></description>

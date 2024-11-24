@@ -23,5 +23,10 @@ Mobile.tap(findTestObject('Android/android.widget.TextView - Cancel Appointment'
 
 Mobile.tap(findTestObject('Android/Home/android.widget.Button - YES'), 0)
 
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.verifyElementVisible(findTestObject('Android/Book Appointment/android.widget.TextView - No upcoming appointment'), 
+    0)
+
+
 

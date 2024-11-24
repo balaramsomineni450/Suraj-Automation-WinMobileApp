@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "D540191A432F1A0B04B633B1D1E514EA",
+  "keywordClasses": [
+    {
+      "name": "DoBefore_TestCase_CheckingRemovalOfCancelledAppointment",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>ios</description>
    <name>As a new user, I should able to fill up details at signup screen and proceed next</name>
    <tag>ios</tag>
    <comment></comment>

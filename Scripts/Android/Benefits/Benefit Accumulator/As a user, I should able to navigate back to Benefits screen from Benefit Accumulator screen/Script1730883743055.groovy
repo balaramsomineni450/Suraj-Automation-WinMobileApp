@@ -25,3 +25,5 @@ Mobile.tap(findTestObject('Android/Benefits/Benefit Accumulator/back'), 0)
 
 Mobile.verifyElementVisible(findTestObject('Android/Benefits/menu_BenefitsAccumulator'), 0)
 
+
+

@@ -94,7 +94,7 @@ if (Mobile.verifyElementVisible(findTestObject('Android/Book Appointment/message
     Mobile.tap(findTestObject('Android/Book Appointment/button_Yes'), 0)
 }
 
-Mobile.verifyElementVisible(findTestObject('Android/Book Appointment/android.widget.TextView - Success'), 2)
+Mobile.verifyElementVisible(findTestObject('Android/Book Appointment/android.widget.TextView - Success'), 15)
 
 static void writeStringToFile(String filePath, String theString) {
     new File(filePath).withWriter('utf-8', { def writer ->

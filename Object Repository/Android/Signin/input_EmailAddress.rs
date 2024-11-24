@@ -3,14 +3,14 @@
    <description></description>
    <name>input_EmailAddress</name>
    <tag></tag>
-   <elementGuidId>f77f2594-cf2f-4795-b2db-78e0b6c2ce4d</elementGuidId>
+   <elementGuidId>d7c90a9b-813b-4363-a492-c80323c9872d</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <locator>//d2.j1/android.view.View/android.view.View/android.widget.EditText[1]</locator>
+   <locator>//android.widget.TextView[@text=&quot;EmailId&quot;]/parent::android.widget.EditText</locator>
    <locatorCollection>
       <entry>
-         <key>ACCESSIBILITY</key>
+         <key>IOS_PREDICATE_STRING</key>
          <value></value>
       </entry>
       <entry>
@@ -18,22 +18,11 @@
          <value>new UiSelector()</value>
       </entry>
       <entry>
-         <key>NAME</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//android.widget.TextView[@text="EmailId"]/parent::android.widget.EditText</value>
       </entry>
       <entry>
          <key>ID</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>IOS_PREDICATE_STRING</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>ATTRIBUTES</key>
-      </entry>
-      <entry>
-         <key>CUSTOM</key>
          <value></value>
       </entry>
       <entry>
@@ -41,7 +30,7 @@
          <value></value>
       </entry>
       <entry>
-         <key>IMAGE</key>
+         <key>CLASS_NAME</key>
          <value></value>
       </entry>
       <entry>
@@ -49,12 +38,23 @@
          <value></value>
       </entry>
       <entry>
-         <key>CLASS_NAME</key>
+         <key>NAME</key>
          <value></value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//d2.j1/android.view.View/android.view.View/android.widget.EditText[1]</value>
+         <key>CUSTOM</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ACCESSIBILITY</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ATTRIBUTES</key>
       </entry>
    </locatorCollection>
    <locatorStrategy>XPATH</locatorStrategy>

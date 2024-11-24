@@ -3,14 +3,21 @@
    <description></description>
    <name>input_Password</name>
    <tag></tag>
-   <elementGuidId>12c212f4-80cd-4531-b0f6-7cbc24cf3cc5</elementGuidId>
+   <elementGuidId>bb274840-c79d-4e79-869d-704274250a93</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <locator>//d2.j1/android.view.View/android.view.View/android.widget.EditText[2]</locator>
+   <locator>//android.widget.TextView[@text=&quot;Password&quot;]/parent::android.widget.EditText</locator>
    <locatorCollection>
       <entry>
-         <key>ACCESSIBILITY</key>
+         <key>NAME</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ATTRIBUTES</key>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
          <value></value>
       </entry>
       <entry>
@@ -18,34 +25,15 @@
          <value>new UiSelector()</value>
       </entry>
       <entry>
-         <key>NAME</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>ID</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>IOS_PREDICATE_STRING</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>ATTRIBUTES</key>
-      </entry>
-      <entry>
          <key>CUSTOM</key>
          <value></value>
       </entry>
       <entry>
+         <key>ACCESSIBILITY</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>ANDROID_VIEWTAG</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>IOS_CLASS_CHAIN</key>
          <value></value>
       </entry>
       <entry>
@@ -54,7 +42,19 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//d2.j1/android.view.View/android.view.View/android.widget.EditText[2]</value>
+         <value></value>
+      </entry>
+      <entry>
+         <key>IOS_PREDICATE_STRING</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>IOS_CLASS_CHAIN</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ID</key>
+         <value></value>
       </entry>
    </locatorCollection>
    <locatorStrategy>XPATH</locatorStrategy>

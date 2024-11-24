@@ -47,5 +47,3 @@ Mobile.tap(findTestObject('Android/Book Appointment/android.widget.TextView - Ne
 Mobile.verifyElementVisible(findTestObject('Object Repository/Android/Book Appointment/android.widget.TextView - Please click on an available date'), 
     0)
 
-Mobile.tap(findTestObject('Android/Book Appointment/android.widget.Button - OK'), 0)
-

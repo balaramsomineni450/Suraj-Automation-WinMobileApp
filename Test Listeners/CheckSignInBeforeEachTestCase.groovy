@@ -22,7 +22,7 @@ import com.kms.katalon.core.annotation.AfterTestSuite
 import com.kms.katalon.core.context.TestCaseContext
 import com.kms.katalon.core.context.TestSuiteContext
 
-class DoBeforeTestCase {
+class CheckSignInBeforeEachTestCase {
 	/**
 	 * Executes before every test case starts.
 	 * @param testCaseContext related information of the executed test case.
@@ -30,7 +30,7 @@ class DoBeforeTestCase {
 	String Email,Pass
 	
 	@BeforeTestCase
-	def prerequisite(TestCaseContext testCaseContext) {
+	def checkLoginState(TestCaseContext testCaseContext) {
 		println testCaseContext.getTestCaseId()
 		println testCaseContext.getTestCaseVariables()
 		
@@ -54,7 +54,7 @@ class DoBeforeTestCase {
 		println Email
 		println Pass
 		
-		if(testCase.tag.contains("ios"))
+		if(testCase.description.contains("ios"))
 			{
 				Mobile.startExistingApplication('com.eisplc.winfertility', FailureHandling.STOP_ON_FAILURE)
 				
@@ -132,10 +132,10 @@ class DoBeforeTestCase {
 	
 	def login()
 	{
+		Mobile.setText(findTestObject('Android/Signin/input_Password'), Pass.substring(1, Pass.length() - 1), 2)
 		
 		Mobile.setText(findTestObject('Android/Signin/input_EmailAddress'), Email.substring(1, Email.length() - 1), 2)
 		
-		Mobile.setText(findTestObject('Android/Signin/input_Password'), Pass.substring(1, Pass.length() - 1), 2)
 		
 		Mobile.tap(findTestObject('Android/Signin/android.widget.TextView - Log In'), 5)
 		

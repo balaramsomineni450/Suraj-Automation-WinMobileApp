@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>ios</description>
    <name>As a user, I should receive error message for invalid email address</name>
    <tag>signin, ios</tag>
    <comment></comment>

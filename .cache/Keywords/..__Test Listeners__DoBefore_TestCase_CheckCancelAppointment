@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "8AC9DB826254D077D69D90838FB8D559",
+  "keywordClasses": [
+    {
+      "name": "DoBefore_TestCase_CheckCancelAppointment",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}
