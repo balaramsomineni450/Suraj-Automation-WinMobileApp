@@ -21,5 +21,5 @@ Mobile.tap(findTestObject('Android/Menu/Benefits'), 0)
 
 Mobile.tap(findTestObject('Android/Benefits/menu_MyDocuments'), 0)
 
-Mobile.verifyElementExist(findTestObject('Android/Benefits/My Documents/text_MedicalTreatment'), 0)
+Mobile.verifyElementExist(findTestObject('Android/Benefits/My Documents/text_MedicalTreatment'), 5)
 

@@ -19,5 +19,21 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.tap(findTestObject('Android/Home/treatment'), 0)
 
-Mobile.tap(findTestObject('Android/Treatment/button - Upload Documentation for Review'), 10)
+Mobile.tap(findTestObject('Android/Treatment/button - Upload Documentation for Review'), 30)
+
+Mobile.tap(findTestObject('Android/Treatment/dropdown_DocumentType'), 0)
+
+Mobile.tap(findTestObject('Android/Treatment/Fertility Cycle Reimburesement Receipt'), 0)
+
+Mobile.tap(findTestObject('Android/Treatment/button_SelectImages'), 0)
+
+Mobile.tap(findTestObject('Android/Treatment/firstImage'), 0)
+
+Mobile.verifyElementExist(findTestObject('Android/Treatment/icon_DeleteOne'), 0)
+
+Mobile.tap(findTestObject('Android/Treatment/button_SelectDocuments'), 0)
+
+Mobile.tap(findTestObject('Android/Treatment/secondImage'), 0)
+
+Mobile.verifyElementExist(findTestObject('Android/Treatment/icon_DeleteTwo'), 0)
 

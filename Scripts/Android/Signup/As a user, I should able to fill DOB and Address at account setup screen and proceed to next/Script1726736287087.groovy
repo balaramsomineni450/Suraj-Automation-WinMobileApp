@@ -34,7 +34,7 @@ Mobile.tap(findTestObject('Android/Signup/Account Setup/button_ok_DateSelect1'),
 
 Mobile.setText(findTestObject('Android/Signup/Account Setup/phoneNumber'), PhoneNumber, 0)
 
-Mobile.hideKeyboard()
+Mobile.hideKeyboard(FailureHandling.OPTIONAL)
 
 Mobile.tap(findTestObject('Android/Signup/Account Setup/agree_ReceiveText'), 0)
 
@@ -65,7 +65,7 @@ Mobile.tap(findTestObject('Android/Signup/Account Setup/selectCountry'), 0)
 
 Mobile.setText(findTestObject('Android/Signup/Account Setup/zipCode'), ZipCode, 0)
 
-Mobile.hideKeyboard()
+Mobile.hideKeyboard(FailureHandling.OPTIONAL)
 
 Mobile.tap(findTestObject('Android/Signup/Account Setup/language'), 0)
 

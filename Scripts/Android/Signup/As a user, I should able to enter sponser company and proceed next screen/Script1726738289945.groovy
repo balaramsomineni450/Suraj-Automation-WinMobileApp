@@ -22,7 +22,7 @@ Mobile.callTestCase(findTestCase('Test Cases/Android/Signup/As a user, I should 
 
 Mobile.setText(findTestObject('Android/Signup/Sponser Company/company'), CompanyName, 0)
 
-Mobile.hideKeyboard()
+Mobile.hideKeyboard(FailureHandling.OPTIONAL)
 
 Mobile.tap(findTestObject('Android/Signup/Sponser Company/button_Next'), 0)
 

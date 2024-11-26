@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>firstRX</name>
+   <name>button_SelectImages</name>
    <tag></tag>
-   <elementGuidId>157b94b5-1537-41de-960e-f1a26dd9e26a</elementGuidId>
+   <elementGuidId>be9a17ae-e356-45dd-a763-16841842bd69</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <locator>//android.widget.TextView[@text=&quot;RX Authorization&quot;]/following-sibling::android.view.View[1]/android.view.View[1]</locator>
+   <locator>//android.widget.TextView[@text=&quot;Select Image(s)&quot;]</locator>
    <locatorCollection>
       <entry>
          <key>CLASS_NAME</key>

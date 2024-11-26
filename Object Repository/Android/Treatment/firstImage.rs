@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>firstRX</name>
+   <name>firstImage</name>
    <tag></tag>
-   <elementGuidId>157b94b5-1537-41de-960e-f1a26dd9e26a</elementGuidId>
+   <elementGuidId>0861eb6c-28c7-43b5-914a-7d193837384f</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <locator>//android.widget.TextView[@text=&quot;RX Authorization&quot;]/following-sibling::android.view.View[1]/android.view.View[1]</locator>
+   <locator>(//android.widget.FrameLayout[@resource-id=&quot;com.android.documentsui:id/thumbnail&quot;])[1]</locator>
    <locatorCollection>
       <entry>
          <key>CLASS_NAME</key>

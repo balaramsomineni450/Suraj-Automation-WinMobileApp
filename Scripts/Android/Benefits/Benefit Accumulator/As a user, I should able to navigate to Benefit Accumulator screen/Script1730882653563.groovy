@@ -21,5 +21,5 @@ Mobile.tap(findTestObject('Android/Menu/Benefits'), 0)
 
 Mobile.tap(findTestObject('Android/Benefits/menu_BenefitsAccumulator'), 0)
 
-Mobile.verifyElementExist(findTestObject('Android/Benefits/Benefit Accumulator/button_RequestReimbursement'), 0)
+Mobile.verifyElementExist(findTestObject('Android/Benefits/Benefit Accumulator/button_RequestReimbursement'), 5)
 

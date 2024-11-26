@@ -1,60 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>firstRX</name>
+   <name>firstRX1</name>
    <tag></tag>
-   <elementGuidId>157b94b5-1537-41de-960e-f1a26dd9e26a</elementGuidId>
+   <elementGuidId>f0070fe0-d065-47a1-9c92-2913c52e6fc8</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <locator>//android.widget.TextView[@text=&quot;RX Authorization&quot;]/following-sibling::android.view.View[1]/android.view.View[1]</locator>
+   <locator>//d2.k1/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View[1]</locator>
    <locatorCollection>
       <entry>
          <key>CLASS_NAME</key>
-         <value></value>
       </entry>
       <entry>
          <key>ANDROID_VIEWTAG</key>
-         <value></value>
       </entry>
       <entry>
          <key>CUSTOM</key>
-         <value></value>
       </entry>
       <entry>
          <key>ATTRIBUTES</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value></value>
       </entry>
       <entry>
          <key>IOS_CLASS_CHAIN</key>
-         <value></value>
       </entry>
       <entry>
          <key>ANDROID_UI_AUTOMATOR</key>
          <value>new UiSelector()</value>
       </entry>
       <entry>
-         <key>ACCESSIBILITY</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>ID</key>
-         <value></value>
       </entry>
       <entry>
          <key>IMAGE</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>ACCESSIBILITY</key>
       </entry>
       <entry>
          <key>NAME</key>
-         <value></value>
       </entry>
       <entry>
          <key>IOS_PREDICATE_STRING</key>
-         <value></value>
       </entry>
    </locatorCollection>
    <locatorStrategy>XPATH</locatorStrategy>

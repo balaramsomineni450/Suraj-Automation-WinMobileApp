@@ -45,5 +45,7 @@ Mobile.tap(findTestObject('Android/Benefits/menu_PHIForm'), 0)
 
 Mobile.tap(findTestObject('Android/Benefits/PHI form/back'), 0)
 
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.verifyElementExist(findTestObject('Android/Benefits/menu_RxAuthorization'), 5)
 

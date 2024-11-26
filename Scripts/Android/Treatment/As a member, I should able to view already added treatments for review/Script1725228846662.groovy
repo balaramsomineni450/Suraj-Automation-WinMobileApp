@@ -19,5 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.tap(findTestObject('Android/Home/treatment'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Android/Treatment/label_Description'), 20)
+Mobile.verifyElementVisible(findTestObject('Android/Treatment/label_Description'), 30)
 

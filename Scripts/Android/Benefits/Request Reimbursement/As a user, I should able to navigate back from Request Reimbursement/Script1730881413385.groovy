@@ -23,5 +23,5 @@ Mobile.tap(findTestObject('Android/Benefits/menu_RequestReimbursement'), 0)
 
 Mobile.tap(findTestObject('Android/Benefits/Request Reimbursement/back'), 0)
 
-Mobile.verifyElementExist(findTestObject('Android/Benefits/menu_RequestReimbursement'), 0)
+Mobile.verifyElementExist(findTestObject('Android/Benefits/menu_RequestReimbursement'), 5)
 

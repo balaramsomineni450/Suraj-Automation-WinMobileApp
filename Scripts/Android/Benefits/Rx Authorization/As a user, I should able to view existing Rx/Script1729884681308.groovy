@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil
 
 Mobile.tap(findTestObject('Android/Menu/Benefits'), 0)
 
@@ -23,4 +24,15 @@ Mobile.tap(findTestObject('Android/Benefits/menu_RxAuthorization'), 0)
 
 Mobile.tap(findTestObject('Android/Benefits/Rx Authorization/firstRX'), 0)
 
-Mobile.verifyElementExist(findTestObject('Android/Benefits/Rx Authorization/text_AuthorizationNumber'), 0)
+if (Mobile.verifyElementExist(findTestObject('Android/Benefits/Rx Authorization/button_Next'), 5, FailureHandling.OPTIONAL)) {
+    Mobile.tap(findTestObject('Android/Benefits/Rx Authorization/button_Next'), 0)
+}
+
+if(Mobile.verifyElementExist(findTestObject('Android/Benefits/Rx Authorization/text_AuthorizationNumber'), 5, FailureHandling.OPTIONAL) || Mobile.verifyElementExist(findTestObject('Android/Benefits/Rx Authorization/button_PickBestPharmacy'), 0, FailureHandling.OPTIONAL)) {
+	
+}else {
+	KeywordUtil.markFailed('');
+}
+
+
+

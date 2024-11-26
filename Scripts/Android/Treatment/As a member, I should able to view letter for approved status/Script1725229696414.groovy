@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil
 
 Mobile.tap(findTestObject('Android/Home/treatment'), 0)
 
@@ -35,10 +36,43 @@ int startY = device_Height * 0.30
 'Storing the endY value'
 int endY = device_Height * 0.70
 
-Mobile.delay(20)
+Mobile.delay(30)
 
 'Swipe Vertical from top to bottom'
 Mobile.swipe(startX, endY, endX, startY)
 
-Mobile.tap(findTestObject('Android/Treatment/viewLetter'), 20)
+if(Mobile.verifyElementExist(findTestObject('Android/Treatment/viewLetter'), 0, FailureHandling.OPTIONAL)) {
+	
+	Mobile.tap(findTestObject('Android/Treatment/viewLetter'), 5)
+	
+}else {
+	
+	Mobile.swipe(startX, endY, endX, startY)
+	
+	if(Mobile.verifyElementExist(findTestObject('Android/Treatment/viewLetter'), 0, FailureHandling.OPTIONAL)) {
+		
+		Mobile.tap(findTestObject('Android/Treatment/viewLetter'), 5)
+	}else {
+	
+		Mobile.swipe(startX, endY, endX, startY)
+		
+		if(Mobile.verifyElementVisible(findTestObject('Android/Treatment/viewLetter'), 0, FailureHandling.OPTIONAL)) {
+			
+			Mobile.tap(findTestObject('Android/Treatment/viewLetter'), 5)
+		}else {
+			
+			Mobile.swipe(startX, endY, endX, startY)
+			
+			if(Mobile.verifyElementVisible(findTestObject('Android/Treatment/viewLetter'), 0, FailureHandling.OPTIONAL)) {
+				
+				Mobile.tap(findTestObject('Android/Treatment/viewLetter'), 5)
+			}else {
+			
+				KeywordUtil.markFailed('View Letter link not found');
+			}
+		}
+	}
+}
+
+
 

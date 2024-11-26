@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>firstRX</name>
+   <name>icon_DeleteTwo</name>
    <tag></tag>
-   <elementGuidId>157b94b5-1537-41de-960e-f1a26dd9e26a</elementGuidId>
+   <elementGuidId>f6ebf7e1-de52-4fd5-a9e6-5502cf7fcf7b</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <locator>//android.widget.TextView[@text=&quot;RX Authorization&quot;]/following-sibling::android.view.View[1]/android.view.View[1]</locator>
+   <locator>(//android.widget.ImageView[@content-desc=&quot;logo&quot;])[3]</locator>
    <locatorCollection>
       <entry>
          <key>CLASS_NAME</key>

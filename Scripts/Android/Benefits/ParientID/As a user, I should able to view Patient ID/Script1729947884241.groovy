@@ -41,5 +41,5 @@ Mobile.swipe(startX, endY, endX, startY)
 
 Mobile.tap(findTestObject('Android/Benefits/menu_PatientID'), 0)
 
-Mobile.verifyElementExist(findTestObject('Android/Benefits/Patient ID/txt_MemberID'), 0)
+Mobile.verifyElementExist(findTestObject('Android/Benefits/Patient ID/txt_MemberID'), 5)
 

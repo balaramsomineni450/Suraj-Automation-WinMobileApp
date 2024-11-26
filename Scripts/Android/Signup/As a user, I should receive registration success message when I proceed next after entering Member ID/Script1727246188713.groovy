@@ -25,23 +25,23 @@ Mobile.setText(findTestObject('Android/Signup/Signup screen/lastName'), LastName
 
 Mobile.setText(findTestObject('Android/Signup/Signup screen/preferredName'), PreferredName, 0)
 
-Mobile.hideKeyboard()
+Mobile.hideKeyboard(FailureHandling.OPTIONAL)
 
 Mobile.setText(findTestObject('Android/Signup/Signup screen/emailAddress'), EmailAddress, 0)
 
-Mobile.hideKeyboard()
+Mobile.hideKeyboard(FailureHandling.OPTIONAL)
 
 Mobile.delay(2)
 
 Mobile.setText(findTestObject('Android/Signup/Signup screen/password'), Password, 0)
 
-Mobile.hideKeyboard()
+Mobile.hideKeyboard(FailureHandling.OPTIONAL)
 
 Mobile.delay(2)
 
 Mobile.setText(findTestObject('Android/Signup/Signup screen/confirmPassword'), Password, 0)
 
-Mobile.hideKeyboard()
+Mobile.hideKeyboard(FailureHandling.OPTIONAL)
 
 Mobile.tap(findTestObject('Android/Signup/Signup screen/termsAndCondition'), 0, FailureHandling.STOP_ON_FAILURE)
 
@@ -61,7 +61,7 @@ Mobile.tap(findTestObject('Android/Signup/Account Setup/button_ok_DateSelect1'),
 
 Mobile.setText(findTestObject('Android/Signup/Account Setup/phoneNumber'), PhoneNumber, 0)
 
-Mobile.hideKeyboard()
+Mobile.hideKeyboard(FailureHandling.OPTIONAL)
 
 Mobile.tap(findTestObject('Android/Signup/Account Setup/agree_ReceiveText'), 0)
 
@@ -92,7 +92,7 @@ Mobile.tap(findTestObject('Android/Signup/Account Setup/selectCountry'), 0)
 
 Mobile.setText(findTestObject('Android/Signup/Account Setup/zipCode'), ZipCode, 0)
 
-Mobile.hideKeyboard()
+Mobile.hideKeyboard(FailureHandling.OPTIONAL)
 
 Mobile.tap(findTestObject('Android/Signup/Account Setup/language'), 0)
 
@@ -110,13 +110,13 @@ Mobile.tap(findTestObject('Android/Signup/Win Benefit/button_Next'), 0)
 
 Mobile.setText(findTestObject('Android/Signup/WIN Access Code/accessCode'), WINAccessCode, 0)
 
-Mobile.hideKeyboard()
+Mobile.hideKeyboard(FailureHandling.OPTIONAL)
 
 Mobile.tap(findTestObject('Android/Signup/WIN Access Code/button_Next'), 0)
 
 Mobile.setText(findTestObject('Android/Signup/Sponser Company/company'), CompanyName, 0)
 
-Mobile.hideKeyboard()
+Mobile.hideKeyboard(FailureHandling.OPTIONAL)
 
 Mobile.tap(findTestObject('Android/Signup/Sponser Company/button_Next'), 0)
 

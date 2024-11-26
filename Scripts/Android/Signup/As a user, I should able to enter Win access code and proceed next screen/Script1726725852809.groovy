@@ -22,9 +22,9 @@ Mobile.callTestCase(findTestCase('Test Cases/Android/Signup/As a user, I should 
 
 Mobile.setText(findTestObject('Android/Signup/WIN Access Code/accessCode'), WINAccessCode, 0)
 
-Mobile.hideKeyboard()
+Mobile.hideKeyboard(FailureHandling.OPTIONAL)
 
 Mobile.tap(findTestObject('Android/Signup/WIN Access Code/button_Next'), 0)
 
-Mobile.verifyElementNotVisible(findTestObject('Android/Signup/WIN Access Code/accessCode'), 0)
+Mobile.verifyElementVisible(findTestObject('Android/Signup/Sponser Company/company'), 5)
 

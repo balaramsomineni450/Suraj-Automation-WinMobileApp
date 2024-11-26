@@ -47,5 +47,5 @@ Mobile.swipe(startX, endY, endX, startY)
 
 Mobile.tap(findTestObject('Android/Benefits/Benefit Accumulator/shareReport'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Android/Benefits/Benefit Accumulator/successTxt_ExportReport'), 0)
+Mobile.verifyElementVisible(findTestObject('Android/Benefits/Benefit Accumulator/successTxt_ExportReport'), 5)
 

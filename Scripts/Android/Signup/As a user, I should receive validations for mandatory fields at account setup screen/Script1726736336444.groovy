@@ -67,13 +67,13 @@ Mobile.setText(findTestObject('Android/Signup/Account Setup/phoneNumber'), Phone
 
 Mobile.tap(findTestObject('Android/Signup/Account Setup/button_Next'), 0)
 
-Mobile.verifyElementVisible(findTestObject('IOS/Signup/SetupAccount/errortxt_ZipCode'), 5)
+Mobile.verifyElementVisible(findTestObject('Android/Signup/Account Setup/errorTxt_ZipCode'), 5)
 
 Mobile.tap(findTestObject('Android/Signup/Account Setup/button_ok'), 0)
 
 Mobile.setText(findTestObject('Android/Signup/Account Setup/zipCode'), ZipCode, 0)
 
-Mobile.hideKeyboard()
+Mobile.hideKeyboard(FailureHandling.OPTIONAL)
 
 Mobile.tap(findTestObject('Android/Signup/Account Setup/button_Next'), 0)
 
@@ -90,5 +90,4 @@ Mobile.tap(findTestObject('Android/Signup/Account Setup/button_Next'), 0)
 Mobile.verifyElementVisible(findTestObject('Android/Signup/Account Setup/errorTxt_Race'), 5)
 
 Mobile.tap(findTestObject('Android/Signup/Account Setup/button_ok'), 0)
-
 

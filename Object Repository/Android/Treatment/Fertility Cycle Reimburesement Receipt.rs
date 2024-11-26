@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>firstRX</name>
+   <name>Fertility Cycle Reimburesement Receipt</name>
    <tag></tag>
-   <elementGuidId>157b94b5-1537-41de-960e-f1a26dd9e26a</elementGuidId>
+   <elementGuidId>e680af0e-49d9-4b01-b9a1-4fe8d1f25fed</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <locator>//android.widget.TextView[@text=&quot;RX Authorization&quot;]/following-sibling::android.view.View[1]/android.view.View[1]</locator>
+   <locator>//android.widget.TextView[@text=&quot;Fertility Cycle Reimbursement Receipts&quot;]</locator>
    <locatorCollection>
       <entry>
          <key>CLASS_NAME</key>
