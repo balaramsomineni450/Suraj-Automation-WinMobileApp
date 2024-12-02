@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>As a user, I shuold able to enter details at PHI screen and submit the form</name>
+   <name>As a user, I should able to enter details at PHI screen and submit the form</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>

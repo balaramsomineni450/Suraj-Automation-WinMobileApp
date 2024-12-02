@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 Mobile.callTestCase(findTestCase('Test Cases/Android/Signup/As a user, I should able to fill DOB and Address at account setup screen and proceed to next'), 
     null)
 
-Mobile.tap(findTestObject('Android/Signup/Win Benefit/select_BenefitProvider'), 0)
+Mobile.tap(findTestObject('Android/Signup/Win Benefit/select_MyEmployer'), 5)
 
 Mobile.tap(findTestObject('Android/Signup/Win Benefit/button_Next'), 0)
 

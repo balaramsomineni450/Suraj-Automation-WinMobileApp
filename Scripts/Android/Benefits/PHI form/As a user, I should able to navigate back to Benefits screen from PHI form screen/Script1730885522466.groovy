@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Android/Menu/Benefits'), 0)
+Mobile.tap(findTestObject('Android/Menu/Benefits'), 5)
 
 device_Height = Mobile.getDeviceHeight()
 
@@ -41,7 +41,7 @@ Mobile.swipe(startX, endY, endX, startY)
 
 Mobile.swipe(startX, endY, endX, startY)
 
-Mobile.tap(findTestObject('Android/Benefits/menu_PHIForm'), 0)
+Mobile.tap(findTestObject('Android/Benefits/menu_PHIForm'), 5)
 
 Mobile.tap(findTestObject('Android/Benefits/PHI form/back'), 0)
 

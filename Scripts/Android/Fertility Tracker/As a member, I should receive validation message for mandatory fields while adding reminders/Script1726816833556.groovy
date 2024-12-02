@@ -96,7 +96,7 @@ Mobile.swipe( endX, startY, startX, endY,)
 Mobile.setText(findTestObject('Object Repository/Android/Fertility Tracker/Set Reminder/android.widget.TextView - Title'), 'Reminder 1', 
     0)
 
-Mobile.hideKeyboard()
+Mobile.hideKeyboard(FailureHandling.OPTIONAL)
 
 
 Mobile.swipe(startX, endY, endX, startY)

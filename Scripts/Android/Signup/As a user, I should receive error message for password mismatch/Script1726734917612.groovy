@@ -25,23 +25,23 @@ Mobile.setText(findTestObject('Android/Signup/Signup screen/lastName'), LastName
 
 Mobile.setText(findTestObject('Android/Signup/Signup screen/preferredName'), PreferredName, 0)
 
-Mobile.hideKeyboard()
+Mobile.hideKeyboard(FailureHandling.OPTIONAL)
 
 Mobile.setText(findTestObject('Android/Signup/Signup screen/emailAddress'), EmailAddress, 0)
 
-Mobile.hideKeyboard()
+Mobile.hideKeyboard(FailureHandling.OPTIONAL)
 
 Mobile.delay(2)
 
 Mobile.setText(findTestObject('Android/Signup/Signup screen/password'), Password, 0)
 
-Mobile.hideKeyboard()
+Mobile.hideKeyboard(FailureHandling.OPTIONAL)
 
 Mobile.delay(2)
 
 Mobile.setText(findTestObject('Android/Signup/Signup screen/confirmPassword'), ConfirmPassword, 0)
 
-Mobile.hideKeyboard()
+Mobile.hideKeyboard(FailureHandling.OPTIONAL)
 
 Mobile.tap(findTestObject('Android/Signup/Signup screen/termsAndCondition'), 0, FailureHandling.STOP_ON_FAILURE)
 

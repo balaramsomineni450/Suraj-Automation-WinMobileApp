@@ -49,7 +49,7 @@ Mobile.tap(findTestObject('Android/Signup/Signup screen/button_Ok'), 0)
 
 Mobile.setText(findTestObject('Android/Signup/Signup screen/firstName'), 'Test', 0)
 
-Mobile.hideKeyboard()
+Mobile.hideKeyboard(FailureHandling.OPTIONAL)
 
 Mobile.tap(findTestObject('Android/Signup/Signup screen/button_Next'), 0)
 
@@ -59,7 +59,7 @@ Mobile.tap(findTestObject('Android/Signup/Signup screen/button_Ok'), 0)
 
 Mobile.setText(findTestObject('Android/Signup/Signup screen/lastName'), 'Test', 0)
 
-Mobile.hideKeyboard()
+Mobile.hideKeyboard(FailureHandling.OPTIONAL)
 
 Mobile.tap(findTestObject('Android/Signup/Signup screen/button_Next'), 0)
 
@@ -69,7 +69,7 @@ Mobile.tap(findTestObject('Android/Signup/Signup screen/button_Ok'), 0)
 
 Mobile.setText(findTestObject('Android/Signup/Signup screen/preferredName'), 'test', 0)
 
-Mobile.hideKeyboard()
+Mobile.hideKeyboard(FailureHandling.OPTIONAL)
 
 Mobile.tap(findTestObject('Android/Signup/Signup screen/button_Next'), 0)
 
@@ -79,7 +79,7 @@ Mobile.tap(findTestObject('Android/Signup/Signup screen/button_Ok'), 0)
 
 Mobile.setText(findTestObject('Android/Signup/Signup screen/emailAddress'), 'test23@gmailcom', 0)
 
-Mobile.hideKeyboard()
+Mobile.hideKeyboard(FailureHandling.OPTIONAL)
 
 Mobile.tap(findTestObject('Android/Signup/Signup screen/button_Next'), 0)
 
@@ -89,7 +89,7 @@ Mobile.tap(findTestObject('Android/Signup/Signup screen/button_Ok'), 0)
 
 Mobile.setText(findTestObject('Android/Signup/Signup screen/password'), 'Test@1234', 0)
 
-Mobile.hideKeyboard()
+Mobile.hideKeyboard(FailureHandling.OPTIONAL)
 
 Mobile.tap(findTestObject('Android/Signup/Signup screen/button_Next'), 0)
 
@@ -99,7 +99,7 @@ Mobile.tap(findTestObject('Android/Signup/Signup screen/button_Ok'), 0)
 
 Mobile.setText(findTestObject('Android/Signup/Signup screen/confirmPassword'), 'Test@1234', 0)
 
-Mobile.hideKeyboard()
+Mobile.hideKeyboard(FailureHandling.OPTIONAL)
 
 Mobile.tap(findTestObject('Android/Signup/Signup screen/button_Next'), 0)
 

@@ -39,37 +39,25 @@ int endY = device_Height * 0.70
 'Swipe Vertical from top to bottom'
 Mobile.swipe(startX, endY, endX, startY)
 
-Mobile.swipe(startX, endY, endX, startY)
-
 Mobile.tap(findTestObject('Android/Benefits/menu_PHIForm'), 0)
 
 startX = (device_Width / 3)
 
 endX = startX
 
-Mobile.swipe(startX, endY, endX, startY)
+startY = device_Height * 0.2 // Start near the bottom
+endY = device_Height * 0.8   // End near the top
 
-Mobile.hideKeyboard(FailureHandling.OPTIONAL)
-
-Mobile.swipe(startX, endY, endX, startY)
-
-Mobile.hideKeyboard(FailureHandling.OPTIONAL)
-
-Mobile.swipe(startX, endY, endX, startY)
-
-Mobile.hideKeyboard(FailureHandling.OPTIONAL)
-
-Mobile.swipe(startX, endY, endX, startY)
-
-Mobile.hideKeyboard(FailureHandling.OPTIONAL)
-
-Mobile.swipe(startX, endY, endX, startY)
-
-Mobile.hideKeyboard(FailureHandling.OPTIONAL)
-
-Mobile.swipe(startX, endY, endX, startY)
-
-Mobile.hideKeyboard(FailureHandling.OPTIONAL)
+// Scroll repeatedly until a condition is met
+boolean endReached = false
+while (!endReached) {
+	Mobile.swipe(startX, endY, endX, startY)
+	
+	Mobile.hideKeyboard(FailureHandling.OPTIONAL)
+	
+	// Add a condition to detect if you've reached the end, e.g., by checking visibility of a specific element
+	endReached = Mobile.verifyElementVisible(findTestObject('Android/Benefits/PHI form/button_Submit'), 5, FailureHandling.OPTIONAL)
+}
 
 Mobile.tap(findTestObject('Android/Benefits/PHI form/acceptTerms'), 0)
 

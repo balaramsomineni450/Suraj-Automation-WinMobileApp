@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Android/Menu/Support'), 0)
+Mobile.tap(findTestObject('Android/Menu/Support'), 10)
 
 device_Height = Mobile.getDeviceHeight()
 
@@ -43,5 +43,5 @@ Mobile.tap(findTestObject('Android/Home/Win for Him'), 0)
 
 Mobile.tap(findTestObject('Android/Support/Win For Him/Explore Resources'), 0)
 
-Mobile.verifyElementExist(findTestObject('Android/Support/Win For Him/Content Description'), 0)
+Mobile.verifyElementExist(findTestObject('Android/Support/Win For Him/Content Description'), 5)
 

@@ -21,11 +21,12 @@ Mobile.tap(findTestObject('Object Repository/Android/Book Appointment/android.wi
 
 Mobile.tap(findTestObject('Object Repository/Android/Book Appointment/android.widget.TextView - BIPOC'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Android/Book Appointment/android.widget.TextView - Connect with an Advocate'), 0)
+Mobile.tap(findTestObject('Object Repository/Android/Book Appointment/android.widget.TextView - Connect with an Advocate'), 
+    0)
 
 Mobile.tap(findTestObject('Object Repository/Android/Book Appointment/android.widget.TextView - View Behavioral Health Advocate schedule'), 
     0)
 
 Mobile.verifyElementVisible(findTestObject('Object Repository/Android/Book Appointment/android.widget.TextView - You are scheduling a behavioral health consultation. The behavioral health program is designed to provide patients with emotional support throughout treatment. You have access to 5 free, 30-minute behavioral health consults'), 
-    0)
+    5)
 

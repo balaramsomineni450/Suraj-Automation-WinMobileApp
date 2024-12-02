@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Android/Signin/createNewAccount'), 0)
+Mobile.tap(findTestObject('Android/Signin/createNewAccount'), 5)
 
 Mobile.setText(findTestObject('Android/Signup/Signup screen/firstName'), FirstName, 0)
 

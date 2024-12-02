@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Android/Menu/Support'), 0)
+Mobile.tap(findTestObject('Android/Menu/Support'), 10)
 
 Mobile.tap(findTestObject('Android/Support/Preconception/preconception'), 0)
 
@@ -25,5 +25,5 @@ Mobile.tap(findTestObject('Android/Support/Preconception/Explore Resources'), 0)
 
 Mobile.tap(findTestObject('Android/Support/Preconception/Continue Reading'), 0)
 
-Mobile.verifyElementExist(findTestObject('Android/Support/Preconception/Article Webview'), 0)
+Mobile.verifyElementExist(findTestObject('Android/Support/Preconception/Article Webview'), 10)
 

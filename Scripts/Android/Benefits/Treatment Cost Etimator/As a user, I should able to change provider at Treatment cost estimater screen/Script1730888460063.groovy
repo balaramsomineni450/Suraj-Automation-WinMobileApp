@@ -23,7 +23,8 @@ Mobile.tap(findTestObject('Android/Benefits/menu_TreatmentCostEstimator'), 0)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-AlreadySelectedProvider = Mobile.getText(findTestObject('Android/Benefits/Treatment Cost Etimator/txt_SelectedProvider'), 0)
+AlreadySelectedProvider = Mobile.getText(findTestObject('Android/Benefits/Treatment Cost Etimator/txt_SelectedProvider'), 
+    0)
 
 Mobile.tap(findTestObject('Android/Benefits/Treatment Cost Etimator/Select_Provider'), 0)
 
@@ -35,12 +36,12 @@ Mobile.tap(findTestObject('Android/Search/selectOption-3miles'), 0)
 
 Mobile.tap(findTestObject('Android/Search/button_StartSearch'), 0)
 
-Mobile.tap(findTestObject('Android/Benefits/Treatment Cost Etimator/Select_NewProviderFromSearchResult'), 0)
+Mobile.tap(findTestObject('Android/Benefits/Treatment Cost Etimator/select_NewProviderFromSearch'), 0)
 
 Mobile.tap(findTestObject('Android/Benefits/Treatment Cost Etimator/back'), 0)
 
 Mobile.tap(findTestObject('Android/Benefits/Treatment Cost Etimator/back'), 0)
 
-Mobile.verifyNotMatch(AlreadySelectedProvider, Mobile.getText(findTestObject('Android/Benefits/Treatment Cost Etimator/txt_SelectedProvider'), 0), 
-    false)
+Mobile.verifyNotMatch(AlreadySelectedProvider, Mobile.getText(findTestObject('Android/Benefits/Treatment Cost Etimator/txt_SelectedProvider'), 
+        0), false)
 

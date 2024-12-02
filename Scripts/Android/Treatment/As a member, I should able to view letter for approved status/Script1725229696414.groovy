@@ -16,9 +16,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.util.KeywordUtil
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-Mobile.tap(findTestObject('Android/Home/treatment'), 0)
+Mobile.tap(findTestObject('Android/Home/Treatment'), 10)
 
 device_Height = Mobile.getDeviceHeight()
 
@@ -41,38 +41,27 @@ Mobile.delay(30)
 'Swipe Vertical from top to bottom'
 Mobile.swipe(startX, endY, endX, startY)
 
-if(Mobile.verifyElementExist(findTestObject('Android/Treatment/viewLetter'), 0, FailureHandling.OPTIONAL)) {
-	
-	Mobile.tap(findTestObject('Android/Treatment/viewLetter'), 5)
-	
-}else {
-	
-	Mobile.swipe(startX, endY, endX, startY)
-	
-	if(Mobile.verifyElementExist(findTestObject('Android/Treatment/viewLetter'), 0, FailureHandling.OPTIONAL)) {
-		
-		Mobile.tap(findTestObject('Android/Treatment/viewLetter'), 5)
-	}else {
-	
-		Mobile.swipe(startX, endY, endX, startY)
-		
-		if(Mobile.verifyElementVisible(findTestObject('Android/Treatment/viewLetter'), 0, FailureHandling.OPTIONAL)) {
-			
-			Mobile.tap(findTestObject('Android/Treatment/viewLetter'), 5)
-		}else {
-			
-			Mobile.swipe(startX, endY, endX, startY)
-			
-			if(Mobile.verifyElementVisible(findTestObject('Android/Treatment/viewLetter'), 0, FailureHandling.OPTIONAL)) {
-				
-				Mobile.tap(findTestObject('Android/Treatment/viewLetter'), 5)
-			}else {
-			
-				KeywordUtil.markFailed('View Letter link not found');
-			}
-		}
-	}
+if (Mobile.verifyElementExist(findTestObject('Android/Treatment/viewLetter'), 0, FailureHandling.OPTIONAL)) {
+    Mobile.tap(findTestObject('Android/Treatment/viewLetter'), 5)
+} else {
+    Mobile.swipe(startX, endY, endX, startY)
+
+    if (Mobile.verifyElementExist(findTestObject('Android/Treatment/viewLetter'), 0, FailureHandling.OPTIONAL)) {
+        Mobile.tap(findTestObject('Android/Treatment/viewLetter'), 5)
+    } else {
+        Mobile.swipe(startX, endY, endX, startY)
+
+        if (Mobile.verifyElementVisible(findTestObject('Android/Treatment/viewLetter'), 0, FailureHandling.OPTIONAL)) {
+            Mobile.tap(findTestObject('Android/Treatment/viewLetter'), 5)
+        } else {
+            Mobile.swipe(startX, endY, endX, startY)
+
+            if (Mobile.verifyElementVisible(findTestObject('Android/Treatment/viewLetter'), 0, FailureHandling.OPTIONAL)) {
+                Mobile.tap(findTestObject('Android/Treatment/viewLetter'), 5)
+            } else {
+                KeywordUtil.markError('View Letter link not found')
+            }
+        }
+    }
 }
-
-
 

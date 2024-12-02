@@ -19,6 +19,26 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.tap(findTestObject('Android/Menu/Benefits'), 0)
 
+device_Height = Mobile.getDeviceHeight()
+
+'Get Width Height and Store in device_Width variable'
+device_Width = Mobile.getDeviceWidth()
+
+'Storing the startX value by dividing device width by 2. Because x coordinates are constant for Vertical Swiping'
+int startX = device_Width / 2
+
+'Here startX and endX values are equal for vertical Swiping for that assigning startX value to endX'
+int endX = startX
+
+'Storing the startY value'
+int startY = device_Height * 0.30
+
+'Storing the endY value'
+int endY = device_Height * 0.70
+
+'Swipe Vertical from top to bottom'
+Mobile.swipe(startX, endY, endX, startY)
+
 Mobile.tap(findTestObject('Android/Benefits/menu_RequestReimbursement'), 0)
 
 Mobile.tap(findTestObject('Android/Benefits/Request Reimbursement/back'), 0)

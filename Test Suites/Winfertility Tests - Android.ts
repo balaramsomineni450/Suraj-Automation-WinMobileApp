@@ -511,6 +511,18 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android/Sign In/As a user, I should receive error message for invalid email address</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>44629149-cd8e-4425-9e98-8992eaa87982</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>327a9c44-330e-46a1-9366-712038f8cd45</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>444ab84f-520a-4527-8f1e-fd72a1a55213</guid>
@@ -518,6 +530,18 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android/Sign In/As a user, I should receive error message for invalid password</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7db2c99f-33e5-4af8-8377-8e5627e96c1a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>20fad1de-f7f7-415d-92ea-48acebaf367a</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>b21f906a-b0d2-4b7a-b587-1d6cab5d45f0</guid>
@@ -1198,7 +1222,7 @@
       <guid>dfc07e1c-c523-4deb-b510-5d1a698d241b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Android/Benefits/PHI form/As a user, I shuold able to enter details at PHI screen and submit the form</testCaseId>
+      <testCaseId>Test Cases/Android/Benefits/PHI form/As a user, I should able to enter details at PHI screen and submit the form</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

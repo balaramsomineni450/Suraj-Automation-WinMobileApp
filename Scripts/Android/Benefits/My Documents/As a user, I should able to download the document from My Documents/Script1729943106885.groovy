@@ -17,13 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Android/Menu/Benefits'), 0)
+Mobile.tap(findTestObject('Android/Menu/Benefits'), 10)
 
-Mobile.tap(findTestObject('Android/Benefits/menu_MyDocuments'), 0)
+Mobile.tap(findTestObject('Android/Benefits/menu_MyDocuments'), 10)
 
 Mobile.tap(findTestObject('Android/Benefits/My Documents/text_MedicalTreatment'), 0)
 
 Mobile.tap(findTestObject('Android/Benefits/My Documents/text_WinPremierApprovalLetter'), 0)
 
+Mobile.delay(30, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Android/Benefits/My Documents/button_Download'), 0)
+
+Mobile.delay(30, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.openNotifications()
+
+Mobile.verifyElementVisible(findTestObject('Android/Benefits/My Documents/notification_DownloadComplete'), 10)
+
+Mobile.closeNotifications()
 

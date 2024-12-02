@@ -46,7 +46,7 @@ Mobile.tap(findTestObject('Object Repository/Android/Fertility Tracker/android.w
 
 Mobile.tap(findTestObject('Object Repository/Android/Fertility Tracker/android.widget.TextView - Edit Cycle Data'), 0)
 
-Mobile.tap(findTestObject('Android/Fertility Tracker/Edit Cycle Data/When did your last period start'), 0)
+Mobile.tap(findTestObject('Android/Fertility Tracker/Edit Cycle Data/when_Did_Last_Period_Start'), 0)
 
 Mobile.tap(findTestObject('Android/Fertility Tracker/Edit Cycle Data/previousDate'), 10)
 
@@ -58,7 +58,7 @@ Mobile.tap(findTestObject('Android/Fertility Tracker/Edit Cycle Data/how long do
 
 Mobile.tap(findTestObject('Android/Fertility Tracker/Edit Cycle Data/selectNoDays'), 0)
 
-Mobile.tap(findTestObject('Android/Fertility Tracker/Edit Cycle Data/On average, how long is your cycle'), 0)
+Mobile.tap(findTestObject('Android/Fertility Tracker/Edit Cycle Data/how_long_your_cycle'), 0)
 
 Mobile.tap(findTestObject('Android/Fertility Tracker/Edit Cycle Data/selectLength'), 0)
 

@@ -23,5 +23,5 @@ Mobile.tap(findTestObject('Android/Benefits/menu_MyDocuments'), 0)
 
 Mobile.tap(findTestObject('Android/Benefits/My Documents/back'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Android/Benefits/menu_MyDocuments'), 5)
+Mobile.verifyElementVisible(findTestObject('Android/Benefits/menu_MyDocuments'), 10)
 

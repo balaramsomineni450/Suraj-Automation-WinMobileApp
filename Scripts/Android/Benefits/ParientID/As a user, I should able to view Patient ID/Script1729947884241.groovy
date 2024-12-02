@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Android/Menu/Benefits'), 0)
+Mobile.tap(findTestObject('Android/Menu/Benefits'), 10)
 
 device_Height = Mobile.getDeviceHeight()
 
@@ -39,7 +39,9 @@ int endY = device_Height * 0.70
 'Swipe Vertical from top to bottom'
 Mobile.swipe(startX, endY, endX, startY)
 
-Mobile.tap(findTestObject('Android/Benefits/menu_PatientID'), 0)
+Mobile.swipe(startX, endY, endX, startY)
 
-Mobile.verifyElementExist(findTestObject('Android/Benefits/Patient ID/txt_MemberID'), 5)
+Mobile.tap(findTestObject('Android/Benefits/menu_PatientID'), 5)
+
+Mobile.verifyElementExist(findTestObject('Android/Benefits/Patient ID/txt_MemberID'), 10)
 

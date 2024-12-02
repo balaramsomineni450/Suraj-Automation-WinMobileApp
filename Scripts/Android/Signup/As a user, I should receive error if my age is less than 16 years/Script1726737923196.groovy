@@ -30,9 +30,11 @@ while (a < 16) {
     a++
 }
 
-Mobile.tap(findTestObject('Android/Signup/Account Setup/button_ok_DateSelect1'), 0)
+Mobile.tap(findTestObject('Android/Signup/Account Setup/button_ok_DateSelect1'), 1)
 
-Mobile.setText(findTestObject('Android/Signup/Account Setup/phoneNumber'), PhoneNumber, 0)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.setText(findTestObject('Android/Signup/Account Setup/phoneNumber'), PhoneNumber, 5)
 
 Mobile.hideKeyboard(FailureHandling.OPTIONAL)
 

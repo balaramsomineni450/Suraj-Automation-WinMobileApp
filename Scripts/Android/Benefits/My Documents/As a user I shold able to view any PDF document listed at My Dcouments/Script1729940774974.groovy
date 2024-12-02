@@ -27,5 +27,5 @@ Mobile.tap(findTestObject('Android/Benefits/My Documents/text_WinPremierApproval
 
 Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('Android/Benefits/My Documents/webview'), 30)
+Mobile.verifyElementExist(findTestObject('Android/Benefits/My Documents/tempPDF'), 30)
 

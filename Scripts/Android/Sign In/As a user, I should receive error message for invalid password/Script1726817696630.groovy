@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.tap(findTestObject('Android/Signin/android.widget.TextView - Skip'), 0, FailureHandling.OPTIONAL)
 
-Mobile.setText(findTestObject('Object Repository/Android/Signin/android.widget.EditText'), 'Test1@gmail.com', 0)
+Mobile.setText(findTestObject('Object Repository/Android/Signin/android.widget.EditText'), EmailAddress, 0)
 
-Mobile.setText(findTestObject('Object Repository/Android/Signin/android.widget.EditText (1)'), '45435435435', 0)
+Mobile.setText(findTestObject('Object Repository/Android/Signin/android.widget.EditText (1)'), Password, 0)
 
 Mobile.tap(findTestObject('Android/Signin/android.widget.TextView - Log In'), 0)
 

@@ -24,6 +24,18 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android/Sign In/As a user, I should receive error message for invalid email address</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>44629149-cd8e-4425-9e98-8992eaa87982</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>327a9c44-330e-46a1-9366-712038f8cd45</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>9568bee0-c858-4f86-8f08-3a93f515b373</guid>
@@ -31,5 +43,17 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android/Sign In/As a user, I should receive error message for invalid password</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7db2c99f-33e5-4af8-8377-8e5627e96c1a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>20fad1de-f7f7-415d-92ea-48acebaf367a</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

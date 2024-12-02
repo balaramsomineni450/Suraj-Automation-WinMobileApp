@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Android/Menu/Benefits'), 0)
+Mobile.tap(findTestObject('Android/Menu/Benefits'), 10)
 
 Mobile.tap(findTestObject('Android/Benefits/menu_TreatmentCostEstimator'), 0)
 
@@ -29,7 +29,7 @@ Mobile.setText(findTestObject('Android/Search/zipCode'), Zipcode, 0)
 
 Mobile.tap(findTestObject('Android/Search/distance'), 0, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Android/Search/selectOption-3miles'), 0)
+Mobile.tap(findTestObject('Android/Search/selectOption-3miles'), 5)
 
 Mobile.tap(findTestObject('Android/Search/button_StartSearch'), 0)
 

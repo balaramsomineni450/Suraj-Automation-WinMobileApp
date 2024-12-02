@@ -65,6 +65,8 @@ Mobile.tap(findTestObject('Android/Signup/Account Setup/button_ok'), 0)
 
 Mobile.setText(findTestObject('Android/Signup/Account Setup/phoneNumber'), PhoneNumber, 0)
 
+Mobile.hideKeyboard(FailureHandling.OPTIONAL)
+
 Mobile.tap(findTestObject('Android/Signup/Account Setup/button_Next'), 0)
 
 Mobile.verifyElementVisible(findTestObject('Android/Signup/Account Setup/errorTxt_ZipCode'), 5)

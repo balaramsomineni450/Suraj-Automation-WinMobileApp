@@ -22,17 +22,19 @@ Mobile.callTestCase(findTestCase('Test Cases/Android/Signup/As a new user, I sho
 
 Mobile.tap(findTestObject('Android/Signup/Account Setup/dob'), 0)
 
-int a=1;
+int a = 1
 
-while (a<17)
-{
-	Mobile.tap(findTestObject('Android/Signup/Account Setup/previousYear'), 0)
-	a++
+while (a < 17) {
+    Mobile.tap(findTestObject('Android/Signup/Account Setup/previousYear'), 0)
+
+    a++
 }
 
 Mobile.tap(findTestObject('Android/Signup/Account Setup/button_ok_DateSelect1'), 0)
 
-Mobile.setText(findTestObject('Android/Signup/Account Setup/phoneNumber'), PhoneNumber, 0)
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.setText(findTestObject('Android/Signup/Account Setup/phoneNumber'), PhoneNumber, 3)
 
 Mobile.hideKeyboard(FailureHandling.OPTIONAL)
 
@@ -61,13 +63,15 @@ Mobile.swipe(startX, endY, endX, startY)
 
 Mobile.swipe(startX, endY, endX, startY)
 
+Mobile.hideKeyboard(FailureHandling.OPTIONAL)
+
 Mobile.tap(findTestObject('Android/Signup/Account Setup/selectCountry'), 0)
 
-Mobile.setText(findTestObject('Android/Signup/Account Setup/zipCode'), ZipCode, 0)
+Mobile.setText(findTestObject('Android/Signup/Account Setup/zipCode'), ZipCode, 5)
 
 Mobile.hideKeyboard(FailureHandling.OPTIONAL)
 
-Mobile.tap(findTestObject('Android/Signup/Account Setup/language'), 0)
+Mobile.tap(findTestObject('Android/Signup/Account Setup/language'), 2)
 
 Mobile.tap(findTestObject('Android/Signup/Account Setup/selectEngLanguage'), 0)
 
@@ -77,5 +81,5 @@ Mobile.tap(findTestObject('Android/Signup/Account Setup/selectRace'), 0)
 
 Mobile.tap(findTestObject('Android/Signup/Account Setup/button_Next'), 0)
 
-Mobile.verifyElementNotVisible(findTestObject('Android/Signup/Account Setup/dob'), 0)
+Mobile.verifyElementNotVisible(findTestObject('Android/Signup/Account Setup/dob'), 5)
 

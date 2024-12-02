@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Android/Home/treatment'), 0)
+Mobile.tap(findTestObject('Android/Home/Treatment'), 10)
 
 Mobile.verifyElementVisible(findTestObject('Android/Treatment/label_Description'), 30)
 

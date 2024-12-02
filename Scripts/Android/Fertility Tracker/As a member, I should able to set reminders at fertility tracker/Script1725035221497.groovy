@@ -106,7 +106,7 @@ Mobile.swipe(startX, endY, endX, startY)
 
 Mobile.setText(findTestObject('Android/Fertility Tracker/Set Reminder/addNOTES'), 'this is for testing purpose', 0)
 
-Mobile.hideKeyboard()
+Mobile.hideKeyboard(FailureHandling.OPTIONAL)
 
 Mobile.tap(findTestObject('Android/Fertility Tracker/Set Reminder/android.widget.TextView - Send reminder by email'), 0)
 

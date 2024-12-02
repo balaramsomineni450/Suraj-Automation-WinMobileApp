@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Android/Home/treatment'), 0)
+Mobile.tap(findTestObject('Android/Home/Treatment'), 10)
 
 Mobile.tap(findTestObject('Android/Treatment/button - Upload Documentation for Review'), 30)
 
@@ -27,13 +27,13 @@ Mobile.tap(findTestObject('Android/Treatment/Fertility Cycle Reimburesement Rece
 
 Mobile.tap(findTestObject('Android/Treatment/button_SelectImages'), 0)
 
-Mobile.tap(findTestObject('Android/Treatment/firstImage'), 0)
+Mobile.tap(findTestObject('Android/Treatment/selectFirstImage'), 0)
 
 Mobile.verifyElementExist(findTestObject('Android/Treatment/icon_DeleteOne'), 0)
 
 Mobile.tap(findTestObject('Android/Treatment/button_SelectDocuments'), 0)
 
-Mobile.tap(findTestObject('Android/Treatment/secondImage'), 0)
+Mobile.tap(findTestObject('Android/Treatment/secondDoc'), 0)
 
 Mobile.verifyElementExist(findTestObject('Android/Treatment/icon_DeleteTwo'), 0)
 

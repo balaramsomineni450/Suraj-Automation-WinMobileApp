@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>secondImage</name>
+   <name>SelectOption</name>
    <tag></tag>
-   <elementGuidId>77ac87fa-c5bb-462e-8555-fc3b13785c7a</elementGuidId>
+   <elementGuidId>32719cc2-0e53-4d65-8430-c764783854a4</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <locator>(//android.widget.FrameLayout[@resource-id=&quot;com.android.documentsui:id/thumbnail&quot;])[2]</locator>
+   <locator>//android.widget.Button[contains(@resource-id,&quot;action_menu_select&quot;)]</locator>
    <locatorCollection>
       <entry>
-         <key>CLASS_NAME</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>ANDROID_VIEWTAG</key>
+         <key>IOS_PREDICATE_STRING</key>
          <value></value>
       </entry>
       <entry>
@@ -22,26 +18,11 @@
          <value></value>
       </entry>
       <entry>
-         <key>ATTRIBUTES</key>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>IOS_CLASS_CHAIN</key>
          <value></value>
       </entry>
       <entry>
-         <key>ANDROID_UI_AUTOMATOR</key>
-         <value>new UiSelector()</value>
-      </entry>
-      <entry>
-         <key>ACCESSIBILITY</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>ID</key>
+         <key>XPATH</key>
          <value></value>
       </entry>
       <entry>
@@ -49,11 +30,30 @@
          <value></value>
       </entry>
       <entry>
+         <key>ANDROID_UI_AUTOMATOR</key>
+         <value>new UiSelector()</value>
+      </entry>
+      <entry>
+         <key>ANDROID_VIEWTAG</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ATTRIBUTES</key>
+      </entry>
+      <entry>
+         <key>CLASS_NAME</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ID</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>NAME</key>
          <value></value>
       </entry>
       <entry>
-         <key>IOS_PREDICATE_STRING</key>
+         <key>ACCESSIBILITY</key>
          <value></value>
       </entry>
    </locatorCollection>

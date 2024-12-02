@@ -47,7 +47,9 @@ Mobile.tap(findTestObject('Android/Signup/Signup screen/termsAndCondition'), 0, 
 
 Mobile.tap(findTestObject('Android/Signup/Signup screen/button_Next'), 0)
 
-Mobile.tap(findTestObject('Android/Signup/Account Setup/dob'), 0)
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Android/Signup/Account Setup/dob'), 10)
 
 int a = 1
 
@@ -56,6 +58,8 @@ while (a < 17) {
 
     a++
 }
+
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Android/Signup/Account Setup/button_ok_DateSelect1'), 0)
 
@@ -88,7 +92,9 @@ Mobile.swipe(startX, endY, endX, startY)
 
 Mobile.swipe(startX, endY, endX, startY)
 
-Mobile.tap(findTestObject('Android/Signup/Account Setup/selectCountry'), 0)
+Mobile.hideKeyboard(FailureHandling.OPTIONAL)
+
+Mobile.tap(findTestObject('Android/Signup/Account Setup/selectCountry'), 5)
 
 Mobile.setText(findTestObject('Android/Signup/Account Setup/zipCode'), ZipCode, 0)
 
@@ -104,7 +110,7 @@ Mobile.tap(findTestObject('Android/Signup/Account Setup/selectRace'), 0)
 
 Mobile.tap(findTestObject('Android/Signup/Account Setup/button_Next'), 0)
 
-Mobile.tap(findTestObject('Android/Signup/Win Benefit/select_BenefitProvider'), 0)
+Mobile.tap(findTestObject('Android/Signup/Win Benefit/select_MyEmployer'), 0)
 
 Mobile.tap(findTestObject('Android/Signup/Win Benefit/button_Next'), 0)
 
@@ -123,6 +129,8 @@ Mobile.tap(findTestObject('Android/Signup/Sponser Company/button_Next'), 0)
 Mobile.tap(findTestObject('Android/Signup/Sponser Company/button_GetStarted'), 5)
 
 Mobile.setText(findTestObject('Android/Signup/EnrollProgram/input_MemberId'), MemberID, 0)
+
+Mobile.hideKeyboard(FailureHandling.OPTIONAL)
 
 Mobile.tap(findTestObject('Android/Signup/EnrollProgram/button_Next'), 0)
 
