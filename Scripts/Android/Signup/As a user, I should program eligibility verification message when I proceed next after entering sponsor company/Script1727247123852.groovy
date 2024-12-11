@@ -45,7 +45,7 @@ Mobile.hideKeyboard(FailureHandling.OPTIONAL)
 
 Mobile.tap(findTestObject('Android/Signup/Signup screen/termsAndCondition'), 0, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Android/Signup/Signup screen/button_Next'), 0)
+Mobile.tap(findTestObject('Android/Signup/Signup screen/button_Next'), 5)
 
 Mobile.delay(5)
 
@@ -108,7 +108,7 @@ Mobile.tap(findTestObject('Android/Signup/Account Setup/race'), 0)
 
 Mobile.tap(findTestObject('Android/Signup/Account Setup/selectRace'), 0)
 
-Mobile.tap(findTestObject('Android/Signup/Account Setup/button_Next'), 0)
+Mobile.tap(findTestObject('Android/Signup/Account Setup/button_Next'), 5)
 
 Mobile.tap(findTestObject('Android/Signup/Win Benefit/select_MyEmployer'), 0)
 
@@ -118,13 +118,13 @@ Mobile.setText(findTestObject('Android/Signup/WIN Access Code/accessCode'), WINA
 
 Mobile.hideKeyboard(FailureHandling.OPTIONAL)
 
-Mobile.tap(findTestObject('Android/Signup/WIN Access Code/button_Next'), 0)
+Mobile.tap(findTestObject('Android/Signup/WIN Access Code/button_Next'), 5)
 
 Mobile.setText(findTestObject('Android/Signup/Sponser Company/company'), CompanyName, 0)
 
 Mobile.hideKeyboard(FailureHandling.OPTIONAL)
 
-Mobile.tap(findTestObject('Android/Signup/Sponser Company/button_Next'), 0)
+Mobile.tap(findTestObject('Android/Signup/Sponser Company/button_Next'), 5)
 
 Mobile.verifyElementVisible(findTestObject('Android/Signup/Sponser Company/errorTxt_ProgramEligibility'), 5)
 

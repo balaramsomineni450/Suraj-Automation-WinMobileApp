@@ -45,7 +45,7 @@ Mobile.hideKeyboard(FailureHandling.OPTIONAL)
 
 Mobile.tap(findTestObject('Android/Signup/Signup screen/termsAndCondition'), 0, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Android/Signup/Signup screen/button_Next'), 0)
+Mobile.tap(findTestObject('Android/Signup/Signup screen/button_Next'), 5)
 
 Mobile.verifyElementVisible(findTestObject('Android/Signup/Signup screen/errortxt_PasswordsNotMatch'), 0)
 

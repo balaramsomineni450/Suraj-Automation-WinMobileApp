@@ -43,7 +43,7 @@ Mobile.setText(findTestObject('Android/Signup/Signup screen/confirmPassword'), P
 
 Mobile.hideKeyboard(FailureHandling.OPTIONAL)
 
-Mobile.tap(findTestObject('Android/Signup/Signup screen/termsAndCondition'), 0, FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Android/Signup/Signup screen/termsAndCondition'), 5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Android/Signup/Signup screen/button_Next'), 0)
 

@@ -41,7 +41,7 @@ Mobile.swipe(startX, endY, endX, startY)
 
 Mobile.hideKeyboard(FailureHandling.OPTIONAL)
 
-Mobile.tap(findTestObject('Android/Signup/Signup screen/button_Next'), 0)
+Mobile.tap(findTestObject('Android/Signup/Signup screen/button_Next'), 5)
 
 Mobile.verifyElementVisible(findTestObject('Android/Signup/Signup screen/errortxt_EnterFirstName'), 0)
 
@@ -51,7 +51,7 @@ Mobile.setText(findTestObject('Android/Signup/Signup screen/firstName'), 'Test',
 
 Mobile.hideKeyboard(FailureHandling.OPTIONAL)
 
-Mobile.tap(findTestObject('Android/Signup/Signup screen/button_Next'), 0)
+Mobile.tap(findTestObject('Android/Signup/Signup screen/button_Next'), 5)
 
 Mobile.verifyElementVisible(findTestObject('Android/Signup/Signup screen/errortxt_EnterLastName'), 0)
 
@@ -61,7 +61,7 @@ Mobile.setText(findTestObject('Android/Signup/Signup screen/lastName'), 'Test', 
 
 Mobile.hideKeyboard(FailureHandling.OPTIONAL)
 
-Mobile.tap(findTestObject('Android/Signup/Signup screen/button_Next'), 0)
+Mobile.tap(findTestObject('Android/Signup/Signup screen/button_Next'), 5)
 
 Mobile.verifyElementVisible(findTestObject('Android/Signup/Signup screen/errortxt_PreferredName'), 0)
 
@@ -71,7 +71,7 @@ Mobile.setText(findTestObject('Android/Signup/Signup screen/preferredName'), 'te
 
 Mobile.hideKeyboard(FailureHandling.OPTIONAL)
 
-Mobile.tap(findTestObject('Android/Signup/Signup screen/button_Next'), 0)
+Mobile.tap(findTestObject('Android/Signup/Signup screen/button_Next'), 5)
 
 Mobile.verifyElementVisible(findTestObject('Android/Signup/Signup screen/errortxt_EnterEmail'), 0)
 
@@ -81,7 +81,7 @@ Mobile.setText(findTestObject('Android/Signup/Signup screen/emailAddress'), 'tes
 
 Mobile.hideKeyboard(FailureHandling.OPTIONAL)
 
-Mobile.tap(findTestObject('Android/Signup/Signup screen/button_Next'), 0)
+Mobile.tap(findTestObject('Android/Signup/Signup screen/button_Next'), 5)
 
 Mobile.verifyElementVisible(findTestObject('Android/Signup/Signup screen/errortxt_EnterPassword'), 0)
 
@@ -91,7 +91,7 @@ Mobile.setText(findTestObject('Android/Signup/Signup screen/password'), 'Test@12
 
 Mobile.hideKeyboard(FailureHandling.OPTIONAL)
 
-Mobile.tap(findTestObject('Android/Signup/Signup screen/button_Next'), 0)
+Mobile.tap(findTestObject('Android/Signup/Signup screen/button_Next'), 5)
 
 Mobile.verifyElementVisible(findTestObject('Android/Signup/Signup screen/errortxt_EnterConfirmPassword'), 0)
 
@@ -101,7 +101,7 @@ Mobile.setText(findTestObject('Android/Signup/Signup screen/confirmPassword'), '
 
 Mobile.hideKeyboard(FailureHandling.OPTIONAL)
 
-Mobile.tap(findTestObject('Android/Signup/Signup screen/button_Next'), 0)
+Mobile.tap(findTestObject('Android/Signup/Signup screen/button_Next'), 5)
 
 Mobile.verifyElementVisible(findTestObject('Android/Signup/Signup screen/errortxt_SelectTnC'), 0)
 
