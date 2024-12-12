@@ -19,9 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.tap(findTestObject('Android/Home/menu - Find Care'), 0)
 
-Mobile.tap(findTestObject('Android/Search/Find care near you'), 0)
+Mobile.tap(findTestObject('Android/Search/FindProviderNearYou'), 0)
 
-Mobile.setText(findTestObject('Android/Search/zipCode'), '98105', 0)
+Mobile.tap(findTestObject('Android/Search/reproductiveEndocrinologists'), 0)
+
+Mobile.setText(findTestObject('Android/Search/input_ZipCode'), '98105', 0)
 
 Mobile.tap(findTestObject('Android/Search/distance'), 0)
 
@@ -30,4 +32,6 @@ Mobile.tap(findTestObject('Android/Search/selectOption-3miles'), 0)
 Mobile.tap(findTestObject('Android/Search/selectCheckbox-BIPOC'), 0)
 
 Mobile.tap(findTestObject('Android/Search/button_StartSearch'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Android/Search/link_Clear'), 5)
 

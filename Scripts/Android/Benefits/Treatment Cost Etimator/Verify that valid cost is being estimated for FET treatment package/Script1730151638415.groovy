@@ -25,7 +25,7 @@ Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Android/Benefits/Treatment Cost Etimator/Select_Provider'), 0)
 
-Mobile.setText(findTestObject('Android/Search/zipCode'), Zipcode, 0)
+Mobile.setText(findTestObject('Android/Search/input_ZipCode'), Zipcode, 0)
 
 Mobile.tap(findTestObject('Android/Search/distance'), 0, FailureHandling.STOP_ON_FAILURE)
 

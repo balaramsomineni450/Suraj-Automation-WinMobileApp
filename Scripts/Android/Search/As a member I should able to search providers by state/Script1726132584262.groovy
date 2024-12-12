@@ -19,7 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.tap(findTestObject('Android/Home/menu - Find Care'), 0)
 
-Mobile.tap(findTestObject('Android/Search/Find care near you'), 0)
+Mobile.tap(findTestObject('Android/Search/FindProviderNearYou'), 0)
+
+Mobile.tap(findTestObject('Android/Search/reproductiveEndocrinologists'), 0)
 
 Mobile.tap(findTestObject('Android/Search/searchby_City'), 10)
 
