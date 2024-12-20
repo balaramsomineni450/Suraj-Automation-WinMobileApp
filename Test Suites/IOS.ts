@@ -12,10 +12,31 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>c973d187-5962-4c19-b8ce-5e0090a9d4b1</testSuiteGuid>
    <testCaseLink>
+      <guid>f0f81b2c-802a-447d-8b75-3c79c11b4dd4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IOS/Signup/As a user, I should receive validations for mandatory fields at signup screen</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>8ac464f0-a6ea-4f58-9243-b8b6c851418d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/IOS/Signup/As a user, I should receive error for invalid email address at signup</testCaseId>
+      <testCaseId>Test Cases/IOS/Signup/As a user, I should receive an error message for invalid email format</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4c8c901a-eb5e-491b-bd49-d20febce3ca6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IOS/Signup/As a user, I should receive an error message for invalid password format</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>aa2d0700-c884-4450-b661-45a4264d3fc2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IOS/Signup/As a user, I should receive an error message for password mismatch</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -29,21 +50,7 @@
       <guid>55b75d70-1276-4358-afd4-5546da663e08</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/IOS/Signup/As a user, I should not able to use already registered email for registration</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>4c8c901a-eb5e-491b-bd49-d20febce3ca6</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IOS/Signup/As a user, I should receive an error message for invalid password format</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f0f81b2c-802a-447d-8b75-3c79c11b4dd4</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IOS/Signup/As a user, I should receive validations for mandatory fields</testCaseId>
+      <testCaseId>Test Cases/IOS/Signup/As a user, I should not able to sign up using same email twice</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -196,13 +203,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/IOS/Reset Password/As a user, I should able to navigate to Reset Password screen</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>33d058c4-a556-4441-af50-0303a9a63be1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IOS/Reset Password/As a user, I should able to navigate back from Reset Password screen</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -398,23 +398,11 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>516e6ac0-008d-424d-9dce-973592b35adc</guid>
+      <guid>33d058c4-a556-4441-af50-0303a9a63be1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/IOS/Book Appointment/As a member, I should able to book appointment with different time zone</testCaseId>
+      <testCaseId>Test Cases/IOS/Reset Password/As a user, I should able to navigate back from Reset Password screen</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>988ea799-0fd7-44d1-9772-32dd1d13271b</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>c27d17aa-cbee-4b4f-9ed0-d5bd28473595</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>1daf6991-e6d8-4a59-90bf-00346af847ef</guid>
@@ -623,11 +611,23 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>aba87e38-4cbe-4f25-8727-25b3382b2177</guid>
+      <guid>516e6ac0-008d-424d-9dce-973592b35adc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/IOS/Sign In/As a user, I should receive error message for invalid password</testCaseId>
+      <testCaseId>Test Cases/IOS/Book Appointment/As a member, I should able to book appointment with different time zone</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>988ea799-0fd7-44d1-9772-32dd1d13271b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c27d17aa-cbee-4b4f-9ed0-d5bd28473595</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>c71ed3db-51e4-46ef-8c6c-4dcbb0d72396</guid>
@@ -846,23 +846,11 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>ae6d58ef-54fa-4229-877c-7104607baca6</guid>
+      <guid>aba87e38-4cbe-4f25-8727-25b3382b2177</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/IOS/Benefits/Benefit Accumulator/As a user, I should able to navigate back to Benefits screen from Benefit Accumulator screen</testCaseId>
+      <testCaseId>Test Cases/IOS/Sign In/As a user, I should receive error message for invalid password</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>3d759009-039d-4eb3-9aa6-20d3ecd61da5</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>b2b3d80c-0844-4fea-b288-660ec9c446b0</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>7c87e2bc-6a14-4cd8-bb8c-930537e685b8</guid>
@@ -1111,28 +1099,22 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>e7af2d9c-18c8-487a-8feb-c0be04930701</guid>
+      <guid>ae6d58ef-54fa-4229-877c-7104607baca6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/IOS/Benefits/Treatment Cost Etimator/As a user, I should able to change provider at Treatment cost estimater screen</testCaseId>
+      <testCaseId>Test Cases/IOS/Benefits/Benefit Accumulator/As a user, I should able to navigate back to Benefits screen from Benefit Accumulator screen</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>3eb3f9fb-beef-4f5b-923a-1a0ebe92b3b5</variableId>
+         <variableId>3d759009-039d-4eb3-9aa6-20d3ecd61da5</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>715e0da8-3bca-46c1-8634-7df7effdca67</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>7fb26d93-c5a8-4546-a613-b848b9425c5f</variableId>
+         <variableId>b2b3d80c-0844-4fea-b288-660ec9c446b0</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
@@ -1442,6 +1424,31 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>2af01686-0b56-4d93-93b9-8cdaa9376876</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e7af2d9c-18c8-487a-8feb-c0be04930701</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IOS/Benefits/Treatment Cost Etimator/As a user, I should able to change provider at Treatment cost estimater screen</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3eb3f9fb-beef-4f5b-923a-1a0ebe92b3b5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>715e0da8-3bca-46c1-8634-7df7effdca67</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7fb26d93-c5a8-4546-a613-b848b9425c5f</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

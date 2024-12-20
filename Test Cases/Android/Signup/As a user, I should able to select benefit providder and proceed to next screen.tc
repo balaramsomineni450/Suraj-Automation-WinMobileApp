@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>As a user, I should able to select benefit providder and proceed to next screen</name>
-   <tag>signup</tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>b09078cc-0e59-492a-8e02-b1de1215e147</testCaseGuid>
-</TestCaseEntity>

@@ -19,25 +19,25 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.tap(findTestObject('IOS/Signin/createNewAccount'), 0)
 
-Mobile.setText(findTestObject('IOS/Signup/firstName'), 'testnew1', 0)
+Mobile.setText(findTestObject('IOS/Signup/Signup Screen/firstName'), 'testnew1', 0)
 
-Mobile.setText(findTestObject('IOS/Signup/lastName'), 'testnew2', 0)
+Mobile.setText(findTestObject('IOS/Signup/Signup Screen/lastName'), 'testnew2', 0)
 
-Mobile.setText(findTestObject('IOS/Signup/preferredName'), 'altname', 0)
+Mobile.setText(findTestObject('IOS/Signup/Signup Screen/preferredName'), 'altname', 0)
 
-Mobile.setText(findTestObject('IOS/Signup/emailAddress'), 'test1@gmail.com', 0)
+Mobile.setText(findTestObject('IOS/Signup/Signup Screen/emailAddress'), 'test1@gmail.com', 0)
 
-Mobile.setText(findTestObject('IOS/Signup/password'), '1234', 0)
+Mobile.setText(findTestObject('IOS/Signup/Signup Screen/password'), '1234', 0)
 
-Mobile.setText(findTestObject('IOS/Signup/confirmPassword'), '1234', 0)
+Mobile.setText(findTestObject('IOS/Signup/Signup Screen/confirmPassword'), '1234', 0)
 
 Mobile.tap(findTestObject('IOS/keyboaard_Done'), 0)
 
-Mobile.tap(findTestObject('IOS/Signup/termsAndCondition'), 0, FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('IOS/Signup/Signup Screen/termsAndCondition'), 0, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.delay(3)
 
-Mobile.tap(findTestObject('IOS/Signup/button_Next'), 0)
+Mobile.tap(findTestObject('IOS/Signup/Signup Screen/button_Next'), 0)
 
-Mobile.verifyElementVisible(findTestObject('IOS/Signup/errortxt_InvalidPassword'), 10)
+Mobile.verifyElementVisible(findTestObject('IOS/Signup/Signup Screen/errortxt_InvalidPassword'), 10)
 

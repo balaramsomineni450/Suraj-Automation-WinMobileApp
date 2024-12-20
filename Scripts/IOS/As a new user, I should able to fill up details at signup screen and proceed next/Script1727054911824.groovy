@@ -19,23 +19,23 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.tap(findTestObject('IOS/Signin/createNewAccount'), 5)
 
-Mobile.setText(findTestObject('IOS/Signup/firstName'), 'testnew1', 0)
+Mobile.setText(findTestObject('IOS/Signup/Signup Screen/firstName'), 'testnew1', 0)
 
-Mobile.setText(findTestObject('IOS/Signup/lastName'), 'testnew2', 0)
+Mobile.setText(findTestObject('IOS/Signup/Signup Screen/lastName'), 'testnew2', 0)
 
-Mobile.setText(findTestObject('IOS/Signup/preferredName'), 'altname', 0)
+Mobile.setText(findTestObject('IOS/Signup/Signup Screen/preferredName'), 'altname', 0)
 
-Mobile.setText(findTestObject('IOS/Signup/emailAddress'), 'testsuraj@gmail.com', 0)
+Mobile.setText(findTestObject('IOS/Signup/Signup Screen/emailAddress'), 'testsuraj@gmail.com', 0)
 
-Mobile.setText(findTestObject('IOS/Signup/password'), 'Asd@1234', 0)
+Mobile.setText(findTestObject('IOS/Signup/Signup Screen/password'), 'Asd@1234', 0)
 
-Mobile.setText(findTestObject('IOS/Signup/confirmPassword'), 'Asd@1234', 0)
+Mobile.setText(findTestObject('IOS/Signup/Signup Screen/confirmPassword'), 'Asd@1234', 0)
 
 Mobile.tap(findTestObject('IOS/keyboaard_Done'), 0)
 
-Mobile.tap(findTestObject('IOS/Signup/termsAndCondition'), 0, FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('IOS/Signup/Signup Screen/termsAndCondition'), 0, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('IOS/Signup/button_Next'), 0)
+Mobile.tap(findTestObject('IOS/Signup/Signup Screen/button_Next'), 0)
 
-Mobile.verifyElementNotVisible(findTestObject('IOS/Signup/firstName'), 0)
+Mobile.verifyElementNotVisible(findTestObject('IOS/Signup/Signup Screen/firstName'), 0)
 

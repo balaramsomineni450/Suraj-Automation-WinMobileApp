@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ios</description>
+   <name>As a user, I should able to enter sponser company and proceed next screen</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>74b10cfc-ba44-4b15-b80c-2f03c02037b9</testCaseGuid>
+</TestCaseEntity>

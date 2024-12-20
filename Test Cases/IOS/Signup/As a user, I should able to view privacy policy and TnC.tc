@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ios</description>
+   <name>As a user, I should able to view privacy policy and TnC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>91139d7a-e75e-4b8b-95fd-287bb894eddc</testCaseGuid>
+</TestCaseEntity>

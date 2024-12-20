@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.callTestCase(findTestCase('Test Cases/Android/Signup/As a user, I should able to select benefit providder and proceed to next screen'), 
+Mobile.callTestCase(findTestCase('Test Cases/Android/Signup/As a user, I should able to select benefit provider and proceed to next screen'), 
     null)
 
 Mobile.setText(findTestObject('Android/Signup/WIN Access Code/accessCode'), WINAccessCode, 0)

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ios</description>
+   <name>As a user, I should receive validations for mandatory fields at signup screen</name>
+   <tag>ios</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>be6284c5-cdbd-44e7-8443-5b6e20e080a3</testCaseGuid>
+</TestCaseEntity>

@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 Mobile.callTestCase(findTestCase('IOS/Signup/As a new user, I should able to fill up details at signup screen and proceed next'), 
     null, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('IOS/Signup/button_Next'), 0)
+Mobile.tap(findTestObject('IOS/Signup/Signup Screen/button_Next'), 0)
 
 Mobile.verifyElementVisible(findTestObject('IOS/Signup/SetupAccount/errortxt_DOB'), 5)
 
@@ -44,7 +44,7 @@ Mobile.tap(findTestObject('IOS/Signup/SetupAccount/button_Okay'), 0)
 
 Mobile.setText(findTestObject('IOS/Signup/SetupAccount/phoneNumber'), '9977885544', 0)
 
-Mobile.tap(findTestObject('IOS/Signup/button_Next'), 0)
+Mobile.tap(findTestObject('IOS/Signup/Signup Screen/button_Next'), 0)
 
 Mobile.verifyElementVisible(findTestObject('IOS/Signup/SetupAccount/errortxt_ZipCode'), 0)
 

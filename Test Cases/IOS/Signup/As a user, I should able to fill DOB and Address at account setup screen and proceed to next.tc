@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ios</description>
+   <name>As a user, I should able to fill DOB and Address at account setup screen and proceed to next</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>af8fa614-2777-4ebf-bcfa-053c889a8f76</testCaseGuid>
+</TestCaseEntity>

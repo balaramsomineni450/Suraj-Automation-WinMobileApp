@@ -239,7 +239,7 @@
       <guid>2dec550a-969c-42e4-a2cd-3b35a7737dc4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Android/Signup/As a user, I should receive error if my age is less than 16 years</testCaseId>
+      <testCaseId>Test Cases/Android/Signup/As a user, I should receive error message if my age is less than 16 years</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -290,7 +290,7 @@
       <guid>7cc60e4f-7f79-437e-a7ac-19727f71ceef</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Android/Signup/As a user, I should able to select benefit providder and proceed to next screen</testCaseId>
+      <testCaseId>Test Cases/Android/Signup/As a user, I should able to select benefit provider and proceed to next screen</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
