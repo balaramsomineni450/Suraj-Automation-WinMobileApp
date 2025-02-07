@@ -38,7 +38,7 @@
       <name>selectStartDate</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'20'</defaultValue>
       <description></description>
       <id>0ae71daa-d66d-4c68-a1c5-fdc204d0cc93</id>
       <masked>false</masked>

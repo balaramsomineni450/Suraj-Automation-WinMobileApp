@@ -58,7 +58,7 @@ class CheckSignInBeforeEachTestCase {
 			{
 				Mobile.startExistingApplication('com.eisplc.winfertility', FailureHandling.STOP_ON_FAILURE)
 				
-				if(testCase.tag.contains("signin") || testCase.tag.contains("signup")) {
+				if(testCase.description.contains("signin") || testCase.description.contains("signup")) {
 					
 					Mobile.tap(findTestObject('IOS/skip'),10, FailureHandling.OPTIONAL)
 					

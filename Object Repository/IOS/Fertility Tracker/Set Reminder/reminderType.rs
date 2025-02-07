@@ -7,7 +7,7 @@
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <locator>//XCUIElementTypeTextField[@value=&quot;Log Intercourse&quot;]</locator>
+   <locator>//XCUIElementTypeStaticText[@name="Title"]/following-sibling::XCUIElementTypeTextField[1]</locator>
    <locatorCollection>
       <entry>
          <key>ANDROID_UI_AUTOMATOR</key>

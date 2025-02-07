@@ -1,9 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>ios</description>
+   <description>ios, signup</description>
    <name>As a user, I should receive validations for mandatory fields at signup screen</name>
    <tag>ios</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>be6284c5-cdbd-44e7-8443-5b6e20e080a3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>940d04b7-c4a6-4113-a885-c3a7960e93f4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f2ba4abb-747e-4215-8abc-08dae0176102</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>458d0981-f3b2-4b89-8dbc-2cab3786ccf7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c4ba02e9-f0b0-431d-a988-6bbe8a5ed819</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'TTest'</defaultValue>
+      <description></description>
+      <id>940d04b7-c4a6-4113-a885-c3a7960e93f4</id>
+      <masked>false</masked>
+      <name>FirstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test'</defaultValue>
+      <description></description>
+      <id>f2ba4abb-747e-4215-8abc-08dae0176102</id>
+      <masked>false</masked>
+      <name>LastName</name>
+   </variable>
+   <variable>
+      <defaultValue>'test2@test.com'</defaultValue>
+      <description></description>
+      <id>458d0981-f3b2-4b89-8dbc-2cab3786ccf7</id>
+      <masked>false</masked>
+      <name>EmailAddress</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test@123'</defaultValue>
+      <description></description>
+      <id>c4ba02e9-f0b0-431d-a988-6bbe8a5ed819</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
 </TestCaseEntity>

@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>keyboaard_Done</name>
+   <name>racePicker</name>
    <tag></tag>
-   <elementGuidId>08e00a3d-9795-4909-9af5-f38ab75b2b1f</elementGuidId>
+   <elementGuidId>b97740d1-09c8-4c14-84b5-2a6dd669242a</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <locator>//XCUIElementTypeButton[@name=&quot;Done&quot;]</locator>
+   <locator>//XCUIElementTypeTextField[@value=&quot;Race / Ethnicity&quot;]/following-sibling::XCUIElementTypePicker/XCUIElementTypePickerWheel</locator>
    <locatorCollection>
       <entry>
-         <key>ATTRIBUTES</key>
+         <key>ANDROID_UI_AUTOMATOR</key>
+         <value>new UiSelector()</value>
       </entry>
       <entry>
-         <key>ID</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
+         <key>IOS_PREDICATE_STRING</key>
          <value></value>
       </entry>
       <entry>
@@ -33,19 +30,18 @@
          <value></value>
       </entry>
       <entry>
-         <key>ANDROID_UI_AUTOMATOR</key>
-         <value>new UiSelector()</value>
-      </entry>
-      <entry>
          <key>ACCESSIBILITY</key>
          <value></value>
       </entry>
       <entry>
-         <key>NAME</key>
+         <key>ID</key>
          <value></value>
       </entry>
       <entry>
-         <key>IOS_PREDICATE_STRING</key>
+         <key>ATTRIBUTES</key>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
          <value></value>
       </entry>
       <entry>
@@ -53,7 +49,11 @@
          <value></value>
       </entry>
       <entry>
-         <key>IMAGE</key>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>NAME</key>
          <value></value>
       </entry>
    </locatorCollection>

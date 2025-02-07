@@ -143,43 +143,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>dcebb45b-7376-4313-8430-855552283a6b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Android/Signup/As a new user, I should able to fill up details at signup screen and proceed next</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>74b9c9f8-fde3-4215-bab2-d8a7b323ba84</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>d4e1eac2-738e-4220-a611-362beae9bd72</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>e5c4d6ad-f7a7-4fb9-9a13-5446d6798263</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>c601d1e0-e1ab-49a1-bfa5-7f4bc1c48870</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>287e6f82-cb0a-4785-ba76-ad2a54fc9535</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>9600a385-c50f-4644-b231-79ff5b7ab24a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -214,6 +177,43 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>64672c86-420c-4480-9a48-122c93018da3</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dcebb45b-7376-4313-8430-855552283a6b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Android/Signup/As a new user, I should able to fill up details at signup screen and proceed next</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>74b9c9f8-fde3-4215-bab2-d8a7b323ba84</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d4e1eac2-738e-4220-a611-362beae9bd72</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e5c4d6ad-f7a7-4fb9-9a13-5446d6798263</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c601d1e0-e1ab-49a1-bfa5-7f4bc1c48870</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>287e6f82-cb0a-4785-ba76-ad2a54fc9535</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

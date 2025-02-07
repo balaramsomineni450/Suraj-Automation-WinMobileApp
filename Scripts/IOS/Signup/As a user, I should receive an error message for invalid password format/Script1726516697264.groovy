@@ -31,7 +31,7 @@ Mobile.setText(findTestObject('IOS/Signup/Signup Screen/password'), '1234', 0)
 
 Mobile.setText(findTestObject('IOS/Signup/Signup Screen/confirmPassword'), '1234', 0)
 
-Mobile.tap(findTestObject('IOS/keyboaard_Done'), 0)
+Mobile.tap(findTestObject('IOS/keyboard_Done'), 0)
 
 Mobile.tap(findTestObject('IOS/Signup/Signup Screen/termsAndCondition'), 0, FailureHandling.STOP_ON_FAILURE)
 

@@ -48,7 +48,7 @@ Mobile.sendKeys(findTestObject('Android/Fertility Tracker/Set Reminder/nextHour'
 
 Mobile.tap(findTestObject('IOS/Fertility Tracker/Set Reminder/button_Done'), 0)
 
-Mobile.tap(findTestObject('IOS/Fertility Tracker/Set Reminder/remindeMe'), 0)
+Mobile.tap(findTestObject('IOS/Fertility Tracker/Set Reminder/remindMe'), 0)
 
 Mobile.sendKeys(findTestObject('IOS/Fertility Tracker/Set Reminder/selectRemindOption'), '5 Minutes')
 
@@ -62,7 +62,7 @@ Mobile.tap(findTestObject('IOS/Fertility Tracker/Set Reminder/button_Done'), 0)
 
 Mobile.setText(findTestObject('IOS/Fertility Tracker/Set Reminder/notes'), 'this is for testing purpose', 0)
 
-Mobile.checkElement(findTestObject('IOS/keyboaard_Done'), 0)
+Mobile.checkElement(findTestObject('IOS/keyboard_Done'), 0)
 
 Mobile.tap(findTestObject('IOS/Fertility Tracker/Set Reminder/send_remider_by_email'), 0)
 

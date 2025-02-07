@@ -21,13 +21,15 @@ Mobile.tap(findTestObject('IOS/Home/FindCare'), 0)
 
 Mobile.tap(findTestObject('IOS/Search/Finde Care Near You'), 0)
 
-Mobile.setText(findTestObject('IOS/Search/zipCode'), '98105', 0)
+Mobile.tap(findTestObject('IOS/Search/reproductiveEndocrinologists'), 0)
 
-Mobile.tap(findTestObject('IOS/Search/distance'), 0)
+Mobile.setText(findTestObject('IOS/Search/zipCode'), Zipcode, 0)
 
-Mobile.tap(findTestObject('IOS/Search/selectOption-3miles'), 0)
+Mobile.setText(findTestObject('IOS/Search/distance'), '3', 0)
 
 Mobile.tap(findTestObject('IOS/Search/selectCheckbox-BIPOC'), 0)
 
 Mobile.tap(findTestObject('IOS/Search/button_StartSearch'), 0)
+
+Mobile.verifyElementExist(findTestObject('IOS/Search/heartLogo'), 0)
 

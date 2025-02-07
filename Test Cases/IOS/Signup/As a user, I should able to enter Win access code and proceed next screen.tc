@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>ios</description>
+   <description>ios, signup</description>
    <name>As a user, I should able to enter Win access code and proceed next screen</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>0065aabe-9f93-48ec-bf4e-28dd42dfc832</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d268af6d-8268-4a02-afe0-d75390ae8312</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'WINS'</defaultValue>
+      <description></description>
+      <id>d268af6d-8268-4a02-afe0-d75390ae8312</id>
+      <masked>false</masked>
+      <name>AccessCode</name>
+   </variable>
 </TestCaseEntity>

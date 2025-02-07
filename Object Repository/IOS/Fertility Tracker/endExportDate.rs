@@ -7,7 +7,7 @@
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <locator>(//XCUIElementTypeTextField[@value=&quot;MM/DD/YYYY&quot;])[2]</locator>
+   <locator>//XCUIElementTypeStaticText[@name="End Date"]/following-sibling::XCUIElementTypeTextField[1]</locator>
    <locatorCollection>
       <entry>
          <key>IOS_PREDICATE_STRING</key>

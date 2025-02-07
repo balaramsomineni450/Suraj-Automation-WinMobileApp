@@ -21,15 +21,17 @@ Mobile.tap(findTestObject('IOS/Home/FindCare'), 0)
 
 Mobile.tap(findTestObject('IOS/Search/Finde Care Near You'), 0)
 
+Mobile.tap(findTestObject('IOS/Search/reproductiveEndocrinologists'), 0)
+
 Mobile.tap(findTestObject('IOS/Search/Searchby_City'), 0)
 
 Mobile.setText(findTestObject('IOS/Search/input_City'), CityName, 0)
 
-Mobile.tap(findTestObject('IOS/keyboaard_Done'), 0)
+Mobile.tap(findTestObject('IOS/keyboard_Done'), 0)
 
 Mobile.tap(findTestObject('IOS/Search/selectCheckbox-BIPOC'), 0)
 
 Mobile.tap(findTestObject('IOS/Search/button_StartSearch'), 0)
 
-Mobile.verifyElementVisible(findTestObject('IOS/Search/link_Clear'), 5)
+Mobile.verifyElementVisible(findTestObject('IOS/Search/heartLogo'), 5)
 

@@ -49,7 +49,7 @@ Mobile.setText(findTestObject('IOS/Search/zipCode'), Zipcode, 0)
 
 Mobile.setText(findTestObject('IOS/Search/distance'), '3', 0)
 
-Mobile.tap(findTestObject('IOS/keyboaard_Done'), 0)
+Mobile.tap(findTestObject('IOS/keyboard_Done'), 0)
 
 Mobile.tap(findTestObject('IOS/Search/button_StartSearch'), 0)
 

@@ -31,11 +31,11 @@ Mobile.setText(findTestObject('IOS/Signup/Signup Screen/password'), 'Asd@1234', 
 
 Mobile.setText(findTestObject('IOS/Signup/Signup Screen/confirmPassword'), 'Asd@1244', 0)
 
-Mobile.tap(findTestObject('IOS/keyboaard_Done'), 0)
+Mobile.tap(findTestObject('IOS/keyboard_Done'), 0)
 
 Mobile.tap(findTestObject('IOS/Signup/Signup Screen/termsAndCondition'), 0, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('IOS/Signup/Signup Screen/button_Next'), 0)
 
-Mobile.verifyElementNotVisible(findTestObject('IOS/Signup/Signup Screen/errortxt_PasswordsNotMatch'), 0)
+Mobile.verifyElementVisible(findTestObject('IOS/Signup/Signup Screen/errortxt_PasswordsNotMatch'), 0)
 

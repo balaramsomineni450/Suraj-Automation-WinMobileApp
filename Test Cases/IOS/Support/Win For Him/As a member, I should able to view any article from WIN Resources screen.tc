@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>ios</description>
    <name>As a member, I should able to view any article from WIN Resources screen</name>
-   <tag></tag>
+   <tag>ios</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>4f31597f-ae4c-4f4c-bfe2-8d5b4b81c06b</testCaseGuid>

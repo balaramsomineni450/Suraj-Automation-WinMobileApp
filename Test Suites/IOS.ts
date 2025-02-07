@@ -17,6 +17,30 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/IOS/Signup/As a user, I should receive validations for mandatory fields at signup screen</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>940d04b7-c4a6-4113-a885-c3a7960e93f4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f2ba4abb-747e-4215-8abc-08dae0176102</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>458d0981-f3b2-4b89-8dbc-2cab3786ccf7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c4ba02e9-f0b0-431d-a988-6bbe8a5ed819</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>8ac464f0-a6ea-4f58-9243-b8b6c851418d</guid>
@@ -40,10 +64,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>cd236dc9-81c0-4021-b929-5b784420eb81</guid>
+      <guid>690583f0-14a9-432f-afea-2bbdc25b4da8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/IOS/Signup/As a user, I should receive validations for mandatory fields at setup accpunt screen</testCaseId>
+      <testCaseId>Test Cases/IOS/Signup/As a user, I should able to view privacy policy and TnC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -58,6 +82,152 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/IOS/Signup/As a new user, I should able to fill up details at signup screen and proceed next</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cd236dc9-81c0-4021-b929-5b784420eb81</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IOS/Signup/As a user, I should receive validations for mandatory fields account setup screen</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>487427b1-168e-49c8-89a2-8f0803e5b339</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IOS/Signup/As a user, I should receive an error message if my age is less than 16 years</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>463a01a4-d5bb-43fe-85b4-7ae8b1067301</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IOS/Signup/As a user, I should able to fill DOB and Address at account setup screen and proceed to next</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>417088cf-487a-417e-ba11-2723201c8e91</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IOS/Signup/As a user, I should able to enter Win access code and proceed next screen</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d268af6d-8268-4a02-afe0-d75390ae8312</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>714ebb0b-476a-4870-9f06-540a016b928d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IOS/Signup/As a user, I should able to select benefit provider and proceed to next screen</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>01adbb36-a149-49bd-8670-a4516190cd78</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IOS/Signup/As a user, I should able to enter sponser company and proceed next screen</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6ad55855-ff14-4a41-9e73-47cf6cf69170</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>71d3f424-60ef-4fc3-bf08-052c37c4c35a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IOS/Sign In/As a user, I should able to login successfully with valid email and password</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c4f40d46-76c7-4304-965e-ff40e3fac4dc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>991e54e9-29f5-4fb1-824d-d0bc2c4671ec</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b8a118e4-adb6-41c7-8a33-aa228c409dfe</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IOS/Sign In/As a user, I should able to logout from application</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>78ddcd12-6d03-43bb-8a81-8cae81746fc1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5556c207-3f82-44a7-8cdc-b13af18720a8</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c71ed3db-51e4-46ef-8c6c-4dcbb0d72396</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IOS/Sign In/As a user, I should able to navigate to Forgot password screen using Forgot Password link and vice versa</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fd6c98a4-ae22-4218-a55b-fbef898bdbdf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IOS/Sign In/As a user, I should able to navigate to sign up screen using Create New Account link</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8c7c4dce-1163-4ff4-841e-855bdbc8d1ef</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IOS/Sign In/As a user, I should receive error message for account locked after 3 unsuccessfull attempts</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a285b648-aa83-4b2b-85df-3a3543d51690</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>599cdba3-d319-429d-9bf2-fd6e34a91c40</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8b03d821-2410-40ab-93df-f0b6e0c53eee</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IOS/Sign In/As a user, I should receive error message for invalid email address</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>aba87e38-4cbe-4f25-8727-25b3382b2177</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IOS/Sign In/As a user, I should receive error message for invalid password</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>52886260-6733-436d-b981-cd4a9548c126</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IOS/Sign In/As a user, I should receive validations for empty fields</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -223,6 +393,18 @@
          <value></value>
          <variableId>8cef1fc7-c06b-44d8-ad90-54a03da38ba3</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>96b02763-a33d-44a2-80f1-e15fefafbd1b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e839754e-3ce4-48a6-a481-265883055951</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>f61e48c3-ad5d-465f-a74a-330ac109c9ff</guid>
@@ -241,6 +423,18 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>1184a848-ca54-4a9a-ac3f-797c06894241</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7816be00-76d9-449f-98d3-8a40234b0fd6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c429602a-c4bc-4701-9cb2-72087b983554</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
@@ -267,6 +461,25 @@
          <value></value>
          <variableId>a549c339-c07d-48cb-8dce-5f0b26130a3e</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>65ef8f2f-8a3f-42fd-902d-4c774e0c0de6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c45e11af-c306-43b6-bb8a-0c73e32da2c0</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>33d058c4-a556-4441-af50-0303a9a63be1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IOS/Reset Password/As a user, I should able to navigate back from Reset Password screen</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>71010195-d86a-415d-a183-e056d1384de5</guid>
@@ -280,6 +493,18 @@
          <value></value>
          <variableId>4bb559b1-04f8-426f-8144-501c6b094808</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1a25deb5-f9fc-4a8c-be86-3ce3141bdbb9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>062e1a15-9025-4eed-bdbf-44cb871463ce</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>66c34e6b-2f22-43d2-8287-e4b731c9412b</guid>
@@ -292,6 +517,18 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>a732c884-736b-47bd-a369-1441b49ee95b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>69a58e87-d3d6-46c0-885c-0d5f85de28a7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>773253f8-1290-4d14-bc5c-84cdfdd7bd92</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
@@ -325,6 +562,18 @@
          <value></value>
          <variableId>6a52a363-1cdc-4374-85e2-6a4a0ea57b6e</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>775369e7-80bf-4b14-8aaa-08565c9846ac</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0c1edfee-af10-4f71-9e36-90590f10003b</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>04be98b4-0518-4af6-8b1b-a3aaf071e65a</guid>
@@ -332,6 +581,24 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/IOS/Search/As a member I should able to search providers by zip code</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c7e3a5fd-48dc-4bb1-9dcd-9c6945a45b5c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ee5a9a2b-4c2d-42fd-bff5-ad324d832e82</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c4fea78e-331a-4deb-a391-8cf26c435d91</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>995c638c-cd7e-43d0-a63c-2b760bddaf3c</guid>
@@ -353,58 +620,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>6a703239-fd14-4553-b6ea-74750d8a8504</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IOS/Book Appointment/As a member, I should able to re-schedule upcoming appointments</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>bfd88dcb-43ca-4fc8-b03e-982cfc8e08a0</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IOS/Book Appointment/As a member, I should able to cancel the scheduled appointment</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>edc4337c-0402-4fe6-9a38-bcd42f34accc</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>b4b112ce-f10c-4c3d-8561-b732dbe1e891</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>e060bc8e-d8b4-4356-94ef-306bab5514f9</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IOS/Book Appointment/As a member, I should not able to book multiple appointments at same time slot</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>cb3f50b1-faf2-46b2-8ca8-72bf6718ea4b</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>05e11b55-cc92-463e-bc1f-7a8908ae3a81</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>33d058c4-a556-4441-af50-0303a9a63be1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IOS/Reset Password/As a user, I should able to navigate back from Reset Password screen</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>1daf6991-e6d8-4a59-90bf-00346af847ef</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -424,74 +639,10 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>2a2a4464-f50d-4ddb-822e-475687682f80</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IOS/Book Appointment/As a member, I should receive warning message if I tried to book appointment for same issue twice</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>6c2087e3-2ab2-4c1a-a4ab-ecee9ccf0885</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>119f46e1-949b-41d4-b6ba-f1d0bb3794bb</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>a9360c7b-b7c9-4eb5-b0ca-a209933f49c4</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IOS/Book Appointment/As a member, I should not able to book appointment for unavailable time-slot</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>c2bed722-20fd-404f-a741-acf8c6d78c49</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>4356bb9f-ee9a-4382-896e-4060a0af3086</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>8d8c8230-654f-46bc-a617-2ac4aaa1379d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IOS/Book Appointment/As a member, I should not able to book appointment for date for past dates</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>339783a8-0bed-41eb-b5dc-8fc82109a9e9</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>920aa211-7b48-4415-85af-a76f0b67689d</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>a33f7efd-e6d2-41bf-bf6d-fb9a6d5aae2a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/IOS/Book Appointment/As a member, I should not able to re-schedule appointments with past dates</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>a226befb-bc1f-406d-9657-deb0222b560d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IOS/Book Appointment/As a member, I should not see cancelled appointments under upcoming appointments</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -514,6 +665,63 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+      <guid>e060bc8e-d8b4-4356-94ef-306bab5514f9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IOS/Book Appointment/As a member, I should not able to book multiple appointments at same time slot</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cb3f50b1-faf2-46b2-8ca8-72bf6718ea4b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>05e11b55-cc92-463e-bc1f-7a8908ae3a81</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2a2a4464-f50d-4ddb-822e-475687682f80</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IOS/Book Appointment/As a member, I should receive warning message if I tried to book appointment for same issue twice</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6c2087e3-2ab2-4c1a-a4ab-ecee9ccf0885</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>119f46e1-949b-41d4-b6ba-f1d0bb3794bb</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>eca97f47-c732-43f6-a13f-096225c5d165</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IOS/Book Appointment/As a member, I should able to book appointment with different time zone</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>988ea799-0fd7-44d1-9772-32dd1d13271b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c27d17aa-cbee-4b4f-9ed0-d5bd28473595</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>3650b45f-4032-43b5-b102-5ec1db63eb7c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -533,81 +741,86 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>8b03d821-2410-40ab-93df-f0b6e0c53eee</guid>
+      <guid>bfd88dcb-43ca-4fc8-b03e-982cfc8e08a0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/IOS/Sign In/As a user, I should receive error message for invalid email address</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>71d3f424-60ef-4fc3-bf08-052c37c4c35a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IOS/Sign In/As a user, I should able to login successfully with valid email and password</testCaseId>
+      <testCaseId>Test Cases/IOS/Book Appointment/As a member, I should able to cancel the scheduled appointment</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>c4f40d46-76c7-4304-965e-ff40e3fac4dc</variableId>
+         <variableId>edc4337c-0402-4fe6-9a38-bcd42f34accc</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>991e54e9-29f5-4fb1-824d-d0bc2c4671ec</variableId>
+         <variableId>b4b112ce-f10c-4c3d-8561-b732dbe1e891</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>8c7c4dce-1163-4ff4-841e-855bdbc8d1ef</guid>
+      <guid>8d8c8230-654f-46bc-a617-2ac4aaa1379d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/IOS/Sign In/As a user, I should receive error message for account locked after 3 unsuccessfull attempts</testCaseId>
+      <testCaseId>Test Cases/IOS/Book Appointment/As a member, I should not able to book appointment for date for past dates</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>a285b648-aa83-4b2b-85df-3a3543d51690</variableId>
+         <variableId>339783a8-0bed-41eb-b5dc-8fc82109a9e9</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>599cdba3-d319-429d-9bf2-fd6e34a91c40</variableId>
+         <variableId>920aa211-7b48-4415-85af-a76f0b67689d</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>52886260-6733-436d-b981-cd4a9548c126</guid>
+      <guid>6a703239-fd14-4553-b6ea-74750d8a8504</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/IOS/Sign In/As a user, I should receive validations for empty fields</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>b8a118e4-adb6-41c7-8a33-aa228c409dfe</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IOS/Sign In/As a user, I should able to logout from application</testCaseId>
+      <testCaseId>Test Cases/IOS/Book Appointment/As a member, I should able to re-schedule upcoming appointments</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>78ddcd12-6d03-43bb-8a81-8cae81746fc1</variableId>
+         <variableId>536e56d3-8ec8-41e3-b297-3d2a33a5a18e</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>5556c207-3f82-44a7-8cdc-b13af18720a8</variableId>
+         <variableId>2582438c-605b-44fb-8c8f-d4f9e1fb81ad</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>fd6c98a4-ae22-4218-a55b-fbef898bdbdf</guid>
+      <guid>a9360c7b-b7c9-4eb5-b0ca-a209933f49c4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/IOS/Sign In/As a user, I should able to navigate to sign up screen using Create New Account link</testCaseId>
+      <testCaseId>Test Cases/IOS/Book Appointment/As a member, I should not able to book appointment for unavailable time-slot</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c2bed722-20fd-404f-a741-acf8c6d78c49</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4356bb9f-ee9a-4382-896e-4060a0af3086</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a226befb-bc1f-406d-9657-deb0222b560d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IOS/Book Appointment/As a member, I should not see cancelled appointments under upcoming appointments</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -628,13 +841,6 @@
          <value></value>
          <variableId>c27d17aa-cbee-4b4f-9ed0-d5bd28473595</variableId>
       </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c71ed3db-51e4-46ef-8c6c-4dcbb0d72396</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IOS/Sign In/As a user, I should able to navigate to Forgot password screen using Forgot Password link and vice versa</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>b1919892-4df4-4a51-aec8-65b2c4fba361</guid>
@@ -844,13 +1050,6 @@
          <value></value>
          <variableId>9d57b1b4-45ec-480b-bff2-4d542e1560a0</variableId>
       </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>aba87e38-4cbe-4f25-8727-25b3382b2177</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IOS/Sign In/As a user, I should receive error message for invalid password</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>7c87e2bc-6a14-4cd8-bb8c-930537e685b8</guid>

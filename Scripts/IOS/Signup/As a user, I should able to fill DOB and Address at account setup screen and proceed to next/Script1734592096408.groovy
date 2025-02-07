@@ -20,23 +20,37 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('IOS/Signup/As a new user, I should able to fill up details at signup screen and proceed next'), 
     [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.sendKeys(findTestObject('IOS/Signup/SetupAccount/select_Year'), '2007')
+Mobile.tap(findTestObject('IOS/Signup/Account Setup/dob'), 0)
 
-Mobile.sendKeys(findTestObject('IOS/Signup/SetupAccount/select_Month'), 'July')
+Mobile.sendKeys(findTestObject('IOS/Signup/Account Setup/select_Year'), '2007')
 
-Mobile.sendKeys(findTestObject('IOS/Signup/SetupAccount/select_Day'), '12')
+Mobile.sendKeys(findTestObject('IOS/Signup/Account Setup/select_Month'), 'July')
 
-Mobile.tap(findTestObject('IOS/Signup/SetupAccount/button_Done'), 0)
+Mobile.sendKeys(findTestObject('IOS/Signup/Account Setup/select_Day'), '12')
 
-Mobile.setText(findTestObject('IOS/Signup/SetupAccount/phoneNumber'), '9977885544', 0)
+Mobile.tap(findTestObject('IOS/Signup/Account Setup/button_Done'), 0)
 
-Mobile.setText(findTestObject('IOS/Signup/SetupAccount/zipCode'), '98901', 0)
+Mobile.setText(findTestObject('IOS/Signup/Account Setup/phoneNumber'), '9977885544', 0)
 
-Mobile.tap(findTestObject('IOS/Signup/SetupAccount/checkbox_AgreeToReceiveSMS'), 0)
+Mobile.setText(findTestObject('IOS/Signup/Account Setup/zipCode'), '98901', 0)
 
-Mobile.sendKeys(findTestObject('IOS/Signup/SetupAccount/select_language'), 'English')
+Mobile.tap(findTestObject('IOS/keyboard_Done'), 0)
 
-Mobile.sendKeys(findTestObject('IOS/Signup/SetupAccount/select_Race'), 'White')
+Mobile.tap(findTestObject('IOS/Signup/Account Setup/checkbox_AgreeToReceiveSMS'), 0)
+
+Mobile.tap(findTestObject('IOS/Signup/Account Setup/select_language'), 0)
+
+Mobile.sendKeys(findTestObject('IOS/Signup/Account Setup/languagePicker'), 'English')
+
+Mobile.tap(findTestObject('IOS/Signup/Account Setup/select_LabguageDropdownAgain'), 0)
+
+Mobile.tap(findTestObject('IOS/Signup/Account Setup/select_Race'), 0)
+
+Mobile.sendKeys(findTestObject('IOS/Signup/Account Setup/scroll'), '100%')
+
+Mobile.sendKeys(findTestObject('IOS/Signup/Account Setup/racePicker'), 'White')
+
+Mobile.tap(findTestObject('IOS/Signup/Account Setup/select_RaceDropdownAgain'), 0)
 
 Mobile.tap(findTestObject('IOS/Signup/Signup Screen/button_Next'), 0)
 

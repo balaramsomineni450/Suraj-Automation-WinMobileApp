@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>ios</description>
+   <description>ios, signup</description>
    <name>As a user, I should receive registration success message when I proceed next after entering Member ID</name>
    <tag></tag>
    <comment></comment>

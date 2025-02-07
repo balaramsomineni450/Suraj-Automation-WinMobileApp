@@ -7,7 +7,7 @@
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <locator>//XCUIElementTypeStaticText[@name=&quot;Please confirm your new password.&quot;]</locator>
+   <locator>//XCUIElementTypeStaticText[@name=&quot;Please enter the confirm password&quot;]</locator>
    <locatorCollection>
       <entry>
          <key>IMAGE</key>

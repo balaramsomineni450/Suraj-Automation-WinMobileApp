@@ -21,9 +21,11 @@ Mobile.tap(findTestObject('IOS/Home/FindCare'), 0)
 
 Mobile.tap(findTestObject('IOS/Search/Finde Care Near You'), 0)
 
+Mobile.tap(findTestObject('IOS/Search/reproductiveEndocrinologists'), 0)
+
 Mobile.tap(findTestObject('IOS/Search/Searchby_City'), 0)
 
-Mobile.setText(findTestObject('IOS/Search/input_City1'), CityName, 0)
+Mobile.setText(findTestObject('IOS/Search/input_City'), CityName, 0)
 
 Mobile.setText(findTestObject('IOS/Search/input_state'), State, 0)
 

@@ -3,49 +3,58 @@
    <description></description>
    <name>button_Next</name>
    <tag></tag>
-   <elementGuidId>fff7a12e-1581-4042-abb3-0fc290d3fc77</elementGuidId>
+   <elementGuidId>2889de6a-b7b8-4e37-ac7b-c58be9b5d217</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <locator>//XCUIElementTypeButton[@name=&quot;Next&quot;]</locator>
    <locatorCollection>
       <entry>
-         <key>IOS_CLASS_CHAIN</key>
+         <key>IOS_PREDICATE_STRING</key>
+         <value></value>
       </entry>
       <entry>
-         <key>CUSTOM</key>
+         <key>ANDROID_VIEWTAG</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>IOS_CLASS_CHAIN</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ID</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ACCESSIBILITY</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//XCUIElementTypeButton[@name=&quot;Next&quot;]</value>
       </entry>
       <entry>
          <key>ANDROID_UI_AUTOMATOR</key>
          <value>new UiSelector()</value>
       </entry>
       <entry>
-         <key>IMAGE</key>
-      </entry>
-      <entry>
-         <key>ANDROID_VIEWTAG</key>
-      </entry>
-      <entry>
-         <key>NAME</key>
-      </entry>
-      <entry>
-         <key>ID</key>
-      </entry>
-      <entry>
-         <key>IOS_PREDICATE_STRING</key>
+         <key>CLASS_NAME</key>
+         <value></value>
       </entry>
       <entry>
          <key>ATTRIBUTES</key>
       </entry>
       <entry>
-         <key>CLASS_NAME</key>
+         <key>CUSTOM</key>
+         <value></value>
       </entry>
       <entry>
-         <key>ACCESSIBILITY</key>
+         <key>IMAGE</key>
+         <value></value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//XCUIElementTypeButton[@name=&quot;Okay&quot;]</value>
+         <key>NAME</key>
+         <value></value>
       </entry>
    </locatorCollection>
    <locatorStrategy>XPATH</locatorStrategy>

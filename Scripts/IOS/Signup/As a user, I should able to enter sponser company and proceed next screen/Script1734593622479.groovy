@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('IOS/Signup/As a user, I should able to enter Win access code and proceed next screen'), 
     [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('IOS/Signup/Sponsor Company/input_Company'), '', 0)
+Mobile.setText(findTestObject('IOS/Signup/Sponsor Company/input_Company'), Company, 0)
 
 Mobile.tap(findTestObject('IOS/Signup/Sponsor Company/button_Verify'), 0)
 

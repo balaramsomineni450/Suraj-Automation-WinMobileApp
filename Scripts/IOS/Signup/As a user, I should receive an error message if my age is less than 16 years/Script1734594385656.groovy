@@ -29,21 +29,23 @@ Mobile.setText(findTestObject('IOS/Signup/Signup Screen/emailAddress'), 'testsur
 
 Mobile.setText(findTestObject('IOS/Signup/Signup Screen/password'), 'Asd@1234', 0)
 
-Mobile.setText(findTestObject('IOS/Signup/Signup Screen/confirmPassword'), 'Asd@1244', 0)
+Mobile.setText(findTestObject('IOS/Signup/Signup Screen/confirmPassword'), 'Asd@1234', 0)
 
-Mobile.tap(findTestObject('IOS/keyboaard_Done'), 0)
+Mobile.tap(findTestObject('IOS/keyboard_Done'), 0)
 
 Mobile.tap(findTestObject('IOS/Signup/Signup Screen/termsAndCondition'), 0, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('IOS/Signup/Signup Screen/button_Next'), 0)
 
-Mobile.sendKeys(findTestObject('IOS/Signup/SetupAccount/select_Year'), '2010')
+Mobile.tap(findTestObject('IOS/Signup/Account Setup/dob'), 0)
 
-Mobile.sendKeys(findTestObject('IOS/Signup/SetupAccount/select_Month'), 'July')
+Mobile.sendKeys(findTestObject('IOS/Signup/Account Setup/select_Year'), '2010', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.sendKeys(findTestObject('IOS/Signup/SetupAccount/select_Day'), '12')
+Mobile.sendKeys(findTestObject('IOS/Signup/Account Setup/select_Month'), 'July')
 
-Mobile.tap(findTestObject('IOS/Signup/SetupAccount/button_Done'), 0)
+Mobile.sendKeys(findTestObject('IOS/Signup/Account Setup/select_Day'), '12')
 
-Mobile.verifyElementVisible(findTestObject('IOS/Signup/SetupAccount/errorTxt_minAge'), 0)
+Mobile.tap(findTestObject('IOS/Signup/Account Setup/button_Done'), 0)
+
+Mobile.verifyElementVisible(findTestObject('IOS/Signup/Account Setup/errorTxt_minAge'), 0)
 

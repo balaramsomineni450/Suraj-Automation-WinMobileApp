@@ -6,4 +6,43 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>300646fc-74aa-4847-ab4b-60a9d5ad74ba</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c7e3a5fd-48dc-4bb1-9dcd-9c6945a45b5c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ee5a9a2b-4c2d-42fd-bff5-ad324d832e82</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c4fea78e-331a-4deb-a391-8cf26c435d91</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Testpremiermsk@gmail.com'</defaultValue>
+      <description></description>
+      <id>c7e3a5fd-48dc-4bb1-9dcd-9c6945a45b5c</id>
+      <masked>false</masked>
+      <name>EmailAddress</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test@123'</defaultValue>
+      <description></description>
+      <id>ee5a9a2b-4c2d-42fd-bff5-ad324d832e82</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>'90025'</defaultValue>
+      <description></description>
+      <id>c4fea78e-331a-4deb-a391-8cf26c435d91</id>
+      <masked>false</masked>
+      <name>Zipcode</name>
+   </variable>
 </TestCaseEntity>

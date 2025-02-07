@@ -25,8 +25,6 @@ Mobile.tap(findTestObject('IOS/Fertility Tracker/when_did_last_perio_start'), 0)
 
 Mobile.tap(findTestObject('IOS/Fertility Tracker/selectCurrentDate'), 10)
 
-Mobile.tap(findTestObject('IOS/Fertility Tracker/button_Done'), 0)
-
 Mobile.tap(findTestObject('IOS/Fertility Tracker/button_Save'), 0)
 
 Mobile.tap(findTestObject('IOS/Fertility Tracker/how_long_period_last'), 0)

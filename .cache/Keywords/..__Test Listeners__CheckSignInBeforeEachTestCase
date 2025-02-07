@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "792CD162AA642D3406FCA16E5E0B5166",
+  "keywordClasses": [
+    {
+      "name": "CheckSignInBeforeEachTestCase",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

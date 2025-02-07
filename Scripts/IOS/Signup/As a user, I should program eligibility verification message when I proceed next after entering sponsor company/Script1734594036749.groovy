@@ -31,29 +31,29 @@ Mobile.setText(findTestObject('IOS/Signup/Signup Screen/password'), Password, 0)
 
 Mobile.setText(findTestObject('IOS/Signup/Signup Screen/confirmPassword'), Password, 0)
 
-Mobile.tap(findTestObject('IOS/keyboaard_Done'), 0)
+Mobile.tap(findTestObject('IOS/keyboard_Done'), 0)
 
 Mobile.tap(findTestObject('IOS/Signup/Signup Screen/termsAndCondition'), 0, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('IOS/Signup/Signup Screen/button_Next'), 0)
 
-Mobile.sendKeys(findTestObject('IOS/Signup/SetupAccount/select_Year'), '2007')
+Mobile.sendKeys(findTestObject('IOS/Signup/Account Setup/select_Year'), '2007')
 
-Mobile.sendKeys(findTestObject('IOS/Signup/SetupAccount/select_Month'), 'July')
+Mobile.sendKeys(findTestObject('IOS/Signup/Account Setup/select_Month'), 'July')
 
-Mobile.sendKeys(findTestObject('IOS/Signup/SetupAccount/select_Day'), '12')
+Mobile.sendKeys(findTestObject('IOS/Signup/Account Setup/select_Day'), '12')
 
-Mobile.tap(findTestObject('IOS/Signup/SetupAccount/button_Done'), 0)
+Mobile.tap(findTestObject('IOS/Signup/Account Setup/button_Done'), 0)
 
-Mobile.setText(findTestObject('IOS/Signup/SetupAccount/phoneNumber'), PhoneNumber, 0)
+Mobile.setText(findTestObject('IOS/Signup/Account Setup/phoneNumber'), PhoneNumber, 0)
 
-Mobile.setText(findTestObject('IOS/Signup/SetupAccount/zipCode'), ZipCode, 0)
+Mobile.setText(findTestObject('IOS/Signup/Account Setup/zipCode'), ZipCode, 0)
 
-Mobile.tap(findTestObject('IOS/Signup/SetupAccount/checkbox_AgreeToReceiveSMS'), 0)
+Mobile.tap(findTestObject('IOS/Signup/Account Setup/checkbox_AgreeToReceiveSMS'), 0)
 
-Mobile.sendKeys(findTestObject('IOS/Signup/SetupAccount/select_language'), 'English')
+Mobile.sendKeys(findTestObject('IOS/Signup/Account Setup/select_language'), 'English')
 
-Mobile.sendKeys(findTestObject('IOS/Signup/SetupAccount/select_Race'), 'White')
+Mobile.sendKeys(findTestObject('IOS/Signup/Account Setup/select_Race'), 'White')
 
 Mobile.tap(findTestObject('IOS/Signup/Signup Screen/button_Next'), 0)
 

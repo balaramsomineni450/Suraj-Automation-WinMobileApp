@@ -42,7 +42,7 @@ Mobile.tap(findTestObject('IOS/Fertility Tracker/button_Save'), 0)
 
 Mobile.tap(findTestObject('IOS/Fertility Tracker/endExportDate'), 0)
 
-mobileTestObject = findTestObject('Object Repository/android/Fertility Tracker/selectEndDate')
+mobileTestObject = findTestObject('Object Repository/IOS/Fertility Tracker/selectEndDate')
 
 mobileTestObject.setMobileLocatorStrategy(MobileLocatorStrategy.XPATH)
 

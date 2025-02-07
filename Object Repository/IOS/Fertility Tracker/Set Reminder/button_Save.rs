@@ -7,7 +7,7 @@
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <locator>//XCUIElementTypeStaticText[@name=&quot;Okay&quot;]</locator>
+   <locator>//XCUIElementTypeButton[@name="Save"]</locator>
    <locatorCollection>
       <entry>
          <key>ANDROID_UI_AUTOMATOR</key>

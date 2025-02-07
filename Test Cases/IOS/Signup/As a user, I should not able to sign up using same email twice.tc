@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>ios</description>
+   <description>ios, signup</description>
    <name>As a user, I should not able to sign up using same email twice</name>
    <tag>ios</tag>
    <comment></comment>

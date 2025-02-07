@@ -17,43 +17,67 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('IOS/Signin/createNewAccount'), 0)
+Mobile.tap(findTestObject('IOS/Signin/createNewAccount'), 5)
 
 Mobile.tap(findTestObject('IOS/Signup/Signup Screen/button_Next'), 0)
 
-Mobile.verifyElementVisible(findTestObject('IOS/Signup/Signup Screen/errortxt_EnterFirstName'), 0)
+Mobile.verifyElementVisible(findTestObject('IOS/Signup/Signup Screen/errortxt_EnterFirstName'), 5)
+
+Mobile.tap(findTestObject('IOS/Signup/Signup Screen/button_Ok'), 5)
+
+Mobile.setText(findTestObject('IOS/Signup/Signup Screen/firstName'), FirstName, 5)
+
+Mobile.tap(findTestObject('IOS/keyboard_Done'), 5, FailureHandling.OPTIONAL)
+
+Mobile.tap(findTestObject('IOS/Signup/Signup Screen/button_Next'), 5)
+
+Mobile.verifyElementVisible(findTestObject('IOS/Signup/Signup Screen/errortxt_EnterLastName'), 5)
+
+Mobile.tap(findTestObject('IOS/Signup/Signup Screen/errortxt_EnterLastName'), 0)
+
+Mobile.tap(findTestObject('IOS/Signup/Signup Screen/button_Next'), 5)
+
+Mobile.setText(findTestObject('IOS/Signup/Signup Screen/lastName'), LastName, 5)
+
+Mobile.tap(findTestObject('IOS/keyboard_Done'), 5, FailureHandling.OPTIONAL)
+
+Mobile.tap(findTestObject('IOS/Signup/Signup Screen/button_Next'), 5)
+
+Mobile.verifyElementVisible(findTestObject('IOS/Signup/Signup Screen/errortxt_EnterEmail'), 5)
+
+Mobile.tap(findTestObject('IOS/Signup/Signup Screen/errortxt_EnterEmail'), 0)
+
+Mobile.tap(findTestObject('IOS/Signup/Signup Screen/button_Next'), 5)
+
+Mobile.setText(findTestObject('IOS/Signup/Signup Screen/emailAddress'), EmailAddress, 5)
+
+Mobile.tap(findTestObject('IOS/keyboard_Done'), 5, FailureHandling.OPTIONAL)
+
+Mobile.tap(findTestObject('IOS/Signup/Signup Screen/button_Next'), 5)
+
+Mobile.verifyElementVisible(findTestObject('IOS/Signup/Signup Screen/errortxt_EnterPassword'), 10)
+
+Mobile.tap(findTestObject('IOS/Signup/Signup Screen/errortxt_EnterPassword'), 0)
+
+Mobile.tap(findTestObject('IOS/Signup/Signup Screen/button_Next'), 5)
+
+Mobile.setText(findTestObject('IOS/Signup/Signup Screen/password'), Password, 5)
+
+Mobile.tap(findTestObject('IOS/keyboard_Done'), 5, FailureHandling.OPTIONAL)
+
+Mobile.tap(findTestObject('IOS/Signup/Signup Screen/button_Next'), 5)
+
+Mobile.verifyElementVisible(findTestObject('IOS/Signup/Signup Screen/errortxt_EnterConfirmPassword'), 5)
+
+Mobile.tap(findTestObject('IOS/Signup/Signup Screen/errortxt_EnterConfirmPassword'), 0)
 
 Mobile.tap(findTestObject('IOS/Signup/Signup Screen/button_Ok'), 0)
 
-Mobile.setText(findTestObject('IOS/Signup/Signup Screen/firstName'), 'Test', 0)
+Mobile.setText(findTestObject('IOS/Signup/Signup Screen/confirmPassword'), Password, 5)
+
+Mobile.tap(findTestObject('IOS/keyboard_Done'), 0)
 
 Mobile.tap(findTestObject('IOS/Signup/Signup Screen/button_Next'), 0)
 
-Mobile.verifyElementVisible(findTestObject('IOS/Signup/Signup Screen/errortxt_EnterLastName'), 0)
-
-Mobile.tap(findTestObject('IOS/Signup/Signup Screen/button_Ok'), 0)
-
-Mobile.setText(findTestObject('IOS/Signup/Signup Screen/lastName'), 'Test', 0)
-
-Mobile.tap(findTestObject('IOS/Signup/Signup Screen/button_Next'), 0)
-
-Mobile.verifyElementVisible(findTestObject('IOS/Signup/Signup Screen/errortxt_EnterEmail'), 0)
-
-Mobile.tap(findTestObject('IOS/Signup/Signup Screen/button_Ok'), 0)
-
-Mobile.setText(findTestObject('IOS/Signup/Signup Screen/emailAddress'), 'test23@gmailcom', 0)
-
-Mobile.setText(findTestObject('IOS/Signup/Signup Screen/password'), 'Test@1234', 0)
-
-Mobile.tap(findTestObject('IOS/Signup/Signup Screen/button_Next'), 0)
-
-Mobile.verifyElementVisible(findTestObject('IOS/Signup/Signup Screen/errortxt_EnterConfirmPassword'), 0)
-
-Mobile.tap(findTestObject('IOS/Signup/Signup Screen/button_Ok'), 0)
-
-Mobile.setText(findTestObject('IOS/Signup/Signup Screen/confirmPassword'), 'Test@1234', 0)
-
-Mobile.tap(findTestObject('IOS/Signup/Signup Screen/button_Next'), 0)
-
-Mobile.verifyElementVisible(findTestObject('IOS/Signup/Signup Screen/errortxt_SelectTnC'), 0)
+Mobile.verifyElementVisible(findTestObject('IOS/Signup/Signup Screen/errortxt_SelectTnC'), 5)
 

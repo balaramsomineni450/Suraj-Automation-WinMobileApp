@@ -22,33 +22,35 @@ Mobile.callTestCase(findTestCase('IOS/Signup/As a new user, I should able to fil
 
 Mobile.tap(findTestObject('IOS/Signup/Signup Screen/button_Next'), 0)
 
-Mobile.verifyElementVisible(findTestObject('IOS/Signup/SetupAccount/errortxt_DOB'), 5)
+Mobile.verifyElementVisible(findTestObject('IOS/Signup/Account Setup/errortxt_DOB'), 5)
 
-Mobile.tap(findTestObject('IOS/Signup/SetupAccount/button_Okay'), 0)
+Mobile.tap(findTestObject('IOS/Signup/Account Setup/button_Okay'), 0)
 
-Mobile.tap(findTestObject('IOS/Signup/SetupAccount/dob'), 0)
+Mobile.tap(findTestObject('IOS/Signup/Account Setup/dob'), 0)
 
-Mobile.sendKeys(findTestObject('IOS/Signup/SetupAccount/select_Year'), '2007')
+Mobile.sendKeys(findTestObject('IOS/Signup/Account Setup/select_Year'), '2007')
 
-Mobile.sendKeys(findTestObject('IOS/Signup/SetupAccount/select_Month'), 'July')
+Mobile.sendKeys(findTestObject('IOS/Signup/Account Setup/select_Month'), 'July')
 
-Mobile.sendKeys(findTestObject('IOS/Signup/SetupAccount/select_Day'), '12')
+Mobile.sendKeys(findTestObject('IOS/Signup/Account Setup/select_Day'), '12')
 
-Mobile.tap(findTestObject('IOS/Signup/SetupAccount/button_Done'), 0)
+Mobile.tap(findTestObject('IOS/Signup/Account Setup/button_Done'), 0)
 
-Mobile.tap(findTestObject('IOS/Signup/SetupAccount/button_Next'), 0)
+Mobile.tap(findTestObject('IOS/Signup/Account Setup/button_Next'), 0)
 
-Mobile.verifyElementVisible(findTestObject('IOS/Signup/SetupAccount/errortxt_PhoneNumber'), 5)
+Mobile.verifyElementVisible(findTestObject('IOS/Signup/Account Setup/errortxt_PhoneNumber'), 5)
 
-Mobile.tap(findTestObject('IOS/Signup/SetupAccount/button_Okay'), 0)
+Mobile.tap(findTestObject('IOS/Signup/Account Setup/button_Next'), 0)
 
-Mobile.setText(findTestObject('IOS/Signup/SetupAccount/phoneNumber'), '9977885544', 0)
+Mobile.setText(findTestObject('IOS/Signup/Account Setup/phoneNumber'), '9977885544', 0)
+
+Mobile.tap(findTestObject('IOS/keyboard_Done'), 0)
 
 Mobile.tap(findTestObject('IOS/Signup/Signup Screen/button_Next'), 0)
 
-Mobile.verifyElementVisible(findTestObject('IOS/Signup/SetupAccount/errortxt_ZipCode'), 0)
+Mobile.verifyElementVisible(findTestObject('IOS/Signup/Account Setup/errortxt_ZipCode'), 5)
 
-Mobile.tap(findTestObject('IOS/Signup/SetupAccount/button_Okay'), 0)
+Mobile.tap(findTestObject('IOS/Signup/Account Setup/errortxt_ZipCode'), 0)
 
-Mobile.setText(findTestObject('IOS/Signup/SetupAccount/zipCode'), '98901', 0)
+Mobile.tap(findTestObject('IOS/Signup/Account Setup/button_Okay'), 0)
 
